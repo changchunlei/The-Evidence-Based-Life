@@ -5,15 +5,15 @@
 # The Evidence-Based Life
 
 How to live longer, fall ill less often, and respond effectively in emergencies. How to stop wasting hard-earned money, avoid scams, and stay clear of legal landmines. What statutory benefits to claim when unemployed or broke, and what licenses and procedures are required when starting a business, launching a website, or taking freelance contracts. Empirical guidance on relationships, marriage, raising children, international travel, and career skills.<br>
-649 recommendations, each explicitly detailing exact costs incurred, expected returns, and evidence robustness, sourced exclusively from peer-reviewed journals and official statutory documents.
+689 recommendations, each explicitly detailing exact costs incurred, expected returns, and evidence robustness, sourced exclusively from peer-reviewed journals and official statutory documents.
 
 You don't need to do everything: this is a prioritized catalog ranked by return-on-investment (ROI), not an exhaustive to-do list. Adopting even one or two rules delivers tangible value; the author has not implemented most of them either.
 
 [![Stars](https://img.shields.io/github/stars/parveen0029/The-Evidence-Based-Life?style=flat-square&logo=github&label=Stars&color=eac54f)](https://github.com/parveen0029/The-Evidence-Based-Life/stargazers)
 [![Online Reader](https://img.shields.io/badge/Online%20Reader-Open%20Web%20App-3451b2?style=flat-square)](https://parveen0029.github.io/The-Evidence-Based-Life/)
-[![Rules](https://img.shields.io/badge/Rules-649-18794e?style=flat-square)](#table-of-contents)
-[![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20429%20%C2%B7%20B%20171%20%C2%B7%20C%2049-915930?style=flat-square)](#evidence-grading)
-[![Primary Sources](https://img.shields.io/badge/Primary%20Sources-1503%20Sources-565a5f?style=flat-square)](docs/verification-records/)
+[![Rules](https://img.shields.io/badge/Rules-689-18794e?style=flat-square)](#table-of-contents)
+[![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20450%20%C2%B7%20B%20185%20%C2%B7%20C%2054-915930?style=flat-square)](#evidence-grading)
+[![Primary Sources](https://img.shields.io/badge/Primary%20Sources-1681%20Sources-565a5f?style=flat-square)](docs/verification-records/)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-565a5f?style=flat-square)](#license)
 
 ### [Open Interactive Online Reader](https://parveen0029.github.io/The-Evidence-Based-Life/) · [Ask AI via Skill](skills/life-decision-guide/README.md)
@@ -169,7 +169,7 @@ Every recommendation is assigned an evidence grade:
 | **B** | Supported by peer-reviewed literature, but lacking large-scale replication, precise effect quantification, or derived from smaller observational cohorts. |
 | **C** | Authoritative empirical heuristics, consensus guidelines, or statutory frameworks lacking direct epidemiological clinical trials. |
 
-Across all 649 rules: Grade A: 429 | Grade B: 171 | Grade C: 49, with 55 rules noted for controversy or ongoing debate. Controversial rules outline counter-evidence in the Notes field. Citations reference primary literature directly (journal papers with DOI/PubMed links or official reports from WHO, CDC, and government statistical agencies).
+Across all 689 rules: Grade A: 450 | Grade B: 185 | Grade C: 54, with 68 rules noted for controversy or ongoing debate. Controversial rules outline counter-evidence in the Notes field. Citations reference primary literature directly (journal papers with DOI/PubMed links or official reports from WHO, CDC, and government statistical agencies).
 
 ## Return-on-Investment (ROI) Tiers
 
@@ -181,7 +181,7 @@ Evidence grading answers *"How reliable is this data?"*, but does not answer *"I
 | **Benefit Magnitude** | High / Medium / Low | Evaluated objectively against pre-set thresholds: Lifespan reduction >= 20% is High, 10–20% Medium, < 10% Low; Wealth preservation in thousands of dollars is High; Freedom protections avoiding criminal prosecution are High. |
 | **ROI Ratio** | Very High / High / Moderate | High benefit combined with zero cost = Very High; High benefit with low cost, or Medium benefit with zero cost = High; all others = Moderate. |
 
-Across all 649 rules: **Very High: 111 (17%) | High: 294 (45%) | Moderate: 244 (38%)**. The ROI tier reflects analytical prioritization; a rating of "Moderate" does not mean a rule should be ignored, but rather that the individual must weigh the associated cost against their personal circumstances.
+Across all 689 rules: **Very High: 117 (17%) | High: 309 (45%) | Moderate: 263 (38%)**. The ROI tier reflects analytical prioritization; a rating of "Moderate" does not mean a rule should be ignored, but rather that the individual must weigh the associated cost against their personal circumstances.
 
 ## Glossary: Understanding the Numbers
 
