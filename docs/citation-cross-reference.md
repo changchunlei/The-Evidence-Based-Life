@@ -7,7 +7,7 @@ This cross-reference index maps each internal citation to its exact target rule 
 By tracking these mappings in version control, git diff immediately catches displaced references
 whenever rule insertions or deletions alter underlying rule indices.
 
-Total Citations: 402 references across chapters and supplementary essays.
+Total Citations: 480 references across chapters and supplementary essays.
 
 ## 01-avoiding-premature-death
 
@@ -37,6 +37,12 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 39 | This Section, Rule 13 | Exercising balance and leg strength for people over 60, plus home modifications | ...avoiding falls themselves is... |
 | Rule 39 | This Section, Rule 40 | If you are diagnosed with osteoporosis, or have fractured from a minor fall, ask a doctor for osteoporosis medication and keep taking it—do not treat calcium supplements as a substitute | ...After osteoporosis is found,... |
 | Rule 40 | This Section, Rule 39 | Women aged 65 and older should have a dual-energy X-ray absorptiometry (DXA) bone density test; postmenopausal women with osteoporosis risk factors need not wait until 65 | ...How to find osteoporosis is... |
+| Rule 41 | Section 13, Rule 25 | Upon seeing someone drowning, shout for help and call 110/120, then reach out a pole or floating objects — never enter the water yourself | ...hrow a rope from a safe distance), as detailed in... |
+| Rule 42 | Section 19, Rule 10 | Damage caused by dust, noise, and chemical toxins is irreversible: employers must provide protective gear, and workers can refuse unsafe tasks | ...and hearing protection standards are detailed in... |
+| Rule 42 | Section 13, Rule 12 | For severe bleeding, first press firmly on the wound with your hand; if this fails on limbs, apply a tourniquet and call 120 immediately. | ...ontinuous, heavy manual pressure, as described in... |
+| Rule 43 | Section 1, Rule 25 | Call 12356 if you’re depressed or having suicidal thoughts; don’t keep sleeping pills or pesticides at home | ...ations, sharp objects, chemicals), as outlined in... |
+| Rule 43 | Section 8, Rule 15 | Family members say “no one will be safe” or “I’ll take the kids and leave” — don’t dismiss this as anger: close relatives can take such a person to the hospital, and police must respond to any emergency call. | ...hospital evaluation is necessary, as described in... |
+| Rule 43 | Section 1, Rule 32 | As soon as suicidal thoughts arise, tell someone nearby and hand over those first few minutes | ...ion and action is often mere minutes, as noted in... |
 
 ## 02-preventing-chronic-decline
 
@@ -49,6 +55,9 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 37 | Section 3, Rule 11 | Take a 10‑minute nap in the afternoon — don’t sleep half an hour | ...r tips on how short naps can boost alertness, see... |
 | Rule 38 | This Section, Rule 13 | Getting about 7 hours of sleep each night with a consistent schedule | ...... |
 | Rule 38 | This Section, Rule 2 | Don’t smoke at home or in the car, and don’t let guests smoke indoors | ...t the same time every day, including on weekends (... |
+| Rule 44 | Section 2, Rule 11 | Walking 7,000–8,000 steps per day, or accumulating 150–300 minutes of brisk walking each week | ...arget (7,000–8,000 steps per day, as described in... |
+| Rule 44 | Section 8, Rule 30 | Leashing dogs is mandatory: failure to do so means strict liability for any harm caused (you must pay compensation regardless of fault), and the obligation extends fully | ...n, and third-party bite liability are detailed in... |
+| Rule 44 | Section 17, Rule 10 | When elderly family members walk dogs: Hold the leash in the palm rather than wrapping it around hands or wrists, keep the lead short, and train the dog not to surge forward | ...perly and avoid catastrophic falls are covered in... |
 
 ## 03-protecting-your-mental-energy
 
@@ -71,6 +80,10 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 23 | Section 8, Rule 43 | Domestic violence: Call the police to get an incident report, then apply to court for a protection order — no divorce required and it’s free | ...ty then is safety, not emotional regulation — see... |
 | Rule 23 | This Section, Rule 18 | Best low-cost actions when you’re feeling down: move, get sunlight, stick to a schedule, talk to someone, call 12356 | ...described in , and “stepping away when angry” in... |
 | Rule 24 | Section 1, Rule 25 | Call 12356 if you’re depressed or having suicidal thoughts; don’t keep sleeping pills or pesticides at home | ...distressing, stop and dial 12356, as described in... |
+| Rule 25 | Section 34, Rule 3 | People over 60, with a history of stomach bleeding, taking anticoagulants or steroids should consult a doctor before using painkillers like ibuprofen | ...lt a physician prior to using NSAIDs (detailed in... |
+| Rule 25 | Section 34, Rule 5 | Pregnancy after 20 weeks: avoid taking ibuprofen and similar painkillers on your own | ...f gestation due to fetal renal risks (detailed in... |
+| Rule 25 | Section 34, Rule 1 | Before taking two cold or pain relievers at the same time, check their ingredient lists — only one of them should contain acetaminophen. | ...ternative (observe daily maximum dosage limits in... |
+| Rule 25 | Section 34, Rule 9 | Don’t take painkillers for more than 15 days a month; limit combination painkillers to 10 days. Otherwise, headaches may actually be caused by the medication itself. | ...adache threshold (15 days per month) described in... |
 
 ## 04-stopping-time-wasters
 
@@ -116,6 +129,18 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 41 | This Section, Rule 25 | It’s better to choose a non‑return insurance plan and treat any “refunds” or dividends as non‑guaranteed benefits | ...... |
 | Rule 44 | Section 25, Rule 9 | Retrieving scattered funds: housing provident fund balances, social insurance payouts, and work‑related death benefits | ...youts after a death, follow the steps outlined in... |
 | Rule 44 | Section 29, Rule 13 | Don’t treat death as a way to settle debts: life insurance won’t pay out for suicides within two years, workplace injuries won’t be recognized, and debts are still deducted from your estate first. | ...see... |
+| Rule 45 | Section 9, Rule 5 | Part-time jobs that ask you to use your own card to receive payments, withdraw cash, or transfer money — no matter how much extra pay they offer, avoid them | ...ounts to buy crypto constitutes criminal aid (see... |
+| Rule 45 | Section 5, Rule 6 | Walk away the moment you see “high returns,” “guaranteed returns,” or “sure profits” | ...ntifying high-yield financial traps is covered in... |
+| Rule 45 | Section 5, Rule 38 | Planning to invest in overseas assets such as U.S. stocks? Use QDII funds or the Hong Kong Stock Connect program — don’t open accounts with foreign brokers, and don’t use your annual foreign exchange quota for buying foreign stocks. | ...els for overseas asset allocation are detailed in... |
+| Rule 46 | Section 31, Rule 11 | Not joining a company means you must arrange your own social insurance: you’ll need to enroll in pension and medical plans at your place of work, as household registration restrictions have now been lifted. | ...te in urban/rural resident pension insurance (see... |
+| Rule 46 | Section 7, Rule 12 | After registering as unemployed, seek recognition as a person facing employment difficulties to receive social insurance subsidies or placement in public-interest jobs | ...ying for social insurance subsidies is covered in... |
+| Rule 46 | Section 7, Rule 18 | Don’t panic if your social insurance lapses: pension is calculated cumulatively, medical insurance is restored per rules | ...managing contribution gaps is covered in... |
+| Rule 46 | Section 19, Rule 19 | When changing cities for work: Transfer your pension and basic medical insurance accounts to the new locality so contribution years accumulate continuously, and do not surrender coverage | ...ing pension accounts across cities is detailed in... |
+| Rule 47 | Section 5, Rule 48 | When buying a used car from a dealership, check insurance claims and maintenance history, and specify in the contract that it is free of collision and flood damage; deliberate concealment entitles you to return the car with triple damages | ...vehicles with undisclosed accident histories, see... |
+| Rule 48 | Section 5, Rule 47 | Inspect a new vehicle thoroughly upon delivery, preserve the purchase invoice and warranty certificate; major defects within the first 7 and 60 days entitle you to a replacement or refund | ...New car lemon law protections are detailed in... |
+| Rule 48 | Section 5, Rule 7 | Avoid making minimum payments or taking installment plans or consumer loans | ...ing effective APR on auto financing is covered in... |
+| Rule 49 | Section 8, Rule 22 | If scammed while shopping online or via second-hand markets, first file a complaint with the platform, then report it to police, and finally decide whether to sue. | ...n procedures for consumer disputes are covered in... |
+| Rule 49 | Section 5, Rule 7 | Avoid making minimum payments or taking installment plans or consumer loans | ...the effective annual percentage rate formula (see... |
 
 ## 06-the-anti-checklist
 
@@ -145,6 +170,11 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 27 | Section 1, Rule 28 | If erectile dysfunction appears, check cardiovascular health first — don’t treat it as a purely sexual issue | ...bout erectile problems linked to porn use, follow... |
 | Rule 27 | Section 9, Rule 4 | Watching porn alone is fine, but don’t post it in groups, sell “resources,” or create groups | ...or selling pornographic material are outlined in... |
 | Rule 28 | Section 30, Rule 15 | If a child says they’re attracted to the same sex, don’t scold them, don’t kick them out, and don’t send them for “conversion therapy”: how your family reacts can affect whether they attempt suicide. | ...ld respond after a child comes out is provided in... |
+| Rule 30 | Section 1, Rule 40 | If you are diagnosed with osteoporosis, or have fractured from a minor fall, ask a doctor for osteoporosis medication and keep taking it—do not treat calcium supplements as a substitute | ...rptive medications rather than calcium alone (see... |
+| Rule 30 | Section 6, Rule 3 | Don’t give vitamin D supplements to people who already have enough | ...D supplementation provides no health benefit (see... |
+| Rule 30 | Section 6, Rule 21 | Don’t cut calcium out to prevent kidney stones | ...tofu, green vegetables) remains foundational (see... |
+| Rule 30 | Section 13, Rule 41 | If a fracture is suspected, don’t move the injured area — keep it supported and apply cold for up to 20 minutes; never try to realign it yourself. | ...ected acute fracture immobilization is covered in... |
+| Rule 31 | Section 7, Rule 3 | If you can’t afford legal fees, apply for free legal aid – cases involving unpaid wages, alimony, or workplace injuries all qualify. | ...Legal aid options are outlined in... |
 
 ## 07-surviving-broke
 
@@ -209,6 +239,12 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 44 | Section 10, Rule 12 | Money borrowed by a spouse in a large amount — if you didn’t sign or later acknowledge it, it doesn’t automatically become your debt | ...for determining joint marital debts is covered in... |
 | Rule 44 | Section 9, Rule 15 | You cannot detain or confine someone to collect a debt, nor follow them home and refuse to leave | ...or creditors harassing or detaining you, refer to... |
 | Rule 44 | Section 1, Rule 37 | When gambling leads to borrowing money and persistent low mood, call 12356 first and then hand over your bank cards and payment passwords to family members. | ..., contact the crisis hotline at 12356 as noted in... |
+| Rule 45 | Section 8, Rule 18 | Write a clear loan agreement when lending money; think carefully before agreeing to be a guarantor | ...rather than signing as the primary borrower (see... |
+| Rule 45 | Section 5, Rule 9 | When kids make in-app purchases or send gifts, parents can demand refunds for large sums spent by kids over eight if they never gave consent | ...credit history for unauthorized liabilities (see... |
+| Rule 45 | Section 8, Rule 17 | Read the document thoroughly before signing; never sign on behalf of others or on blank paper | ...ification constitute binding legal execution (see... |
+| Rule 45 | Section 8, Rule 8 | Never lend your bank cards, SIM cards, or payment accounts to anyone — “money laundering” is not a side hustle | ...phone, bank accounts, or digital credentials (see... |
+| Rule 46 | Section 8, Rule 10 | If a fight breaks out, call the police first — the one who strikes first almost always loses | ...etreat and call emergency police immediately (see... |
+| Rule 46 | Section 8, Rule 11 | You may defend yourself against an unavoidable attack, but only strike the person who is actually attacking — stop when he stops. | ...es against imminent violent attack are covered in... |
 
 ## 09-everyday-legal-traps
 
@@ -236,6 +272,13 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 23 | This Section, Rule 79 | **Target Rule Does Not Exist** | ...s for prostitution face identical penalties under... |
 | Rule 23 | This Section, Rule 87 | **Target Rule Does Not Exist** | ...are also subject to 10–15 days of detention under... |
 | Rule 23 | This Section, Rule 360 | **Target Rule Does Not Exist** | ...Previously,... |
+| Rule 24 | Section 9, Rule 25 | Before publishing or commercializing fan fiction and derivative creations, secure official licensing from the original author, or replace borrowed character names and relationships with original elements | ...Commercializing fanfiction is covered in... |
+| Rule 24 | Section 12, Rule 21 | Whether creating designs yourself or purchasing licensed artwork, simply changing colors or adding icons does not count as “modifications” for copyright purposes. | ...third-party artwork on merchandise is detailed in... |
+| Rule 24 | Section 26, Rule 9 | Respond promptly to infringement notices; restore content after 15 days if no response | ...edown procedures for website hosts are covered in... |
+| Rule 25 | Section 9, Rule 24 | Fan-translating comics, ripping/re-hosting films, and sharing cloud storage pirated e-books constitutes copyright infringement even without charging money; monetizing via ads or memberships risks criminal prosecution | ...ion and digital distribution risks are covered in... |
+| Rule 26 | Section 8, Rule 10 | If a fight breaks out, call the police first — the one who strikes first almost always loses | ...ting conflicts by contacting police is covered in... |
+| Rule 26 | Section 8, Rule 11 | You may defend yourself against an unavoidable attack, but only strike the person who is actually attacking — stop when he stops. | ...y defense against violent assault are detailed in... |
+| Rule 26 | Section 13, Rule 36 | If a stranger demands money in a remote area, hand over cash, avoid any confrontation, note their features, and call police after escaping | ...robbery encounters in remote areas is covered in... |
 
 ## 10-the-economics-of-dating-and-marriage
 
@@ -245,6 +288,8 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 12 | Section 8, Rule 18 | Write a clear loan agreement when lending money; think carefully before agreeing to be a guarantor | ...ng loan agreements and guarantees are detailed in... |
 | Rule 17 | Section 8, Rule 43 | Domestic violence: Call the police to get an incident report, then apply to court for a protection order — no divorce required and it’s free | ...ication issues and constitute domestic abuse (see... |
 | Rule 20 | Section 8, Rule 43 | Domestic violence: Call the police to get an incident report, then apply to court for a protection order — no divorce required and it’s free | ...If you have been physically abused, see... |
+| Rule 21 | Section 10, Rule 13 | Obtaining a marriage certificate requires only an ID card and a signed declaration — no household register needed, no fees, and issuance is immediate. | ...th valid identification documents, as detailed in... |
+| Rule 21 | Section 8, Rule 24 | Transfer betrothal gifts via payment with clear notes; keep chat records; money demanded under marriage can be reclaimed | ...en marriage registration was never completed, see... |
 
 ## 11-legal-boundaries-for-developers
 
@@ -252,6 +297,11 @@ Total Citations: 402 references across chapters and supplementary essays.
 | --- | --- | --- | --- |
 | Rule 7 | This Section, Rule 13 | Code written during work hours using company resources belongs to the company; personal open‑source projects should be done in your own time and on your own equipment, without mixing them. | ...remains the company’s property, as stipulated in... |
 | Rule 16 | Section 26, Rule 4 | Servers placed in China must be registered; ISPs must hold a value-added telecom license | ...verify a provider’s qualifications are covered in... |
+| Rule 18 | Section 11, Rule 3 | Do not write or sell scripts for ticket snatching, flash sales, fake orders, or coupon farming — even if they merely “automate button clicks” | ...or automated ticket-purchasing bots is covered in... |
+| Rule 19 | Section 26, Rule 2 | Paid websites require a license; platforms that facilitate transactions need a different type of permit; free sites only need to be registered. | ...cial telecommunications value-added licenses (see... |
+| Rule 19 | Section 11, Rule 17 | Before offering generative AI services to the public, conduct required safety assessments and algorithm registration; mark all generated content | ...2), statutory generative AI security filings (see... |
+| Rule 19 | Section 26, Rule 10 | Personal information must not be casually transferred overseas; legal conditions and thresholds apply | ...with cross-border data transfer regulations (see... |
+| Rule 19 | Section 14, Rule 10 | Do not entrust proprietary code, API keys, or confidential data to unverified "AI relay proxy stations," especially when allowing AI agents to execute local commands autonomously | ...s utilizing unauthorized AI relays are covered in... |
 
 ## 12-starting-and-running-a-business
 
@@ -267,6 +317,11 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 21 | This Section, Rule 19 | Run the prototype through the production checklist before starting full production | ...For trademark checks prior to production,... |
 | Rule 22 | This Section, Rule 17 | Wages must be paid according to contracts and laws; raises, loans, and bonuses all require written documentation | ...... |
 | Rule 23 | This Section, Rule 17 | Wages must be paid according to contracts and laws; raises, loans, and bonuses all require written documentation | ...The former... |
+| Rule 24 | Section 8, Rule 2 | If you realize you’ve been scammed, call 110 or 96110 right away to request a stop‑payment — don’t try to investigate on your own first. | ...line to request an urgent transaction freeze (see... |
+| Rule 24 | Section 12, Rule 5 | Check the Ministry of Commerce records before signing; obtain written disclosures and include a “cooling-off period” in the contract | ...commercial disclosure verification is detailed in... |
+| Rule 25 | Section 12, Rule 14 | Scammers pretending to be tax officials demanding payments are fraudsters; tax filings must be done via the e-Tax Service or by calling 12366 | ...This scam mirrors fake tax collector schemes (see... |
+| Rule 25 | Section 12, Rule 12 | Once you obtain a business license, you must file tax returns on schedule — even if you have no income, you still need to submit a return with all zeros. | ...ubmitting periodic zero-tax filings is covered in... |
+| Rule 25 | Section 12, Rule 23 | Exit the process as planned when losses occur: opt for simplified deregistration when possible, or file for bankruptcy if debts exceed assets — don’t leave things unattended. | ...al representative for three years nationwide (see... |
 
 ## 13-handling-emergencies
 
@@ -313,12 +368,16 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 5 | This Section, Rule 1 | Enable two-factor authentication on email, payment, and social accounts; prioritize phone pop-ups over SMS codes | ...ur PIN secret and never share verification codes (... |
 | Rule 5 | This Section, Rule 8 | You have the right to view, copy, correct, and delete your personal information; if refused, you can sue. | ...... |
 | Rule 9 | This Section, Rule 8 | You have the right to view, copy, correct, and delete your personal information; if refused, you can sue. | ...rect, or delete your personal data are covered in... |
+| Rule 10 | Section 11, Rule 19 | Do not set up "AI relay proxy stations" to resell overseas large language model API access at discounted rates: operators have been criminally detained | ...ted with operating unauthorized proxy relays, see... |
 
 ## 15-renting-and-buying-a-home
 
 | Source | Citation | Target Rule | Context at Citation |
 | --- | --- | --- | --- |
 | Rule 7 | This Section, Rule 6 | Checking property rights and mortgages before signing the contract; all payments must be transferred with a purpose note | ...bank transfer with a purpose note, as outlined in... |
+| Rule 10 | Section 15, Rule 7 | For second-hand home sales where the agent collects the payment, the funds must be deposited into a dedicated transaction account opened by the agency at a bank | ...Depositing secondary housing funds is covered in... |
+| Rule 14 | Section 15, Rule 6 | Checking property rights and mortgages before signing the contract; all payments must be transferred with a purpose note | ...d mortgage status prior to signing is detailed in... |
+| Rule 15 | Section 5, Rule 28 | Run a quick comparison before paying off your mortgage — don’t rely on gut feeling | ...he mortgage rate to evaluate early repayment (see... |
 
 ## 16-managing-chronic-illness
 
@@ -341,6 +400,10 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 9 | Section 1, Rule 13 | Exercising balance and leg strength for people over 60, plus home modifications | ...preventing falls still needs... |
 | Rule 9 | Section 1, Rule 39 | Women aged 65 and older should have a dual-energy X-ray absorptiometry (DXA) bone density test; postmenopausal women with osteoporosis risk factors need not wait until 65 | ...... |
 | Rule 9 | This Section, Rule 40 | **Target Rule Does Not Exist** | ...(bone density screening) and... |
+| Rule 10 | Section 1, Rule 39 | Women aged 65 and older should have a dual-energy X-ray absorptiometry (DXA) bone density test; postmenopausal women with osteoporosis risk factors need not wait until 65 | ...For bone fracture resilience, see... |
+| Rule 10 | Section 1, Rule 13 | Exercising balance and leg strength for people over 60, plus home modifications | ...For elder balance training, see... |
+| Rule 10 | Section 2, Rule 44 | If you already plan to adopt a dog, count daily dog walking toward your physical activity goals, but do not acquire a dog solely expecting to extend lifespan | ...walking toward daily physical activity goals, see... |
+| Rule 10 | This Section, Rule 40 | **Target Rule Does Not Exist** | ...lience, see  (bone mineral density screening) and... |
 
 ## 19-workplace-rights-and-injuries
 
@@ -360,6 +423,8 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 18 | This Section, Rule 4 | Calculating N: One month’s salary per full year of service; half a month for periods under six months | ...... |
 | Rule 18 | This Section, Rule 5 | If a company fires you without 30 days’ notice, it must pay an extra month’s salary | ...this section item 4 (calculate N when laid off),... |
 | Rule 18 | This Section, Rule 6 | When a company unlawfully terminates employment, the compensation equals twice the standard severance amount | ...late N when laid off), item 5 (no 30-day notice),... |
+| Rule 19 | Section 7, Rule 18 | Don’t panic if your social insurance lapses: pension is calculated cumulatively, medical insurance is restored per rules | ...tribution gaps and eligibility prerequisites, see... |
+| Rule 19 | Section 31, Rule 11 | Not joining a company means you must arrange your own social insurance: you’ll need to enroll in pension and medical plans at your place of work, as household registration restrictions have now been lifted. | ...For flexible employment self-contributions, see... |
 
 ## 20-newborn-survival-guide
 
@@ -368,6 +433,9 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 12 | Section 13, Rule 26 | If someone is choking and can’t speak, stand behind them and perform 5 back blows followed by 5 abdominal thrusts; if they collapse, start CPR immediately. | ...” For choking first aid, see... |
 | Rule 13 | Section 27, Rule 13 | Don’t skip newborn heel‑prick and hearing tests | ...... |
 | Rule 13 | This Section, Rule 3 | Ensure your child receives all vaccines in the national immunization schedule at no cost; missed doses can be added later | ...Jaundice alone does not delay vaccines (... |
+| Rule 14 | Section 16, Rule 4 | Don’t stop proper treatment to try folk remedies or supplements | ...ies in favor of unverified alternative diets (see... |
+| Rule 14 | Section 20, Rule 4 | Breastfeed exclusively for the first 6 months — no water needed; introduce solids at 6 months while continuing breastfeeding | ...ng complementary solids at 6 months is covered in... |
+| Rule 14 | Section 27, Rule 1 | Starting daily folic acid supplementation at 0.4 mg before pregnancy and continuing through the first trimester | ...prenatal folic acid supplementation is covered in... |
 
 ## 21-international-travel-safety
 
@@ -402,6 +470,11 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 19 | This Section, Rule 16 | Don’t treat highlighting, rereading, and summarizing as primary study methods | ...for those ratings themselves,... |
 | Rule 19 | This Section, Rule 14 | After studying, close the book and test yourself — don’t just reread it. | ...on without looking at the source, as described in... |
 | Rule 19 | This Section, Rule 15 | Spread the same study time over several days instead of cramming it all at once | ...d also be spread across several days, as noted in... |
+| Rule 24 | Section 23, Rule 6 | Treating “work now or study further” as a calculation: the three years of early earnings versus decades of future income | ...The economic calculation mirrors... |
+| Rule 25 | This Section, Rule 24 | Deciding whether to pursue a master's degree after graduation: Calculate tuition costs and forgone wages over 2-3 years first, then check whether your specific field offers a meaningful wage premium | ...e 2020 UK Department for Education study cited in... |
+| Rule 25 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get sunlight, stick to a schedule, talk to someone, call 12356 | ...ral studies, follow the initial steps outlined in... |
+| Rule 25 | Section 1, Rule 25 | Call 12356 if you’re depressed or having suicidal thoughts; don’t keep sleeping pills or pesticides at home | ...ealth crisis hotlines immediately, as detailed in... |
+| Rule 25 | This Section, Rule 24 | Deciding whether to pursue a master's degree after graduation: Calculate tuition costs and forgone wages over 2-3 years first, then check whether your specific field offers a meaningful wage premium | ...Limitations regarding wage returns mirror... |
 
 ## 24-navigating-healthcare
 
@@ -412,6 +485,8 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 9 | This Section, Rule 10 | After treatment, functional impairments may indeed remain; apply for a disability certificate at the county-level disability association in your hukou area. | ...ls must also obtain a Disability Certificate (see... |
 | Rule 9 | This Section, Rule 7 | After every medical visit, keep a personal copy of your medical records, test reports, and imaging scans | ...ts, and follow-up imaging are fully prepared (see... |
 | Rule 10 | Section 7, Rule 8 | Apply for the two disability subsidies using a disability certificate | ...equiring long-term assistance — details appear in... |
+| Rule 12 | Section 5, Rule 13 | Once you set up family medical expense sharing in the yibao app, funds from your individual medical insurance account can be used to pay for your spouse, parents, and children’s medical care and medication. | ...costs depends on regional policy guidelines (see... |
+| Rule 12 | Section 2, Rule 10 | Brush teeth thoroughly and floss daily; replace missing teeth promptly | ...th shifting and masticatory decline is covered in... |
 
 ## 25-handling-end-of-life-affairs
 
@@ -448,6 +523,8 @@ Total Citations: 402 references across chapters and supplementary essays.
 | --- | --- | --- | --- |
 | Rule 1 | Section 2, Rule 32 | Keeping BMI between 20–25; losing weight if overweight | ...onship between BMI and mortality, please refer to... |
 | Rule 5 | This Section, Rule 4 | Don’t buy weight‑loss pills, coffee, candies, or “enzymatic plums” that promise rapid results | ...g method is the same as for weight‑loss products (... |
+| Rule 9 | Section 28, Rule 2 | Two things to check before getting injections, thread lifts, or surgery: does the facility’s license list “medical aesthetics,” and is the practitioner a licensed attending physician? | ...g valid physician qualification certificates (see... |
+| Rule 9 | Section 24, Rule 12 | Clarify bundled package inclusions before dental implant procedures, prioritize institutions pledged to price governance, and avoid misleading low-cost advertisements | ...surance plans exclude adult orthodontic care (see... |
 
 ## 29-recovering-from-major-life-blows
 
@@ -487,6 +564,7 @@ Total Citations: 402 references across chapters and supplementary essays.
 | Rule 16 | This Section, Rule 17 | If parenting feels out of control and you keep hitting or yelling, take a class that teaches concrete parenting skills | ...What to switch to is covered in... |
 | Rule 16 | Section 8, Rule 43 | Domestic violence: Call the police to get an incident report, then apply to court for a protection order — no divorce required and it’s free | ...If someone else in the family hits the child, see... |
 | Rule 17 | This Section, Rule 8 | Conducting a depression screening for kids aged 12 to 18 — don’t rely on school mental health assessments as a diagnosis | ...blems, see a psychiatrist or child psychologist —... |
+| Rule 18 | Section 30, Rule 14 | If a child loves playing games, first check whether sleep, homework, and outdoor activities are being crowded out — don’t just focus on how long they play. | ...and outdoor recreation are being crowded out per... |
 
 ## 31-life-paths-after-eighteen
 
