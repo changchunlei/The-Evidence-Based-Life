@@ -9,6 +9,7 @@ How to live longer, fall ill less often, and respond effectively in emergencies.
 
 You don't need to do everything: this is a prioritized catalog ranked by return-on-investment (ROI), not an exhaustive to-do list. Adopting even one or two rules delivers tangible value; the author has not implemented most of them either.
 
+[![Stars](https://img.shields.io/github/stars/parveen0029/The-Evidence-Based-Life?style=flat-square&logo=github&label=Stars&color=eac54f)](https://github.com/parveen0029/The-Evidence-Based-Life/stargazers)
 [![Online Reader](https://img.shields.io/badge/Online%20Reader-Open%20Web%20App-3451b2?style=flat-square)](https://parveen0029.github.io/The-Evidence-Based-Life/)
 [![Rules](https://img.shields.io/badge/Rules-649-18794e?style=flat-square)](#table-of-contents)
 [![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20429%20%C2%B7%20B%20171%20%C2%B7%20C%2049-915930?style=flat-square)](#evidence-grading)
@@ -43,6 +44,9 @@ Original Chinese Edition by [eternity4719](https://github.com/eternity4719/HowTo
 </table>
 
 </div>
+
+> [!TIP]
+> ⭐ **Find this guide valuable?** Please give it a **Star** in the upper-right corner! Every star helps more people discover empirical, life-saving decision science and supports ongoing open-source maintenance.
 
 ---
 
@@ -294,7 +298,17 @@ This work is an English translation and localized edition adapted from the origi
 
 ## Community & Support
 
-If this repository has saved you time, protected your health, or prevented a financial misstep, star the repository on GitHub and share it with those who will benefit from an evidence-based approach to everyday living.
+If this repository has saved you time, protected your health, or prevented a financial misstep, you can support this open-source initiative:
+
+- ⭐ **Star this repository** on GitHub — it boosts visibility and helps evidence-based living reach a wider audience.
+- 🔄 **Share with friends and colleagues** who care about empirically verified life decisions.
+- 💡 **Contribute**: Report fixes, fact-check citations, or submit local improvements via [Issues](https://github.com/parveen0029/The-Evidence-Based-Life/issues) and [Pull Requests](https://github.com/parveen0029/The-Evidence-Based-Life/pulls).
+- ☕ **Support on Buy Me a Coffee**: If you wish to support ongoing research and maintenance:
+
+<div align="center">
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Parveen0029)
+[![Star on GitHub](https://img.shields.io/badge/Star%20on%20GitHub-⭐%20Star-yellow?style=for-the-badge&logo=github)](https://github.com/parveen0029/The-Evidence-Based-Life/stargazers)
+
+</div>
 
