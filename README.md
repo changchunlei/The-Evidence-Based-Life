@@ -257,8 +257,10 @@ This project is an English edition and adaptation derived from the open-source p
 **Enhancements in this Edition**:
 - Complete English localization and structural refinement of all 34 chapters, essays, and verification records.
 - Localization of legal boundaries, consumer protection frameworks, and statutory codes.
+- Interactive 2-minute life audit questionnaire (`selfcheck.html`) with dynamic category scoring and one-click markdown action checklist export.
 - Automated validation tooling: plain-English readability audit (`check-plain.mjs`), citation cross-referencing (`check-refs.mjs`), and metric synchronization (`sync-stats.mjs`).
 - Complete automated build toolchains for EPUB, PDF, and single-file standalone offline web applications.
+- Web application with instant permalink copy, high-contrast dark/light theme, and client-side modal essay reader.
 
 ---
 
