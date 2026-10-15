@@ -5,6 +5,15 @@
 Losing a loved one, receiving a serious diagnosis, losing a job, or going through a divorce — these events share one thing in common: they affect not only a person’s mood but also their physical health. The period of highest risk spans from the first few weeks up to the first year. This section does not discuss how to “get over it.” Instead, it outlines which matters need close attention, which decisions should be postponed, and when to seek medical help. Most figures here refer to the risk of death. The four items dealing with costs and benefits relate to money: avoid rushing into grief counseling right away (item 9), call 12356 and schedule a mental health appointment (item 11), postpone any irreversible major decisions (item 12), and never treat death as a way to settle debts (item 13). These two sets of numbers are not interchangeable. For those without family or friends to rely on, item 6 explains how to arrange for someone to keep an eye on things.
 
 Details on funeral procedures, handling the body, and claiming benefits after a loved one’s death are covered in section 25. Information on guardianship and wills for elderly relatives appears in section 17. Section 7 describes unemployment benefits. Sections 3 and 22 discuss exercise and light exposure as ways to ease low mood. If suicidal thoughts arise, call 12356 first (see item 25 in section 1); the time frame for such thoughts is explained in item 32 of section 1, while lasting effects after recovery are described in item 33 of section 1. None of these topics are repeated here.
+
+> **Free 24/7 Crisis Helplines & Mental Health Support**:
+> - **United States & Canada**: Call or text **988** ([988 Lifeline](https://988lifeline.org/)).
+> - **United Kingdom**: Call **111** (NHS Mental Health Services) or **116 123** ([Samaritans](https://www.samaritans.org/)).
+> - **European Union**: Call **116 123** (Emotional Support Hotline) or **112** for acute emergencies.
+> - **India**: Call **14416** or **1800 891 4416** ([Tele-MANAS](https://telemanas.mohfw.gov.in/) National Tele-Mental Health Programme).
+> - **Australia**: Call **13 11 14** ([Lifeline](https://www.lifeline.org.au/)).
+> - **China**: Call **12356** (National Psychological Assistance Hotline).
+> - **International**: Search confidential, free support in 130+ countries at [findahelpline.com](https://findahelpline.com/).
 ### 1. After a loved one passes, don’t stay alone for the first few days. Those with heart disease, high blood pressure, or diabetes should keep taking their medication. If you feel pressure or pain in the chest, call 120 right away.
 <!-- Cost Tag: Money=0 Time=Low Willpower=No Benefit=High Metric=Mortality -->
 

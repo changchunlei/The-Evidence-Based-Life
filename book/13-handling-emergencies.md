@@ -5,6 +5,15 @@
 This section covers just one thing: what actions you should take right away when an emergency occurs, what to do next, and what to avoid. The entries on first aid and wilderness survival focus on specific causes of death and survival rates. Those dealing with scams and threats involve financial loss and threats to personal freedom. These two sets of figures cannot be compared with each other. Entries are ordered by how common each situation is and how much difference proper or improper action can make in terms of lives saved. These guidelines are primarily meant for you, your spouse, and close family members. In fact, 79.2% of cardiac arrests happen at home, so the people you’re most likely to help are your household members, followed by friends and coworkers. While helping strangers can also be worthwhile, it ranks last in priority due to risks such as false accusations or getting involved in legal trouble. Therefore, the entries in this category emphasize actions to protect yourself and include clauses that limit your liability.
 
 Only actions that must be taken within a few minutes are included here. Identifying scams or dealing with extortion attempts require longer-term measures and are not covered in this section. Detailed anti-fraud rules and descriptions of seven common types of fraud can be found in Section 8, Item 3. Information on handling situations where someone threatens to release private photos or intimate videos is provided in Section 8, Item 32. If money has already been transferred, you should immediately call 110 or 96110 to request a stop payment, as explained in Section 8, Item 2.
+
+> **Statutory Emergency Dispatch Numbers by Region**:
+> - **United States & Canada**: Dial **911** (Emergency Dispatch), **988** (Suicide & Crisis Lifeline).
+> - **United Kingdom**: Dial **999** or **112** (Emergency Dispatch), **111** (NHS medical/mental health triage).
+> - **European Union**: Dial **112** (Single European Emergency Number, free across all member states).
+> - **India**: Dial **112** (National Emergency Response Support System), **14416** (Tele-MANAS Mental Health Helpline), **1930** (Financial Cyber Fraud Helpline).
+> - **Australia**: Dial **000** (Emergency Dispatch), **13 11 14** (Lifeline Australia).
+> - **China**: Dial **120** (Medical Emergency), **110** (Police), **119** (Fire), **96110** (Anti-fraud stop payment).
+> - **Global Crisis Support Directory**: Find free, confidential 24/7 support in any country at <https://findahelpline.com>.
 ### 1. Immediate chest compressions can save lives when someone collapses and stops breathing — call 120 and fetch an AED too
 <!-- Cost Tag: Money=0 Time=Med Willpower=No Benefit=High Metric=Mortality -->
 
