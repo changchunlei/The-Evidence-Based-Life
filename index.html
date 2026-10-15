@@ -294,6 +294,53 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
   .dm-toc{display:none}
   .dm-doc{padding:16px 18px 56px}
 }
+
+/* Stats / Compendium Insights Modal */
+#stats-mask{position:fixed;inset:0;z-index:75;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(4px)}
+#stats-mask[hidden]{display:none}
+#stats-box{background:var(--bg);border:1px solid var(--divider);border-radius:16px;box-shadow:var(--shadow);width:min(740px,100%);max-height:90vh;display:flex;flex-direction:column;overflow:hidden;position:relative}
+.stats-header{padding:16px 20px;border-bottom:1px solid var(--divider);display:flex;align-items:center;justify-content:space-between;background:var(--bg-alt);flex:none}
+.stats-title{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:700;letter-spacing:-.01em;color:var(--t1)}
+.stats-title svg{color:var(--brand-1);flex:none}
+#stats-x{border:1px solid var(--divider);background:var(--bg-soft);color:var(--t2);border-radius:8px;width:30px;height:30px;display:grid;place-items:center;font-size:13px;cursor:pointer;transition:all .2s}
+#stats-x:hover{color:var(--t1);background:var(--bg-mute)}
+.stats-scroll{padding:20px 24px 28px;overflow-y:auto;overscroll-behavior:contain;flex:1}
+.stats-lead{color:var(--t2);font-size:13.5px;line-height:1.6;margin-bottom:18px}
+.stats-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:24px}
+@media (max-width:620px){.stats-kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi-card{background:var(--bg-alt);border:1px solid var(--divider);border-radius:10px;padding:12px;text-align:center}
+.kpi-card .kpi-val{font-size:22px;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums;color:var(--brand-1)}
+.kpi-card.green .kpi-val{color:var(--green-1)}
+.kpi-card.teal .kpi-val{color:#0ea5e9}
+.kpi-card.amber .kpi-val{color:var(--yellow-1)}
+.kpi-card .kpi-lbl{font-size:11.5px;color:var(--t3);margin-top:4px;font-weight:500}
+.dist-group{margin-bottom:20px}
+.dist-title{font-size:13.5px;font-weight:600;margin:0 0 10px;color:var(--t1);display:flex;justify-content:space-between;align-items:center}
+.dist-title small{font-weight:400;color:var(--t3);font-size:12px}
+.dist-rows{display:flex;flex-direction:column;gap:6px}
+.dist-row{display:flex;align-items:center;gap:12px;padding:6px 10px;border-radius:8px;cursor:pointer;border:1px solid transparent;transition:all .2s;background:var(--bg-soft)}
+.dist-row:hover{border-color:var(--brand-1);background:var(--bg-mute);transform:translateX(2px)}
+.dist-lbl{width:160px;font-size:13px;font-weight:500;color:var(--t1);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dist-bar-track{flex:1;height:12px;background:var(--divider);border-radius:6px;overflow:hidden;position:relative}
+.dist-bar-fill{height:100%;border-radius:6px;transition:width .4s ease-out}
+.fill-green{background:var(--green-1)}
+.fill-brand{background:var(--brand-1)}
+.fill-teal{background:#0ea5e9}
+.fill-amber{background:var(--yellow-1)}
+.fill-red{background:var(--red-1)}
+.fill-slate{background:var(--gray-1)}
+.dist-stat{width:90px;text-align:right;font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--t2);font-weight:600}
+.top-ch-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px}
+.top-ch-card{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;background:var(--bg-soft);border:1px solid var(--divider);border-radius:8px;cursor:pointer;transition:all .2s}
+.top-ch-card:hover{border-color:var(--brand-1);background:var(--brand-soft);color:var(--brand-1)}
+.top-ch-title{font-size:13px;font-weight:500}
+.top-ch-badge{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:10px;background:var(--brand-soft);color:var(--brand-1);white-space:nowrap}
+@media (max-width:820px){
+  #stats-mask{padding:0}
+  #stats-box{border-radius:0;border:0;height:100%;max-height:100%}
+  .dist-lbl{width:120px;font-size:12px}
+}
+
 .gloss{margin-top:16px;border:1px solid var(--divider);border-radius:8px;padding:0 16px;font-size:13px;color:var(--t2)}
 .gloss summary{cursor:pointer;padding:10px 0;font-weight:500;color:var(--t2);list-style:none;display:flex;align-items:center;gap:6px}
 .gloss summary::-webkit-details-marker{display:none}
@@ -359,7 +406,7 @@ html.dark .hc-action{color:#1b1b1f!important}
 @media print{
   @page{margin:15mm;size:auto}
   body{background:#fff!important;color:#111!important;font-size:11pt;line-height:1.5}
-  .nav,.sidebar,.backdrop,.hero-callout,.scenarios-wrap,#pop,.tip-mask,#tip-open,.anchor,.btn-save,.btn-share,#toast,.doc-links,#dm-mask,.foot,#empty,#status,.icon-btn{display:none!important}
+  .nav,.sidebar,.backdrop,.hero-callout,.scenarios-wrap,#pop,.tip-mask,#tip-open,#stats-mask,#stats-open,#stats-open-side,.anchor,.btn-save,.btn-share,#toast,.doc-links,#dm-mask,.foot,#empty,#status,.icon-btn{display:none!important}
   .content{padding:0!important;margin:0!important;max-width:100%!important;width:100%!important}
   .doc-head{margin-bottom:20pt;border-bottom:2pt solid #222;padding-bottom:10pt}
   .doc-head h1{font-size:18pt;color:#000}
@@ -413,6 +460,7 @@ html.dark .hc-action{color:#1b1b1f!important}
     </label>
     <div class="nav-r">
       <button class="icon-btn" id="random-rule" title="Shuffle: Jump to a random high-ROI rule (Press R)" aria-label="Random Rule"><svg viewBox="0 0 24 24"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg></button>
+      <button class="icon-btn" id="stats-open" title="Compendium Analytics & Insights" aria-label="Compendium Analytics"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z"/><path d="M19 19H5V5h14v14z" stroke-linecap="round"/></svg></button>
       <a class="icon-btn" href="selfcheck.html" title="Take 2-Minute Life Health & Risk Audit" aria-label="Self-Audit Quiz"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></a>
       <a class="icon-btn" href="README.md" title="View README.md" aria-label="README"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6zm8 1.5V8h4.5zM8 12h8v1.5H8zm0 3.5h8V17H8z"/></svg></a>
       <a class="icon-btn" href="https://github.com/parveen0029/The-Evidence-Based-Life" target="_blank" rel="noopener" title="View repository on GitHub" aria-label="GitHub Repository"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 5.6 18.3 6 18.3 6c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg></a>
@@ -438,6 +486,7 @@ html.dark .hc-action{color:#1b1b1f!important}
       <button class="btn-sm ghost" id="clear-saved" type="button">Clear Saved</button>
       <p id="saved-copy-msg" style="font-size:12px;color:var(--green-1);margin:6px 0 0" hidden></p>
     </div>
+    <button class="btn-sm ghost" id="stats-open-side" type="button" style="margin-top:10px;font-size:12px">📊 Compendium Analytics</button>
   </div>
   <div class="group" id="g-upd" hidden>
     <div class="gt">Recent Updates <small>Content revisions</small></div>
@@ -544,9 +593,14 @@ html.dark .hc-action{color:#1b1b1f!important}
         <div class="scenarios" id="scenarios">
           <button type="button" class="scenario-pill" data-sec="1,13">🚨 Emergencies</button>
           <button type="button" class="scenario-pill" data-sec="2">🧂 Longevity Habits</button>
+          <button type="button" class="scenario-pill" data-sec="3,22">😴 Sleep & Energy</button>
+          <button type="button" class="scenario-pill" data-sec="5,6">💰 Waste & Wealth</button>
           <button type="button" class="scenario-pill" data-sec="7,19">💼 Job & Wages</button>
-          <button type="button" class="scenario-pill" data-sec="15">🏠 Renting & Leases</button>
           <button type="button" class="scenario-pill" data-sec="8,9">🛡️ Legal & Fraud</button>
+          <button type="button" class="scenario-pill" data-sec="14">🔒 Digital Privacy</button>
+          <button type="button" class="scenario-pill" data-sec="15">🏠 Renting & Leases</button>
+          <button type="button" class="scenario-pill" data-sec="20,30">👶 Parenting & Kids</button>
+          <button type="button" class="scenario-pill" data-sec="21,32">✈️ Travel & Safety</button>
         </div>
       </div>
       <div class="stat" aria-live="polite">Showing <b id="cnt">–</b> of <span id="tot">–</span> rules</div>
@@ -579,6 +633,37 @@ html.dark .hc-action{color:#1b1b1f!important}
     <p>Scan using your phone camera or QR reader to support independent research and maintenance on Buy Me a Coffee.</p>
     <a href="https://buymeacoffee.com/Parveen0029" target="_blank" rel="noopener" class="tip-link">☕ Open buymeacoffee.com/Parveen0029</a>
     <div><button type="button" id="tip-x">Close</button></div>
+  </div>
+</div>
+
+<div id="stats-mask" hidden>
+  <div id="stats-box" role="dialog" aria-modal="true" aria-labelledby="stats-title-text">
+    <div class="stats-header">
+      <div class="stats-title" id="stats-title-text"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z"/><path d="M19 19H5V5h14v14z" stroke-linecap="round"/></svg> <span>Compendium Insights & Distribution</span></div>
+      <button type="button" id="stats-x" aria-label="Close dashboard">✕</button>
+    </div>
+    <div class="stats-scroll">
+      <div class="stats-lead">Empirical distribution across 765 rules and 34 chapters. Click any category or chapter below to filter instantly.</div>
+      <div class="stats-kpis">
+        <div class="kpi-card brand">
+          <div class="kpi-val" id="kpi-total">765</div>
+          <div class="kpi-lbl">Total Life Rules</div>
+        </div>
+        <div class="kpi-card green">
+          <div class="kpi-val" id="kpi-grade-a">495</div>
+          <div class="kpi-lbl">Grade A Evidence</div>
+        </div>
+        <div class="kpi-card teal">
+          <div class="kpi-val" id="kpi-high-roi">465</div>
+          <div class="kpi-lbl">High/Top ROI (61%)</div>
+        </div>
+        <div class="kpi-card amber">
+          <div class="kpi-val" id="kpi-zero-cost">600</div>
+          <div class="kpi-lbl">Zero Dollar Cost</div>
+        </div>
+      </div>
+      <div id="stats-content"></div>
+    </div>
   </div>
 </div>
 
@@ -1179,6 +1264,11 @@ function syncControls(){
   document.getElementById('f-dispute').checked = state.dispute;
   document.getElementById('f-todo').checked = state.todo;
   updateSavedUI();
+  const curSecs = [...state.sec].sort((a,b)=>Number(a)-Number(b)).join(',');
+  document.querySelectorAll('.scenario-pill').forEach(p => {
+    const s = p.dataset.sec.split(',').sort((a,b)=>Number(a)-Number(b)).join(',');
+    p.classList.toggle('active', Boolean(s && s === curSecs));
+  });
 }
 
 function renderCard(card, terms, key){
@@ -1680,6 +1770,164 @@ document.getElementById('tip-open').addEventListener('click', () => {
 document.getElementById('tip-x').addEventListener('click', tipClose);
 TIP.addEventListener('click', ev => { if (ev.target === TIP) tipClose(); });
 document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hidden){ ev.stopPropagation(); tipClose(); } }, true);
+
+/* ---------- Compendium Insights & Stats Modal ---------- */
+const STATS = {
+  mask: document.getElementById('stats-mask'),
+  content: document.getElementById('stats-content'),
+  openBtn: document.getElementById('stats-open'),
+  sideBtn: document.getElementById('stats-open-side'),
+  closeBtn: document.getElementById('stats-x'),
+};
+
+function renderStatsDashboard(){
+  if (!STATS.content || !CARDS.length) return;
+  let gA = 0, gB = 0, gC = 0;
+  let rVH = 0, rH = 0, rM = 0;
+  let m0 = 0, mLow = 0, mHigh = 0;
+  let wNo = 0, wSome = 0, wYes = 0;
+  const chMap = new Map();
+
+  for (const {e} of CARDS){
+    if (e.grade === 'A') gA++; else if (e.grade === 'B') gB++; else if (e.grade === 'C') gC++;
+    if (e.ratio === 'Very High') rVH++; else if (e.ratio === 'High') rH++; else if (e.ratio === 'Moderate') rM++;
+    if (e.money === '0') m0++; else if (e.money === 'Low') mLow++; else if (e.money === 'High') mHigh++;
+    if (e.will === 'No') wNo++; else if (e.will === 'Some') wSome++; else if (e.will === 'Yes') wYes++;
+    if (e.ratio === 'Very High'){
+      chMap.set(e.sec, (chMap.get(e.sec) || 0) + 1);
+    }
+  }
+
+  const tot = CARDS.length;
+  const pct = n => Math.round((n / tot) * 100);
+
+  const kTotal = document.getElementById('kpi-total');
+  const kGrade = document.getElementById('kpi-grade-a');
+  const kHigh = document.getElementById('kpi-high-roi');
+  const kZero = document.getElementById('kpi-zero-cost');
+
+  if (kTotal) kTotal.textContent = String(tot);
+  if (kGrade) kGrade.textContent = `${gA} (${pct(gA)}%)`;
+  if (kHigh) kHigh.textContent = `${rVH + rH} (${pct(rVH + rH)}%)`;
+  if (kZero) kZero.textContent = `${m0} (${pct(m0)}%)`;
+
+  const bar = (dim, val, label, count, colorCls) => `
+    <div class="dist-row" data-dim="${dim}" data-v="${val}" title="Click to filter by ${label}">
+      <div class="dist-lbl">${label}</div>
+      <div class="dist-bar-track"><div class="dist-bar-fill ${colorCls}" style="width:${pct(count)}%"></div></div>
+      <div class="dist-stat">${count} <small>(${pct(count)}%)</small></div>
+    </div>`;
+
+  const topChs = Array.from(chMap.entries())
+    .sort((a,b) => b[1] - a[1])
+    .slice(0, 6)
+    .map(([sec, count]) => {
+      const block = BLOCKS.find(b => b.n === sec);
+      const title = block?.el.querySelector('.sec-h h2')?.textContent || `Chapter ${sec}`;
+      return `<div class="top-ch-card" data-sec="${sec}" title="Filter by ${esc(title)}">
+        <span class="top-ch-title">${esc(title)}</span>
+        <span class="top-ch-badge">${count} top ROI</span>
+      </div>`;
+    }).join('');
+
+  STATS.content.innerHTML = `
+    <div class="dist-group">
+      <div class="dist-title"><span>Evidence Rigor (Empirical Quality)</span><small>Click bar to filter</small></div>
+      <div class="dist-rows">
+        ${bar('grade', 'A', 'Grade A (Gold RCTs/Meta)', gA, 'fill-green')}
+        ${bar('grade', 'B', 'Grade B (Cohort/Consensus)', gB, 'fill-amber')}
+        ${bar('grade', 'C', 'Grade C (Emerging/Guideline)', gC, 'fill-slate')}
+      </div>
+    </div>
+
+    <div class="dist-group">
+      <div class="dist-title"><span>Return on Investment (Benefit vs Cost)</span><small>Click bar to filter</small></div>
+      <div class="dist-rows">
+        ${bar('ratio', 'Very High', 'Very High ROI', rVH, 'fill-brand')}
+        ${bar('ratio', 'High', 'High ROI', rH, 'fill-teal')}
+        ${bar('ratio', 'Moderate', 'Moderate ROI', rM, 'fill-slate')}
+      </div>
+    </div>
+
+    <div class="dist-group">
+      <div class="dist-title"><span>Financial Cost of Implementation</span><small>Click bar to filter</small></div>
+      <div class="dist-rows">
+        ${bar('money', '0', 'Zero Dollar Cost ($0)', m0, 'fill-green')}
+        ${bar('money', 'Low', 'Low Cost (<$100)', mLow, 'fill-amber')}
+        ${bar('money', 'High', 'High Cost', mHigh, 'fill-red')}
+      </div>
+    </div>
+
+    <div class="dist-group">
+      <div class="dist-title"><span>Willpower & Friction Requirement</span><small>Click bar to filter</small></div>
+      <div class="dist-rows">
+        ${bar('will', 'No', 'Frictionless (No Willpower)', wNo, 'fill-green')}
+        ${bar('will', 'Some', 'Some Willpower (Routine)', wSome, 'fill-amber')}
+        ${bar('will', 'Yes', 'High Willpower (Daily)', wYes, 'fill-red')}
+      </div>
+    </div>
+
+    <div class="dist-group">
+      <div class="dist-title"><span>Top Chapters with Asymmetric Payoffs</span><small>Click to jump to chapter</small></div>
+      <div class="top-ch-list">
+        ${topChs}
+      </div>
+    </div>
+  `;
+}
+
+function statsOpen(){
+  if (!STATS.mask) return;
+  renderStatsDashboard();
+  STATS.mask.hidden = false;
+  STATS.closeBtn?.focus();
+  if (window.gtag) gtag('event', 'stats_open');
+}
+
+function statsClose(){
+  if (!STATS.mask || STATS.mask.hidden) return;
+  STATS.mask.hidden = true;
+  STATS.openBtn?.focus();
+}
+
+STATS.openBtn?.addEventListener('click', statsOpen);
+STATS.sideBtn?.addEventListener('click', statsOpen);
+STATS.closeBtn?.addEventListener('click', statsClose);
+STATS.mask?.addEventListener('click', ev => { if (ev.target === STATS.mask) statsClose(); });
+document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && STATS.mask && !STATS.mask.hidden){ ev.stopPropagation(); statsClose(); } }, true);
+
+STATS.content?.addEventListener('click', ev => {
+  const row = ev.target.closest('.dist-row');
+  if (row) {
+    const { dim, v } = row.dataset;
+    if (dim && v) {
+      state.q = '';
+      for (const d of DIMS) state[d].clear();
+      state.dispute = false; state.todo = false; state.savedOnly = false;
+      state[dim].add(v);
+      statsClose();
+      syncControls();
+      apply();
+      scrollTo({ top: 0, behavior: 'smooth' });
+      writeUrl();
+    }
+    return;
+  }
+  const chCard = ev.target.closest('.top-ch-card');
+  if (chCard && chCard.dataset.sec) {
+    const sec = chCard.dataset.sec;
+    state.q = '';
+    for (const d of DIMS) state[d].clear();
+    state.dispute = false; state.todo = false; state.savedOnly = false;
+    state.sec.add(sec);
+    statsClose();
+    syncControls();
+    apply();
+    writeUrl();
+    const firstBlock = document.getElementById('sec-' + sec);
+    if (firstBlock) firstBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
 
 (async function init(){
   const status = document.getElementById('status');
