@@ -11,7 +11,9 @@
 <meta name="theme-color" content="#3451b2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1b1b1f" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://parveen0029.github.io/The-Evidence-Based-Life/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233451b2'/%3E%3Cpath d='M17 33l10 11 20-24' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="alternate icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233451b2'/%3E%3Cpath d='M17 33l10 11 20-24' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Evidence-Based Life">
 <meta property="og:locale" content="en_US">
@@ -1624,6 +1626,9 @@ document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hid
     status.innerHTML = `Failed to load rules (${esc(String(err.message))}). Ensure README.md and book/ are present alongside index.html.`;
   }
 })();
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => {}); });
+}
 </script>
 </body>
 </html>

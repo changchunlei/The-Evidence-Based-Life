@@ -6,7 +6,9 @@
 <title>Life Health & Risk Self-Audit · The Evidence-Based Life</title>
 <meta name="description" content="Take a 2-minute evidence-based life check: discover which high-ROI habits, emergency protocols, and statutory protections you are missing. Sourced from 765 peer-reviewed rules.">
 <link rel="canonical" href="https://parveen0029.github.io/The-Evidence-Based-Life/selfcheck.html">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233451b2'/%3E%3Cpath d='M17 33l10 11 20-24' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="alternate icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233451b2'/%3E%3Cpath d='M17 33l10 11 20-24' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Life Health & Risk Self-Audit · The Evidence-Based Life">
 <meta property="og:description" content="Take a 2-minute evidence-based life check: discover which high-ROI habits, emergency protocols, and statutory protections you are missing.">
@@ -564,6 +566,9 @@ window.addEventListener('popstate', ev => {
       : `Failed to load rules: ${err.message}`;
   }
 })();
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => {}); });
+}
 </script>
 </body>
 </html>

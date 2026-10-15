@@ -1,0 +1,18 @@
+{
+  "name": "The Evidence-Based Life",
+  "short_name": "Evidence Life",
+  "description": "Scientific Life Manual: 34 chapters, 765 rules with costs, benefits, and peer-reviewed sources.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#121214",
+  "theme_color": "#3451b2",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
