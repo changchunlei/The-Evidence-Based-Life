@@ -923,7 +923,7 @@ function build(sections){
       const id = `e-${e.sec}-${e.n}`;
       const c = document.createElement('article'); c.className='card'; c.id = id;
       c.innerHTML = `
-        <div class="card-h"><span class="idx">${e.n}</span><h3 class="t"></h3><a class="anchor" href="#${id}" aria-label="Permanent link to rule">#</a></div>
+        <div class="card-h"><span class="idx">${e.n}</span><h3 class="t"></h3><a class="anchor" href="#${id}" aria-label="Copy direct link to rule" title="Copy direct link to rule">#</a></div>
         <div class="badges"></div>
         <p class="human"></p>
         <div class="rows">
