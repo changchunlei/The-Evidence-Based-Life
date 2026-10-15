@@ -15,22 +15,22 @@ Transform `The-Evidence-Based-Life` into a globally recognized, top-tier open-so
 
 ### Milestone 1: Interactive Life Audit Quiz (`selfcheck.html`)
 - [x] Analyze upstream `selfcheck.html` architecture and scoring model.
-- [ ] Implement English `selfcheck.html` with responsive VitePress theme (Dark/Light mode).
-- [ ] Curate 42 empirical Yes/No questions across Health, Emergencies, Finance, Security, and Family.
-- [ ] Connect question keys to exact English rule titles in `book/*.md`.
-- [ ] Add direct navigation link in `index.html` header and `README.md` action bar.
-- [ ] Verify local tests (`sync-stats.mjs --check`, `check-plain.mjs`, `check-refs.mjs`).
-- [ ] Commit and push to `origin/main`.
+- [x] Implement English `selfcheck.html` with responsive VitePress theme (Dark/Light mode).
+- [x] Curate 42 empirical Yes/No questions across Health, Emergencies, Finance, Security, and Family.
+- [x] Connect question keys to exact English rule titles in `book/*.md`.
+- [x] Add direct navigation link in `index.html` header and `README.md` action bar.
+- [x] Verify local tests (`sync-stats.mjs --check`, `check-plain.mjs`, `check-refs.mjs`).
+- [x] Commit and push to `origin/main`. (Commit: `06e76b2`)
 
 ### Milestone 2: Upstream Ecosystem PRs (`HowToLiveBetter`)
-- [ ] Prepare PR for 4 verified cross-reference and citation errors in upstream docs/chapters.
-- [ ] Prepare PR for upstream frontend search & modal fixes.
-- [ ] Build relationship and credit with upstream author `eternity4719` (63k stars).
+- [ ] Prepare PR branch for 4 verified cross-reference and citation errors in upstream docs/chapters.
+- [ ] Prepare PR branch for upstream frontend search & modal fixes in `HowToLiveBetter`.
+- [ ] Document precise PR descriptions and diffs ready for upstream submission.
 
 ### Milestone 3: Web App Performance & SEO Enhancements
-- [ ] Add Open Graph image tags & metadata to `selfcheck.html`.
-- [ ] Add PWA offline manifest or Service Worker caching for instant offline app loading.
-- [ ] Add quick copy-to-clipboard button for rule cards.
+- [ ] Audit Open Graph social card preview and favicon across all entry points.
+- [ ] Add quick copy-to-clipboard button for rule cards in `index.html`.
+- [ ] Verify single-file standalone offline web app package (`dist/The-Evidence-Based-Life.html`).
 
 ### Milestone 4: Community & Organic Outreach Engine
 - [ ] Prepare submission templates for `awesome-*` lists on GitHub (`awesome-selfhosted`, `awesome-health`, etc.).
@@ -39,5 +39,6 @@ Transform `The-Evidence-Based-Life` into a globally recognized, top-tier open-so
 ---
 
 ## 📍 Current Position
-- **Active Task**: Milestone 1 — Build and launch `selfcheck.html` (Interactive Life & Risk Audit Web App).
-- **Next Trigger**: Self-schedule 10s upon Milestone 1 completion.
+- **Completed**: Milestone 1 (Interactive Life Audit Quiz live on `main`).
+- **Active Task**: Milestone 2 — Prepare high-probability upstream PRs for `eternity4719/HowToLiveBetter` (63k stars).
+- **Next Trigger**: Autonomous loop wakeup via schedule tool.
