@@ -29,6 +29,7 @@ const corpus = {
   readme,
   parts: Object.fromEntries(files.map(f => [f, read(f)])),
   docs: Object.fromEntries(docs.map(f => [f, read(f)])),
+  updates: existsSync(resolve(ROOT, 'updates.json')) ? JSON.parse(read('updates.json')) : null,
 };
 // Escaping </script prevents premature termination of the HTML script tag
 const corpusJson = JSON.stringify(corpus).replace(/<\/script/gi, '<\\/script');

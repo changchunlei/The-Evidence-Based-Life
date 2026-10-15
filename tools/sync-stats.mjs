@@ -109,7 +109,11 @@ for (const [file, label, pattern, repl] of EDITS) {
   console.log(`  ${file} ${label}: ${old} -> ${CHECK ? 'STALE' : `UPDATED (${found.length} instances)`}`);
 }
 
+const runTool = (name, args = []) => spawnSync(process.execPath, [join(ROOT, 'tools', name), ...args], { stdio: 'inherit' }).status;
+
 if (CHECK) {
+  console.log('');
+  if (runTool('updates.mjs', ['--check']) !== 0) stale.push('updates.json is out of date');
   if (stale.length === 0) {
     console.log('\nAll statistics checks passed.');
     process.exit(0);
@@ -122,12 +126,15 @@ for (const [file, text] of texts) {
   if (text !== read(file)) writeFileSync(join(ROOT, file), text, 'utf8');
 }
 
-// 2. Invoke check-refs.mjs to update docs/citation-cross-reference.md
-const runTool = (name, args = []) => spawnSync(process.execPath, [join(ROOT, 'tools', name), ...args], { stdio: 'inherit' }).status;
+// 2. Refresh updates.json via updates.mjs
+console.log('');
+if (runTool('updates.mjs') !== 0) throw new Error('updates.mjs failed');
+
+// 3. Invoke check-refs.mjs to update docs/citation-cross-reference.md
 console.log('');
 if (runTool('check-refs.mjs') !== 0) throw new Error('check-refs.mjs failed');
 
-// 3. Invoke check-plain.mjs (informational warnings, does not halt execution)
+// 4. Invoke check-plain.mjs (informational warnings, does not halt execution)
 console.log('');
 if (runTool('check-plain.mjs', ['--stat']) !== 0) {
   console.log('Plain language audit flagged items for review. See tools/check-plain.mjs.');

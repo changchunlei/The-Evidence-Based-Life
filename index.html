@@ -229,6 +229,10 @@ html.dark .btn-sm{color:#1b1b1f}
 .badge.r3{background:var(--brand-soft);color:var(--brand-1)}
 .badge.r2{background:var(--green-soft);color:var(--green-1)}
 .badge.r1{background:var(--gray-soft);color:var(--gray-1)}
+.badge.upd{background:none;box-shadow:inset 0 0 0 1px var(--brand-3);color:var(--brand-1);font-weight:600}
+#upd-line{padding:8px 14px;background:var(--brand-soft);border-radius:8px;border:1px solid var(--brand-3);font-size:13.5px;color:var(--t2);margin-bottom:12px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+#upd-line strong{color:var(--t1)}
+#upd-line a{font-weight:600;color:var(--brand-1);text-decoration:underline}
 .human{margin:0 0 14px;padding:10px 14px;border-left:2px solid var(--brand-1);background:var(--brand-soft);border-radius:0 6px 6px 0;font-size:14.5px;line-height:1.75;color:var(--t1);overflow-wrap:anywhere}
 .rows{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px;line-height:1.75}
 .rows .k{color:var(--t3);font-weight:500;font-size:13px;line-height:1.75;padding-top:1px}
@@ -435,6 +439,17 @@ html.dark .hc-action{color:#1b1b1f!important}
       <p id="saved-copy-msg" style="font-size:12px;color:var(--green-1);margin:6px 0 0" hidden></p>
     </div>
   </div>
+  <div class="group" id="g-upd" hidden>
+    <div class="gt">Recent Updates <small>Content revisions</small></div>
+    <div class="chips" data-dim="upd">
+      <button class="chip" data-v="Added" aria-pressed="false">Newly Added</button>
+      <button class="chip" data-v="Updated" aria-pressed="false">Updated</button>
+    </div>
+    <div class="chips" data-dim="days">
+      <button class="chip" data-v="7" aria-pressed="false">Past 7 Days</button>
+      <button class="chip" data-v="30" aria-pressed="false">Past 30 Days</button>
+    </div>
+  </div>
   <div class="group">
     <div class="gt">ROI Rating <small>Appraisal within metric</small></div>
     <div class="chips" data-dim="ratio">
@@ -535,6 +550,7 @@ html.dark .hc-action{color:#1b1b1f!important}
         </div>
       </div>
       <div class="stat" aria-live="polite">Showing <b id="cnt">–</b> of <span id="tot">–</span> rules</div>
+      <div class="doc-links" id="upd-line" hidden></div>
       <div class="doc-links">Supplementary Essays: <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/should-you-stop-for-strangers-in-an-emergency.md">Should You Stop for Strangers?</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/home-emergency-kit-checklist.md">Home Emergency Kit</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/is-marriage-financially-worth-it.md">Is Marriage Worth It?</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/platform-compliance-and-licensing.md">Platform Compliance & Licensing</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/circadian-rhythms-and-night-shifts.md">Circadian Rhythms & Night Shifts</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/tree/main/docs/verification-records">Verification Audit Records</a></div>
       <div class="doc-links">AI Assistant: <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/skills/life-decision-guide/README.md">Install the Life Decision Guide Skill for Claude Code or Codex</a></div>
       <details class="gloss" id="gloss"><summary>Glossary: Statistical & Legal Terms</summary><p>Hover or click on dotted abbreviations in the text for contextual definitions. Full reference table below.</p><dl></dl></details>
@@ -1058,6 +1074,15 @@ function build(sections){
       for (const d of ['money','time','will']) if (e[d]) add('plain', LABEL[d][e[d]] || e[d]);
       if (e.dispute) add('danger', 'Disputed');
       if (e.todo) add('warn', 'Pending Verification');
+      e.upd = updOf(e);
+      if (e.upd && e.upd.age <= 30){
+        const [, m, d] = e.upd.date.split('-').map(Number);
+        const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        add('upd', `${months[m-1]} ${d} · ${e.upd.kind}`);
+        if (e.upd.fields && e.upd.fields.length){
+          badges.lastChild.title = 'Updated fields: ' + e.upd.fields.join(', ');
+        }
+      }
       block.appendChild(c);
       const card = {e, el:c, key:null, vis:false, f:{t:c.querySelector('.t'), cost:c.querySelector('.cost'), human:c.querySelector('.human'), gain:c.querySelector('.gain'), note:c.querySelector('.note'), src:c.querySelector('.src .body'), srcN:c.querySelector('.src summary .cnt'), details:c.querySelector('.src')}};
       renderCard(card, [], '');
@@ -1097,9 +1122,39 @@ function updateSavedUI(){
   if (tools) tools.hidden = !state.savedOnly;
 }
 
+/* ---------- Recent Updates Tracking ---------- */
+let UPD = {};
+const TODAY = Date.parse(new Intl.DateTimeFormat('sv-SE', { timeZone: 'UTC' }).format(new Date()));
+const ageOf = d => Math.round((TODAY - Date.parse(d)) / 864e5);
+function updOf(e){
+  const u = UPD[`${e.sec}-${e.n}`]; if (!u) return null;
+  return u.added ? {kind:'Added', date:u.added, age:ageOf(u.added)} : {kind:'Updated', date:u.changed, age:ageOf(u.changed), fields:u.fields};
+}
+function fitsUpd(e){
+  if (!state.upd.size && !state.days.size) return true;
+  const u = e.upd; if (!u) return false;
+  if (state.upd.size && !state.upd.has(u.kind)) return false;
+  return !state.days.size || u.age <= Number([...state.days][0]);
+}
+function buildUpdLine(){
+  if (!Object.keys(UPD).length) return;
+  const gUpd = document.getElementById('g-upd');
+  if (gUpd) gUpd.hidden = false;
+  const count = w => { let a = 0, c = 0; for (const {e} of CARDS) if (e.upd && e.upd.age <= w) e.upd.kind === 'Added' ? a++ : c++; return [a, c]; };
+  let w = 7, [a, c] = count(7);
+  if (!a && !c) { w = 30; [a, c] = count(30); }
+  if (!a && !c) return;
+  const link = (kind, n) => `<a href="?upd=${kind}&amp;days=${w}" data-upd="${kind}" data-days="${w}">${n} ${kind === 'Added' ? 'new rules' : 'updated rules'}</a>`;
+  const line = document.getElementById('upd-line');
+  if (line){
+    line.innerHTML = `📢 <strong>Recent Updates (${w} days)</strong>: ` + [a && link('Added', a), c && link('Updated', c)].filter(Boolean).join(' · ') + ' — click to filter.';
+    line.hidden = false;
+  }
+}
+
 /* ---------- Filter State & Router ---------- */
-const DIMS = ['sec','ratio','lens','grade','money','time','will'];
-const state = { q:'', sec:new Set(), ratio:new Set(), lens:new Set(), grade:new Set(), money:new Set(), time:new Set(), will:new Set(), dispute:false, todo:false, savedOnly:false };
+const DIMS = ['sec','ratio','lens','grade','money','time','will','upd','days'];
+const state = { q:'', sec:new Set(), ratio:new Set(), lens:new Set(), grade:new Set(), money:new Set(), time:new Set(), will:new Set(), upd:new Set(), days:new Set(), dispute:false, todo:false, savedOnly:false };
 function readUrl(){
   const p = new URLSearchParams(location.search);
   state.q = p.get('q') || '';
@@ -1159,6 +1214,7 @@ function apply(){
     if (ok && state.will.size && !state.will.has(e.will)) ok = false;
     if (ok && state.dispute && !e.dispute) ok = false;
     if (ok && state.todo && !e.todo) ok = false;
+    if (ok && !fitsUpd(e)) ok = false;
     if (ok && state.savedOnly && !SAVED.has(el.id)) ok = false;
     if (ok && terms.length && !terms.every(t => e.hay.includes(t))) ok = false;
 
@@ -1209,11 +1265,22 @@ function wire(){
     }
     if (dim === 'sec'){
       if (v === '') set.clear(); else { set.clear(); set.add(v); }
+    } else if (dim === 'days'){
+      set.has(v) ? set.delete(v) : (set.clear(), set.add(v));
     } else {
       set.has(v) ? set.delete(v) : set.add(v);
     }
     apply(); toTop();
   }));
+
+  document.getElementById('upd-line')?.addEventListener('click', ev => {
+    const a = ev.target.closest('a[data-upd]');
+    if (!a) return;
+    ev.preventDefault();
+    state.upd.clear(); state.upd.add(a.dataset.upd);
+    state.days.clear(); state.days.add(a.dataset.days);
+    syncControls(); apply(); toTop(); writeUrl();
+  });
 
   document.getElementById('f-sec').addEventListener('click', ev => {
     const a = ev.target.closest('a[data-go]'); if (!a) return;
@@ -1624,6 +1691,9 @@ document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hid
   const EMBED = window.__CORPUS__;
   try {
     if (!EMBED && location.protocol === 'file:') throw new Error('file');
+    const updP = EMBED
+      ? Promise.resolve(EMBED.updates ?? null)
+      : fetch('updates.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null);
     const md = EMBED ? EMBED.readme : await readText('README.md');
     const files = [...new Set(Array.from(md.matchAll(/\]\((book\/[^)]+\.md)\)/g), m => m[1]))].sort();
     if (!files.length) throw new Error('empty');
@@ -1644,9 +1714,11 @@ document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hid
     if (!sections.length) throw new Error('empty');
     GLOSS = parseGlossary(md);
     PERF.log('Parse corpus', t1, files.length + ' files');
+    const updData = await updP;
+    if (updData && updData.items) UPD = updData.items;
     status.remove();
     const t2 = performance.now(); build(sections); PERF.log('Build DOM', t2, CARDS.length + ' cards');
-    buildGlossary(); readUrl(); wire(); updateSavedUI(); apply();
+    buildGlossary(); buildUpdLine(); readUrl(); wire(); updateSavedUI(); apply();
     PERF.mark(`DOM nodes ${document.getElementsByTagName('*').length}, glossary terms ${GLOSS.length}`);
     if (location.hash){
       let target = document.getElementById(location.hash.slice(1));
