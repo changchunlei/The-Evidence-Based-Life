@@ -120,6 +120,14 @@ html.dark .btn{color:#1b1b1f}
 .hbar .fl{height:100%;border-radius:0 4px 4px 0;background:var(--brand-1)}
 .hbar .v{color:var(--t2);text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
 .card{scroll-margin-top:72px}
+.top3{margin:10px 0 16px;padding-left:22px;line-height:1.7}
+.top3 li{margin:6px 0}
+.top3 .why{color:var(--t2);font-size:13.5px}
+.copy-tools{margin:16px 0 24px}
+.copy-status{margin:8px 0 0;color:var(--t2);font-size:14px;font-weight:500}
+.copy-tools label{display:block;margin:12px 0 4px;font-size:14px;font-weight:600}
+.copy-tools textarea{display:block;width:100%;padding:12px;border:1px solid var(--divider);border-radius:8px;background:var(--bg-soft);color:var(--t1);font:inherit;font-size:13.5px;resize:vertical}
+.copy-tools button:disabled{cursor:wait;opacity:.65}
 .done-list{color:var(--t2);font-size:14px;padding-left:20px;line-height:1.8}
 #status{color:var(--t2);padding:60px 0;text-align:center;font-size:16px}
 @media (max-width:640px){
@@ -409,13 +417,43 @@ function renderOut(){
   const ROI_SCORE = {'Very High': 3, 'High': 2, 'Moderate': 1};
   noEntries.sort((a, b) => (ROI_SCORE[b.ratio] || 0) - (ROI_SCORE[a.ratio] || 0));
 
-  let todoH = `<h2>High-Leverage Actions to Implement<small>${noEntries.length} items ranked by Return-on-Investment</small></h2>`;
+  const top = noEntries.slice(0, 3);
+  const topTitle = `Top ${top.length === 3 ? '3' : top.length === 2 ? '2' : '1'} Priority Actions`;
+  let todoH = '';
+  if (top.length) {
+    todoH += `<h2>${topTitle}<small>Highest return on investment among uncompleted habits</small></h2>
+    <ol class="top3">`
+      + top.map(e => `<li><a href="#c-${e.sec}-${e.n}">${esc(plain(e.title))}</a> <span class="why">ROI: ${e.ratio} · Grade ${e.grade}</span></li>`).join('')
+      + `</ol>
+      <div class="copy-tools">
+        <button class="btn" id="copy-actions" type="button">📋 Copy Action Checklist</button>
+        <p class="copy-status" id="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div id="copy-fallback" hidden>
+          <label for="copy-text">Action Checklist (Markdown)</label>
+          <textarea id="copy-text" rows="8" readonly aria-describedby="copy-status"></textarea>
+        </div>
+      </div>`;
+  }
+
+  todoH += `<h2>High-Leverage Actions to Implement<small>${noEntries.length} items ranked by Return-on-Investment</small></h2>`;
   if (!noEntries.length) {
     todoH += `<p style="color:var(--green-1);font-weight:600">No missing habits flagged! All active questions answered affirmatively.</p>`;
   } else {
     todoH += noEntries.map(e => card(e)).join('');
   }
   document.getElementById('todo').innerHTML = todoH;
+
+  if (top.length) {
+    const textEl = document.getElementById('copy-text');
+    if (textEl) {
+      textEl.value = `The Evidence-Based Life · ${topTitle}\n\n` + top.map(e =>
+        `- [ ] ${plain(e.title)}\n`
+        + `  ROI: ${e.ratio} · Evidence Grade ${e.grade}${e.dispute ? ' · Disputed' : ''}\n`
+        + (e.cost ? `  Required Cost: ${plain(e.cost)}\n` : '')
+        + `  https://parveen0029.github.io/The-Evidence-Based-Life/#e-${e.sec}-${e.n}`
+      ).join('\n\n');
+    }
+  }
 
   /* Completed items */
   document.getElementById('done-h').textContent = `Active Habits Completed (${yes.length})`;
@@ -427,6 +465,30 @@ function show(id){
   document.getElementById('out').hidden = id !== 'out';
   window.scrollTo({top: 0});
 }
+
+document.getElementById('todo').addEventListener('click', async ev => {
+  const b = ev.target.closest('#copy-actions'); if (!b) return;
+  const status = document.getElementById('copy-status'), fallback = document.getElementById('copy-fallback');
+  const text = document.getElementById('copy-text');
+  b.disabled = true;
+  fallback.hidden = true;
+  status.textContent = 'Copying checklist…';
+  try {
+    await navigator.clipboard.writeText(text.value);
+    if (b.isConnected && !document.getElementById('out').hidden) {
+      status.textContent = '✓ Copied to clipboard! Ready to paste into your notes or to-do app.';
+    }
+  } catch (err) {
+    if (!b.isConnected || document.getElementById('out').hidden) return;
+    fallback.hidden = false;
+    status.textContent = 'Could not copy automatically. Please copy the checklist below manually:';
+    text.focus();
+    text.select();
+    text.scrollTop = 0;
+  } finally {
+    b.disabled = false;
+  }
+});
 
 document.getElementById('qs').addEventListener('click', ev => {
   const mb = ev.target.closest('button[data-mod]');
