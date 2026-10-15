@@ -48,8 +48,14 @@ export function readBook() {
   };
   const description = between([/^#\s+/], ['[![', /^##\s+/])
     .split('\n').slice(1).map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean).join(' ');
-  const frontMd = between([/^##\s+(?:What This Book Answers|\u8fd9\u672c\u4e66\u60f3\u56de\u7b54\u7684\u95ee\u9898)/i, /^##\s+/], [/^##\s+(?:Table of Contents|\u76ee\u5f55)/i]);
-  const contentsMd = between([/^##\s+(?:Table of Contents|\u76ee\u5f55)/i], [/^##\s+(?:Chapters|\u6b63\u6587)/i]);
+  const frontMd = between(
+    [/^##\s+(?:⚡\s*Did You Know|What This Book Answers|\u8fd9\u672c\u4e66\u60f3\u56de\u7b54\u7684\u95ee\u9898)/i, /^##\s+/],
+    [/^##\s+(?:📚\s*Complete Chapters|Table of Contents|\u76ee\u5f55)/i]
+  );
+  const contentsMd = between(
+    [/^##\s+(?:📚\s*Complete Chapters|Table of Contents|\u76ee\u5f55)/i],
+    [/^##\s+(?:📊\s*Evidence Grading|Evidence Grading|Chapters|\u6b63\u6587)/i]
+  );
   const cleanContents = contentsMd.split('\n\n').filter(p => !p.includes('index.html')).join('\n\n');
   const bookFiles = unique([...cleanContents.matchAll(/\]\((book\/[^)#]+\.md)\)/g)].map(m => m[1]));
   const docFiles = unique([...readme.matchAll(/\]\((docs\/[^)#/]+\.md)\)/g)].map(m => m[1]));
