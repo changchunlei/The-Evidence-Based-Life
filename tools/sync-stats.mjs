@@ -83,6 +83,8 @@ const EDITS = [
   ['README.md', 'Entries badge', /(?:%E6%9D%A1%E7%9B%AE-(\d+)%20%E6%9D%A1|Rules-(\d+))/gi, `Rules-${entries}`],
   ['README.md', 'Evidence grade badge', /A%20(\d+)%20%C2%B7%20B%20\d+%20%C2%B7%20C%20\d+/g, `A%20${grade.A}%20%C2%B7%20B%20${grade.B}%20%C2%B7%20C%20${grade.C}`],
   ['README.md', 'Source links badge', /-(\d+)%20(?:%E6%9D%A1%E9%93%BE%E6%8E%A5|Sources)/gi, `-${links}%20Sources`],
+  ['README.md', 'Evidence grade text summary', /Across all \d+ rules: Grade A: \d+ \| Grade B: \d+ \| Grade C: \d+, with \d+ rules noted for controversy/g, `Across all ${entries} rules: Grade A: ${grade.A} | Grade B: ${grade.B} | Grade C: ${grade.C}, with ${dispute} rules noted for controversy`],
+  ['README.md', 'ROI tiers text summary', /Across all \d+ rules: \*\*Very High: \d+ \(\d+%\) \| High: \d+ \(\d+%\) \| Moderate: \d+ \(\d+%\)\*\*/g, `Across all ${entries} rules: **Very High: ${ratio['Very High']} (${pct['Very High']}%) | High: ${ratio['High']} (${pct['High']}%) | Moderate: ${ratio['Moderate']} (${pct['Moderate']}%)**`],
   ['index.html', 'Description recommendations count', /(\d+)\s+(?:recommendations|\u6761\u5efa\u8bae)/gi, `${entries} recommendations`],
   ['index.html', 'numberOfPages', /numberOfPages":(\d+)/g, `numberOfPages":${entries}`],
   ['index.html', 'Header stats', /(\d+)\s+(?:chapters|sections|\u8282)\s*,?\s*(\d+)\s+(?:rules|recommendations|\u6761)/gi, `${sections} chapters, ${entries} rules`],
