@@ -1,0 +1,32 @@
+{
+  "name": "the-evidence-based-life",
+  "version": "1.0.0",
+  "description": "An evidence-based life manual ranked by return-on-investment (ROI) across 765 peer-reviewed rules.",
+  "type": "module",
+  "scripts": {
+    "test": "node tools/sync-stats.mjs --check && node tools/check-refs.mjs --check && node tools/check-plain.mjs",
+    "check:stats": "node tools/sync-stats.mjs --check",
+    "check:refs": "node tools/check-refs.mjs --check",
+    "check:plain": "node tools/check-plain.mjs",
+    "sync:stats": "node tools/sync-stats.mjs",
+    "build:offline": "node tools/offline/build.mjs",
+    "build:epub": "node tools/epub/build.mjs",
+    "build": "node tools/offline/build.mjs && node tools/epub/build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parveen0029/The-Evidence-Based-Life.git"
+  },
+  "keywords": [
+    "longevity",
+    "health",
+    "evidence-based",
+    "life-decisions",
+    "personal-finance",
+    "first-aid",
+    "legal-safeguards",
+    "roi"
+  ],
+  "author": "The Evidence-Based Life Contributors",
+  "license": "CC-BY-4.0"
+}

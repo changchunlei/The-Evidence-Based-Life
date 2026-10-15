@@ -56,20 +56,16 @@ Every rule in `book/*.md` must strictly follow this format:
 Before submitting a Pull Request, ensure all local tests pass:
 
 ```bash
-# 1. Verify statistics consistency (rule counts, grade tallies, links)
-node tools/sync-stats.mjs --check
+# Run all automated verification checks at once:
+npm test
 
-# 2. Verify plain English readability and jargon avoidance
-node tools/check-plain.mjs
+# Or run individual checks:
+npm run check:stats  # Verify rule counts, grade tallies, and source links
+npm run check:plain  # Verify plain English readability and jargon avoidance
+npm run check:refs   # Verify cross-reference citations and anchor links
 
-# 3. Verify cross-reference citations and anchor links
-node tools/check-refs.mjs --check
-```
-
-If you add or modify rules, run the synchronizer to re-align metrics:
-
-```bash
-node tools/sync-stats.mjs
+# If you add or modify rules, synchronize stats across README and index.html:
+npm run sync:stats
 ```
 
 ---
