@@ -89,7 +89,7 @@ If you run into trouble while abroad — such as needing help from an embassy, u
 - Notes: Required documents include your diploma, passport or travel permit, residence permit or visa stamp, a photo, and an authorization statement. Entry and exit records during your stay abroad are retrieved automatically by the system, so be sure to keep those visa pages intact. The Center also posts announcements regarding revoked certificates or temporary suspensions of applications from certain institutions; it’s advisable to check whether your school is affected before applying.
 - Sources: China (Ministry of Education of China) Study Abroad Service Center. Online Service Hall·Academic Degree Certification. <http://zwfw.cscse.edu.cn/>
 
-### 10. The number of schools under “enhanced scrutiny” for certification keeps rising; paying to buy a degree is no longer an option
+### 10. Search the institution's name on CSCSE announcements before applying: diploma certification for under-review universities requires at least 60 business days
 <!-- Cost Tag: Money=0 Time=Low Willpower=No Benefit=Med Metric=Money -->
 
 - Cost: No cost at all. Before enrolling, simply search the school’s name in the announcements posted by the China Scholarship Council (CSC).

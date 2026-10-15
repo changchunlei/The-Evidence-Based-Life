@@ -14,7 +14,7 @@
 [![Online Reader](https://img.shields.io/badge/Online%20Reader-Open%20Web%20App-3451b2?style=flat-square)](https://parveen0029.github.io/The-Evidence-Based-Life/)
 [![Rules](https://img.shields.io/badge/Rules-765-18794e?style=flat-square)](#chapters)
 [![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20495%20%C2%B7%20B%20211%20%C2%B7%20C%2059-915930?style=flat-square)](#evidence-grading)
-[![Primary Sources](https://img.shields.io/badge/Primary%20Sources-2141%20Sources-565a5f?style=flat-square)](docs/verification-records/)
+[![Primary Sources](https://img.shields.io/badge/Primary%20Sources-2142%20Sources-565a5f?style=flat-square)](docs/verification-records/)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-565a5f?style=flat-square)](#license)
 
 <p align="center">

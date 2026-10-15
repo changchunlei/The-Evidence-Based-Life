@@ -108,7 +108,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 23 | Section 22, Rule 9 | Treat “regular social contact” as a health expense — don’t wait until you’re feeling down to reach out | ...nclude the “circular sighing” method described in... |
 | Rule 23 | Section 22, Rule 7 | When anxiety interferes with daily life, mindfulness‑based stress reduction works just as well as common anti‑anxiety drugs | ...he long run — it helps ease low mood, as noted in... |
 | Rule 23 | Section 8, Rule 43 | Domestic violence: Call the police to get an incident report, then apply to court for a protection order — no divorce required and it’s free | ...ty then is safety, not emotional regulation — see... |
-| Rule 23 | This Section, Rule 18 | Best low-cost actions when you’re feeling down: move, get sunlight, stick to a schedule, talk to someone, call 12356 | ...described in , and “stepping away when angry” in... |
+| Rule 23 | This Section, Rule 17 | Walk away when angry; treat the other person as weather, not an enemy | ...described in , and “stepping away when angry” in... |
 | Rule 24 | Section 1, Rule 25 | Call 12356 if you’re depressed or having suicidal thoughts; don’t keep sleeping pills or pesticides at home | ...distressing, stop and dial 12356, as described in... |
 | Rule 25 | Section 34, Rule 3 | People over 60, with a history of stomach bleeding, taking anticoagulants or steroids should consult a doctor before using painkillers like ibuprofen | ...lt a physician prior to using NSAIDs (detailed in... |
 | Rule 25 | Section 34, Rule 5 | Pregnancy after 20 weeks: avoid taking ibuprofen and similar painkillers on your own | ...f gestation due to fetal renal risks (detailed in... |
@@ -118,7 +118,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 26 | Section 3, Rule 4 | Avoid caffeine after 2 p.m. | ...(Chapter 3, Rule 2), restrict afternoon caffeine (... |
 | Rule 26 | Section 3, Rule 8 | Avoid glowing screens one hour before bed; if you must, read paper books or e-ink devices instead | ...4), and eliminate illuminated screens before bed (... |
 | Rule 26 | Section 3, Rule 27 | If you snore loudly, have observed sleep apneas, or experience daytime sleepiness so severe you nod off while driving, undergo sleep monitoring for obstructive sleep apnea; use nocturnal CPAP for moderate-to-severe disease | ...rst rule out obstructive sleep apnea, detailed in... |
-| Rule 26 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get sunlight, stick to a schedule, talk to someone, call 12356 | ...a comorbid with persistent low mood is covered in... |
+| Rule 26 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get bright light, stick to a schedule, talk to someone, call 12356 | ...a comorbid with persistent low mood is covered in... |
 | Rule 26 | Section 6, Rule 34 | Do not expect melatonin to cure chronic insomnia; it advances sleep onset by an average of only 7 minutes—prioritize cognitive behavioral therapy for insomnia instead | ...is ineffective for chronic insomnia, detailed in... |
 | Rule 27 | Section 1, Rule 9 | Don’t speed or drive after drinking, avoid looking at phones, and pull over to rest when fatigued | ...ng fatigued while driving, pull over immediately (... |
 | Rule 27 | Section 2, Rule 37 | Keep naps under 30 minutes—no longer than an hour. If you regularly need a one- or two-hour nap to get through the day, it’s time to see a doctor. | ...Excessive daytime napping warrants evaluation (... |
@@ -134,7 +134,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 9 | This Section, Rule 8 | Set a deadline for tasks without an external deadline | ...breaking large tasks into smaller sub-tasks), and... |
 | Rule 10 | Section 3, Rule 1 | Turn off non‑essential notifications and keep your phone out of sight while working | ...see... |
 | Rule 11 | Section 2, Rule 3 | Don’t rely solely on willpower to quit smoking — get medication first: success rates more than double | ...For practical smoking‑cessation strategies, see... |
-| Rule 13 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get sunlight, stick to a schedule, talk to someone, call 12356 | ...ificant low mood or anxiety, follow the advice in... |
+| Rule 13 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get bright light, stick to a schedule, talk to someone, call 12356 | ...ificant low mood or anxiety, follow the advice in... |
 | Rule 15 | Section 3, Rule 20 | Don’t make “how others are doing” a daily habit: set limits on apps that show peers’ updates or turn them off | ...see... |
 
 ## 05-cutting-financial-waste
@@ -259,7 +259,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | --- | --- | --- | --- |
 | Rule 10 | This Section, Rule 51 | **Target Rule Does Not Exist** | ...assault now falls under... |
 | Rule 10 | This Section, Rule 43 | Domestic violence: Call the police to get an incident report, then apply to court for a protection order — no divorce required and it’s free | ...ult now falls under Article 51 instead of the old... |
-| Rule 11 | This Section, Rule 10 | If a fight breaks out, call the police first — the one who strikes first almost always loses | ...default course of action remains as described in... |
+| Rule 11 | This Section, Rule 10 | If a conflict breaks out, call the police first and do not strike: whoever strikes first makes it easy for the other party's counterstrike to be ruled lawful self-defense | ...default course of action remains as described in... |
 | Rule 11 | This Section, Rule 35 | For individuals released from detention after a case is dropped, charges are withdrawn, or they are acquitted, applying for state compensation is possible — compensation is calculated on a daily basis. | ...e compensation for detention days, as outlined in... |
 | Rule 11 | This Section, Rule 13 | No matter how angry you are, never target innocent people: deliberately driving into a crowd or committing violence in public is classified as endangering public safety by dangerous means, carrying a minimum sentence of three years; if anyone dies, the penalty is death. | ...paration carries different risks, as discussed in... |
 | Rule 12 | Section 7, Rule 2 | First file a complaint with the Human Resources and Social Security Bureau, then apply for final and binding one-instance arbitration — both options are free, and most cases yield results within a few months. | ...labor complaints and arbitration are provided in... |
@@ -268,7 +268,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 12 | Section 9, Rule 15 | You cannot detain or confine someone to collect a debt, nor follow them home and refuse to leave | ...The limits on debt collection are outlined in... |
 | Rule 13 | This Section, Rule 14 | Thoughts such as “find a scapegoat” or “die together” must be treated as a medical emergency: leave the scene, hand over car keys and knives to someone else, and call 12356. | ...Anyone entertaining such ideas should refer to... |
 | Rule 14 | Section 1, Rule 25 | Call 12356 if you’re depressed or having suicidal thoughts; don’t keep sleeping pills or pesticides at home | ...For those having thoughts of self‑harm, see... |
-| Rule 14 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get sunlight, stick to a schedule, talk to someone, call 12356 | ...For coping strategies during low mood, see... |
+| Rule 14 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get bright light, stick to a schedule, talk to someone, call 12356 | ...For coping strategies during low mood, see... |
 | Rule 16 | This Section, Rule 42 | In an emergency at the scene, first film a wide shot, then capture the spatial relationships, and finally record the damage and injuries — keep the original photos and videos. | ...for insult and defamation have been updated from... |
 | Rule 16 | This Section, Rule 50 | **Target Rule Does Not Exist** | ...been updated from Article 42 under the old law to... |
 | Rule 19 | This Section, Rule 18 | Write a clear loan agreement when lending money; think carefully before agreeing to be a guarantor | ...For promissory notes and guarantees,... |
@@ -280,7 +280,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 22 | This Section, Rule 49 | **Target Rule Does Not Exist** | ...now falls under Article 58 instead of the former... |
 | Rule 22 | This Section, Rule 165 | **Target Rule Does Not Exist** | ...Likewise, the small‑claims provision is now... |
 | Rule 25 | Section 10, Rule 11 | When parents pay for a house, they should clearly state whether it’s a loan or a gift at the time of transfer | ...ward a home purchase are loans or gifts, refer to... |
-| Rule 27 | This Section, Rule 10 | If a fight breaks out, call the police first — the one who strikes first almost always loses | ...service details, specifications, and costs, while... |
+| Rule 27 | This Section, Rule 10 | If a conflict breaks out, call the police first and do not strike: whoever strikes first makes it easy for the other party's counterstrike to be ruled lawful self-defense | ...service details, specifications, and costs, while... |
 | Rule 31 | Section 9, Rule 18 | Sexual relations with anyone under 14 are illegal; “she consented” is not a defense | ...Age verification follows... |
 | Rule 31 | Section 9, Rule 18 | Sexual relations with anyone under 14 are illegal; “she consented” is not a defense | ...age determination follows... |
 | Rule 31 | Section 13, Rule 42 | After sexual assault, go to a safe place and call 110; do not shower, wash clothes, or tidy the room before a medical exam, and visit a hospital within 72 hours. | ...If you yourself are the victim, see... |
@@ -303,7 +303,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 45 | Section 5, Rule 9 | When kids make in-app purchases or send gifts, parents can demand refunds for large sums spent by kids over eight if they never gave consent | ...credit history for unauthorized liabilities (see... |
 | Rule 45 | Section 8, Rule 17 | Read the document thoroughly before signing; never sign on behalf of others or on blank paper | ...ification constitute binding legal execution (see... |
 | Rule 45 | Section 8, Rule 8 | Never lend your bank cards, SIM cards, or payment accounts to anyone — “money laundering” is not a side hustle | ...phone, bank accounts, or digital credentials (see... |
-| Rule 46 | Section 8, Rule 10 | If a fight breaks out, call the police first — the one who strikes first almost always loses | ...etreat and call emergency police immediately (see... |
+| Rule 46 | Section 8, Rule 10 | If a conflict breaks out, call the police first and do not strike: whoever strikes first makes it easy for the other party's counterstrike to be ruled lawful self-defense | ...etreat and call emergency police immediately (see... |
 | Rule 46 | Section 8, Rule 11 | You may defend yourself against an unavoidable attack, but only strike the person who is actually attacking — stop when he stops. | ...es against imminent violent attack are covered in... |
 
 ## 09-everyday-legal-traps
@@ -316,7 +316,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 6 | Section 8, Rule 9 | Checking your credit report twice a year for free helps spot any loans or cards you didn’t apply for. | ...tect fraudulent loans taken out in your name, see... |
 | Rule 7 | This Section, Rule 317 | **Target Rule Does Not Exist** | ...ay storage fees when reclaiming them (Civil Code,... |
 | Rule 15 | Section 8, Rule 18 | Write a clear loan agreement when lending money; think carefully before agreeing to be a guarantor | ...For guidance on drafting an IOU, see... |
-| Rule 19 | Section 8, Rule 10 | If a fight breaks out, call the police first — the one who strikes first almost always loses | ...tageous, and the limits of self-defense, refer to... |
+| Rule 19 | Section 8, Rule 10 | If a conflict breaks out, call the police first and do not strike: whoever strikes first makes it easy for the other party's counterstrike to be ruled lawful self-defense | ...tageous, and the limits of self-defense, refer to... |
 | Rule 20 | Section 27, Rule 7 | Memorize this “go to the hospital immediately” checklist — it applies throughout pregnancy and the first year after childbirth | ...it during pregnancy and after delivery appears in... |
 | Rule 20 | Section 27, Rule 16 | Don’t skip that 42-day postpartum checkup — it also screens for postpartum depression | ...serves as a screening for postpartum depression (... |
 | Rule 20 | Section 1, Rule 25 | Call 12356 if you’re depressed or having suicidal thoughts; don’t keep sleeping pills or pesticides at home | ...In case of suicidal ideation, call 12356 (... |
@@ -336,7 +336,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 24 | Section 12, Rule 21 | Whether creating designs yourself or purchasing licensed artwork, simply changing colors or adding icons does not count as “modifications” for copyright purposes. | ...third-party artwork on merchandise is detailed in... |
 | Rule 24 | Section 26, Rule 9 | Respond promptly to infringement notices; restore content after 15 days if no response | ...edown procedures for website hosts are covered in... |
 | Rule 25 | Section 9, Rule 24 | Fan-translating comics, ripping/re-hosting films, and sharing cloud storage pirated e-books constitutes copyright infringement even without charging money; monetizing via ads or memberships risks criminal prosecution | ...ion and digital distribution risks are covered in... |
-| Rule 26 | Section 8, Rule 10 | If a fight breaks out, call the police first — the one who strikes first almost always loses | ...ting conflicts by contacting police is covered in... |
+| Rule 26 | Section 8, Rule 10 | If a conflict breaks out, call the police first and do not strike: whoever strikes first makes it easy for the other party's counterstrike to be ruled lawful self-defense | ...ting conflicts by contacting police is covered in... |
 | Rule 26 | Section 8, Rule 11 | You may defend yourself against an unavoidable attack, but only strike the person who is actually attacking — stop when he stops. | ...y defense against violent assault are detailed in... |
 | Rule 26 | Section 13, Rule 36 | If a stranger demands money in a remote area, hand over cash, avoid any confrontation, note their features, and call police after escaping | ...robbery encounters in remote areas is covered in... |
 | Rule 27 | Section 9, Rule 14 | Do not eat wild animals; do not buy, sell, or keep protected species as pets | ...wildlife triggers severe criminal liability under... |
@@ -429,7 +429,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 31 | This Section, Rule 13 | For dog or cat bites and scratches, rinse the area with soap and running water for 15 minutes, then get vaccinated on the same day. | ...n case of dog bites, follow the steps outlined in... |
 | Rule 31 | This Section, Rule 13 | For dog or cat bites and scratches, rinse the area with soap and running water for 15 minutes, then get vaccinated on the same day. | ...” Dog bites should be treated according to... |
 | Rule 36 | Section 8, Rule 32 | If someone threatens to call the police, post intimate photos, or inform your workplace unless you pay up — don’t give them a single cent and don’t delete any records; call the police right away. | ...rivate photos or videos, you must never pay — see... |
-| Rule 37 | Section 8, Rule 10 | If a fight breaks out, call the police first — the one who strikes first almost always loses | ...If you yourself get caught in a fight, see... |
+| Rule 37 | Section 8, Rule 10 | If a conflict breaks out, call the police first and do not strike: whoever strikes first makes it easy for the other party's counterstrike to be ruled lawful self-defense | ...If you yourself get caught in a fight, see... |
 | Rule 37 | This Section, Rule 36 | If a stranger demands money in a remote area, hand over cash, avoid any confrontation, note their features, and call police after escaping | ...if a stranger demands money,... |
 | Rule 37 | This Section, Rule 39 | After saving someone and getting injured or incurring expenses, first seek compensation from the perpetrator and yibao; then apply for recognition as a person acting in the public interest. | ...for costs after helping an injured person,... |
 | Rule 40 | Section 24, Rule 8 | Even without money or ID, and unable to identify yourself, emergency care must be provided first | ...do not wait in line at the registration desk (see... |
@@ -620,7 +620,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 19 | This Section, Rule 15 | Spread the same study time over several days instead of cramming it all at once | ...d also be spread across several days, as noted in... |
 | Rule 24 | Section 23, Rule 6 | Treating “work now or study further” as a calculation: the three years of early earnings versus decades of future income | ...The economic calculation mirrors... |
 | Rule 25 | This Section, Rule 24 | Deciding whether to pursue a master's degree after graduation: Calculate tuition costs and forgone wages over 2-3 years first, then check whether your specific field offers a meaningful wage premium | ...e 2020 UK Department for Education study cited in... |
-| Rule 25 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get sunlight, stick to a schedule, talk to someone, call 12356 | ...ral studies, follow the initial steps outlined in... |
+| Rule 25 | Section 3, Rule 18 | Best low-cost actions when you’re feeling down: move, get bright light, stick to a schedule, talk to someone, call 12356 | ...ral studies, follow the initial steps outlined in... |
 | Rule 25 | Section 1, Rule 25 | Call 12356 if you’re depressed or having suicidal thoughts; don’t keep sleeping pills or pesticides at home | ...ealth crisis hotlines immediately, as detailed in... |
 | Rule 25 | This Section, Rule 24 | Deciding whether to pursue a master's degree after graduation: Calculate tuition costs and forgone wages over 2-3 years first, then check whether your specific field offers a meaningful wage premium | ...Limitations regarding wage returns mirror... |
 
@@ -634,7 +634,7 @@ Total Citations: 650 references across chapters and supplementary essays.
 | Rule 9 | This Section, Rule 7 | After every medical visit, keep a personal copy of your medical records, test reports, and imaging scans | ...ts, and follow-up imaging are fully prepared (see... |
 | Rule 10 | Section 7, Rule 8 | Apply for the two disability subsidies using a disability certificate | ...equiring long-term assistance — details appear in... |
 | Rule 12 | Section 5, Rule 13 | Once you set up family medical expense sharing in the yibao app, funds from your individual medical insurance account can be used to pay for your spouse, parents, and children’s medical care and medication. | ...costs depends on regional policy guidelines (see... |
-| Rule 12 | Section 2, Rule 10 | Brush teeth thoroughly and floss daily; replace missing teeth promptly | ...th shifting and masticatory decline is covered in... |
+| Rule 12 | Section 2, Rule 10 | Brush teeth thoroughly, clean between teeth daily, and see a dentist if you have missing teeth | ...th shifting and masticatory decline is covered in... |
 | Rule 13 | Section 16, Rule 2 | First get outpatient chronic disease certification, then register for cross-regional medical care — hypertension, diabetes, cancer radiotherapy/chemotherapy, dialysis, and anti-rejection treatment can then be covered by yibao across regions | ...and special disease registration is discussed in... |
 | Rule 14 | Section 16, Rule 5 | For patients with stable chronic conditions, community clinics can issue up to 12 weeks’ worth of medication at one time | ...k prescription locally is often even simpler (see... |
 | Rule 15 | Section 24, Rule 5 | Stop treating tertiary hospitals as mere prescription hubs — stable chronic disease patients should turn to primary care | ...side discharge summaries and imaging reports (see... |
