@@ -140,6 +140,14 @@ html.dark .btn{color:#1b1b1f}
   .hbar{grid-template-columns:7.5em 1fr 3.8em;gap:8px}
 }
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NTPGXCLMP6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-NTPGXCLMP6');
+</script>
 </head>
 <body>
 <header class="nav">
@@ -509,6 +517,7 @@ document.getElementById('go').addEventListener('click', () => {
   renderOut();
   history.pushState({view:'out'}, '', '#result');
   show('out');
+  if (window.gtag) gtag('event', 'audit_complete');
 });
 
 document.getElementById('back').addEventListener('click', () => {
