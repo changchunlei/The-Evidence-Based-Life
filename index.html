@@ -192,7 +192,23 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .card-h h3{margin:0;font-size:17px;line-height:26px;font-weight:600;letter-spacing:-.01em;flex:1;min-width:0;overflow-wrap:anywhere}
 .card-h .idx{color:var(--t3);font-size:14px;line-height:26px;font-variant-numeric:tabular-nums;min-width:22px}
 .card-h .anchor{opacity:0;color:var(--brand-1);font-size:16px;line-height:26px;font-weight:500;transition:opacity .2s}
-.card:hover .anchor,.anchor:focus-visible{opacity:1}
+.card-h .btn-save{opacity:0;color:var(--t3);font-size:16px;line-height:26px;cursor:pointer;transition:opacity .2s,color .2s;background:none;border:0;padding:0 3px}
+.card:hover .anchor,.anchor:focus-visible,.card:hover .btn-save,.btn-save:focus-visible,.btn-save.saved{opacity:1}
+.card-h .btn-save.saved{color:#f5a623}
+.card-h .btn-save:hover{color:#f5a623}
+.chip-saved{background:rgba(245,166,35,.08);border-color:rgba(245,166,35,.3);color:var(--t1)}
+.chip-saved[aria-pressed="true"]{background:#f5a623;border-color:#f5a623;color:#ffffff}
+html.dark .chip-saved[aria-pressed="true"]{color:#1b1b1f}
+.btn-sm{display:inline-flex;align-items:center;justify-content:center;gap:6px;width:100%;padding:6px 12px;border-radius:6px;font-size:12.5px;font-weight:600;background:var(--brand-1);color:#fff;border:0;cursor:pointer;transition:opacity .2s}
+html.dark .btn-sm{color:#1b1b1f}
+.btn-sm.ghost{background:var(--bg-soft);color:var(--t2);border:1px solid var(--divider);margin-top:6px}
+.btn-sm.ghost:hover{border-color:var(--red-1);color:var(--red-1)}
+.scenarios-wrap{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin:14px 0 16px;padding:10px 14px;background:var(--bg-alt);border-radius:8px;border:1px solid var(--divider)}
+.scenarios-label{font-size:12.5px;font-weight:600;color:var(--t3);white-space:nowrap}
+.scenarios{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.scenario-pill{border:1px solid var(--divider);background:var(--bg-elv);color:var(--t2);border-radius:14px;padding:3px 11px;font-size:12.5px;font-weight:500;cursor:pointer;transition:all .2s}
+.scenario-pill:hover{border-color:var(--brand-3);color:var(--t1)}
+.scenario-pill.active{background:var(--brand-soft);border-color:var(--brand-1);color:var(--brand-1);font-weight:600}
 .badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
 .badge{display:inline-block;border-radius:10px;padding:0 10px;line-height:20px;font-size:12px;font-weight:600;white-space:nowrap}
 .badge.tip{background:var(--brand-soft);color:var(--brand-1)}
@@ -376,6 +392,17 @@ html.dark .hc-action{color:#1b1b1f!important}
     <div class="sec-links" id="f-sec" data-dim="sec"></div>
   </div>
   <div class="group">
+    <div class="gt">Personal Collection</div>
+    <div class="chips">
+      <button class="chip chip-saved" id="f-saved" data-v="saved" aria-pressed="false">⭐ My Bookmarks (<span id="saved-cnt">0</span>)</button>
+    </div>
+    <div id="saved-tools" hidden style="margin-top:10px">
+      <button class="btn-sm" id="export-saved" type="button">📋 Export My Saved Handbook</button>
+      <button class="btn-sm ghost" id="clear-saved" type="button">Clear Saved</button>
+      <p id="saved-copy-msg" style="font-size:12px;color:var(--green-1);margin:6px 0 0" hidden></p>
+    </div>
+  </div>
+  <div class="group">
     <div class="gt">ROI Rating <small>Appraisal within metric</small></div>
     <div class="chips" data-dim="ratio">
       <button class="chip" data-v="Very High" aria-pressed="false">Very High</button>
@@ -463,6 +490,16 @@ html.dark .hc-action{color:#1b1b1f!important}
           <div class="hc-desc">Benchmark your baseline against 42 verified longevity, emergency, and financial safeguards — and export your personalized high-ROI action checklist.</div>
         </div>
         <a class="hc-action" href="selfcheck.html">Start Audit <span>→</span></a>
+      </div>
+      <div class="scenarios-wrap">
+        <span class="scenarios-label">Quick Scenarios:</span>
+        <div class="scenarios" id="scenarios">
+          <button type="button" class="scenario-pill" data-sec="1,13">🚨 Emergencies</button>
+          <button type="button" class="scenario-pill" data-sec="2">🧂 Longevity Habits</button>
+          <button type="button" class="scenario-pill" data-sec="7,19">💼 Job & Wages</button>
+          <button type="button" class="scenario-pill" data-sec="15">🏠 Renting & Leases</button>
+          <button type="button" class="scenario-pill" data-sec="8,9">🛡️ Legal & Fraud</button>
+        </div>
       </div>
       <div class="stat" aria-live="polite">Showing <b id="cnt">–</b> of <span id="tot">–</span> rules</div>
       <div class="doc-links">Supplementary Essays: <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/should-you-stop-for-strangers-in-an-emergency.md">Should You Stop for Strangers?</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/home-emergency-kit-checklist.md">Home Emergency Kit</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/is-marriage-financially-worth-it.md">Is Marriage Worth It?</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/platform-compliance-and-licensing.md">Platform Compliance & Licensing</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/circadian-rhythms-and-night-shifts.md">Circadian Rhythms & Night Shifts</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/tree/main/docs/verification-records">Verification Audit Records</a></div>
@@ -955,9 +992,10 @@ function build(sections){
     }
     for (const e of s.entries){
       const id = `e-${e.sec}-${e.n}`;
+      const isSaved = SAVED.has(id);
       const c = document.createElement('article'); c.className='card'; c.id = id;
       c.innerHTML = `
-        <div class="card-h"><span class="idx">${e.n}</span><h3 class="t"></h3><a class="anchor" href="#${id}" aria-label="Copy direct link to rule" title="Copy direct link to rule">#</a></div>
+        <div class="card-h"><span class="idx">${e.n}</span><h3 class="t"></h3><button class="btn-save${isSaved ? ' saved' : ''}" type="button" data-save="${id}" aria-label="${isSaved ? 'Remove bookmark' : 'Bookmark rule'}" title="${isSaved ? 'Remove bookmark' : 'Bookmark rule'}">${isSaved ? '★' : '☆'}</button><a class="anchor" href="#${id}" aria-label="Copy direct link to rule" title="Copy direct link to rule">#</a></div>
         <div class="badges"></div>
         <p class="human"></p>
         <div class="rows">
@@ -1001,20 +1039,40 @@ function buildGlossary(){
   }
 }
 
+/* ---------- Personal Bookmarks / Saved Rules ---------- */
+const SAVED = (function(){
+  try {
+    const raw = localStorage.getItem('eb_saved');
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch (e) {
+    return new Set();
+  }
+})();
+function updateSavedUI(){
+  const cntEl = document.getElementById('saved-cnt');
+  if (cntEl) cntEl.textContent = String(SAVED.size);
+  const btn = document.getElementById('f-saved');
+  if (btn) btn.setAttribute('aria-pressed', String(state.savedOnly));
+  const tools = document.getElementById('saved-tools');
+  if (tools) tools.hidden = !state.savedOnly;
+}
+
 /* ---------- Filter State & Router ---------- */
 const DIMS = ['sec','ratio','lens','grade','money','time','will'];
-const state = { q:'', sec:new Set(), ratio:new Set(), lens:new Set(), grade:new Set(), money:new Set(), time:new Set(), will:new Set(), dispute:false, todo:false };
+const state = { q:'', sec:new Set(), ratio:new Set(), lens:new Set(), grade:new Set(), money:new Set(), time:new Set(), will:new Set(), dispute:false, todo:false, savedOnly:false };
 function readUrl(){
   const p = new URLSearchParams(location.search);
   state.q = p.get('q') || '';
   for (const d of DIMS) state[d] = new Set((p.get(d)||'').split(',').filter(Boolean));
   state.dispute = p.get('dispute') === '1'; state.todo = p.get('todo') === '1';
+  state.savedOnly = p.get('saved') === '1';
 }
 function writeUrl(){
   const p = new URLSearchParams();
   if (state.q) p.set('q', state.q);
   for (const d of DIMS) if (state[d].size) p.set(d, [...state[d]].join(','));
   if (state.dispute) p.set('dispute','1'); if (state.todo) p.set('todo','1');
+  if (state.savedOnly) p.set('saved','1');
   if (PERF.on) p.set('perf','1');
   const qs = p.toString(); history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
 }
@@ -1025,6 +1083,7 @@ function syncControls(){
   if (allBtn) allBtn.setAttribute('aria-pressed', String(state.sec.size === 0));
   document.getElementById('f-dispute').checked = state.dispute;
   document.getElementById('f-todo').checked = state.todo;
+  updateSavedUI();
 }
 
 function renderCard(card, terms, key){
@@ -1060,6 +1119,7 @@ function apply(){
     if (ok && state.will.size && !state.will.has(e.will)) ok = false;
     if (ok && state.dispute && !e.dispute) ok = false;
     if (ok && state.todo && !e.todo) ok = false;
+    if (ok && state.savedOnly && !SAVED.has(el.id)) ok = false;
     if (ok && terms.length && !terms.every(t => e.hay.includes(t))) ok = false;
 
     const a = TOC.get(el.id); if (a && a.hidden === ok) a.hidden = !ok;
@@ -1074,7 +1134,12 @@ function apply(){
   for (const b of BLOCKS){ const n = perSec[b.n]||0; if (b.el.hidden !== (n === 0)) b.el.hidden = n === 0; b.k.textContent = n; }
   for (const [n, sub] of TOC_SEC){ const none = !tocSec[n]; if (sub.lastElementChild.hidden === none) sub.lastElementChild.hidden = !none; }
   document.getElementById('cnt').textContent = shown;
-  document.getElementById('empty').hidden = shown !== 0;
+  const empty = document.getElementById('empty');
+  empty.hidden = shown !== 0;
+  if (shown === 0 && state.savedOnly && SAVED.size === 0) {
+    empty.innerHTML = `You haven't bookmarked any rules yet.<br>Click the <b>☆</b> star on any rule card to build your personal life manual!
+      <div><button id="reset2">Browse All Rules</button></div>`;
+  }
   syncControls(); writeUrl(); tocSync(spyLast);
   PERF.log('apply', t0, `Matched ${shown} rules, re-rendered ${rerender} cards`);
 }
@@ -1123,9 +1188,95 @@ function wire(){
     clearTimeout(qtm); qtm = setTimeout(reportSearch, 2000);
   });
 
-  const reset = () => { state.q=''; for (const d of DIMS) state[d].clear(); state.dispute=false; state.todo=false; apply(); toTop(); };
+  const reset = () => {
+    state.q=''; for (const d of DIMS) state[d].clear();
+    state.dispute=false; state.todo=false; state.savedOnly=false;
+    document.querySelectorAll('.scenario-pill').forEach(p => p.classList.remove('active'));
+    updateSavedUI();
+    apply(); toTop();
+  };
   document.getElementById('reset').addEventListener('click', reset);
   document.getElementById('reset2').addEventListener('click', reset);
+
+  document.getElementById('f-saved')?.addEventListener('click', () => {
+    state.savedOnly = !state.savedOnly;
+    updateSavedUI();
+    apply();
+    toTop();
+  });
+
+  document.addEventListener('click', e => {
+    const b = e.target.closest('.btn-save');
+    if (!b) return;
+    e.preventDefault();
+    const id = b.dataset.save;
+    if (!id) return;
+    const nowSaved = !SAVED.has(id);
+    if (nowSaved) SAVED.add(id); else SAVED.delete(id);
+    try { localStorage.setItem('eb_saved', JSON.stringify([...SAVED])); } catch (err) {}
+    b.classList.toggle('saved', nowSaved);
+    b.textContent = nowSaved ? '★' : '☆';
+    b.title = nowSaved ? 'Remove bookmark' : 'Bookmark rule';
+    b.setAttribute('aria-label', b.title);
+    updateSavedUI();
+    if (state.savedOnly) apply();
+  });
+
+  document.getElementById('export-saved')?.addEventListener('click', async () => {
+    if (!SAVED.size) return;
+    const msgEl = document.getElementById('saved-copy-msg');
+    const savedCards = CARDS.filter(c => SAVED.has(c.el.id));
+    let md = `# My Personal Life Manual · The Evidence-Based Life\n\nCurated selection of ${savedCards.length} verified high-ROI rules.\n\n`;
+    for (const {e} of savedCards){
+      md += `### [Ch ${e.sec}.${e.n}] ${e.title}\n`
+        + `- **Evidence Grade**: ${e.grade} | **ROI**: ${e.ratio}\n`
+        + (e.cost ? `- **Cost**: ${e.cost}\n` : '')
+        + (e.human ? `- **Summary**: ${e.human}\n` : '')
+        + `- **Direct Link**: https://parveen0029.github.io/The-Evidence-Based-Life/#e-${e.sec}-${e.n}\n\n`;
+    }
+    try {
+      await navigator.clipboard.writeText(md);
+      if (msgEl) {
+        msgEl.textContent = `✓ Copied ${savedCards.length} rules to clipboard!`;
+        msgEl.hidden = false;
+        setTimeout(() => { msgEl.hidden = true; }, 3000);
+      }
+    } catch (err) {
+      prompt('Copy your saved rules below:', md);
+    }
+  });
+
+  document.getElementById('clear-saved')?.addEventListener('click', () => {
+    if (!SAVED.size) return;
+    if (confirm(`Remove all ${SAVED.size} bookmarked rules?`)){
+      SAVED.clear();
+      try { localStorage.removeItem('eb_saved'); } catch (err) {}
+      for (const b of document.querySelectorAll('.btn-save.saved')){
+        b.classList.remove('saved'); b.textContent = '☆'; b.title = 'Bookmark rule';
+      }
+      updateSavedUI();
+      if (state.savedOnly) apply();
+    }
+  });
+
+  document.getElementById('scenarios')?.addEventListener('click', ev => {
+    const pill = ev.target.closest('.scenario-pill'); if (!pill) return;
+    const secs = pill.dataset.sec.split(',');
+    const isAlreadyActive = pill.classList.contains('active');
+    document.querySelectorAll('.scenario-pill').forEach(p => p.classList.remove('active'));
+    state.sec.clear();
+    if (!isAlreadyActive) {
+      pill.classList.add('active');
+      for (const s of secs) state.sec.add(s);
+    }
+    syncControls();
+    apply();
+    writeUrl();
+    const firstBlock = secs[0] ? document.getElementById('sec-' + secs[0]) : null;
+    if (!isAlreadyActive && firstBlock) {
+      firstBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
 
   function jumpRandomRule(){
     const allCards = Array.from(CARD_OF.values());
@@ -1406,13 +1557,13 @@ document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hid
     PERF.log('Parse corpus', t1, files.length + ' files');
     status.remove();
     const t2 = performance.now(); build(sections); PERF.log('Build DOM', t2, CARDS.length + ' cards');
-    buildGlossary(); readUrl(); wire(); apply();
+    buildGlossary(); readUrl(); wire(); updateSavedUI(); apply();
     PERF.mark(`DOM nodes ${document.getElementsByTagName('*').length}, glossary terms ${GLOSS.length}`);
     if (location.hash){
       let target = document.getElementById(location.hash.slice(1));
       if (target && !target.offsetParent){
         state.q = ''; for (const d of DIMS) state[d].clear();
-        state.dispute = false; state.todo = false;
+        state.dispute = false; state.todo = false; state.savedOnly = false;
         syncControls(); apply(); writeUrl();
       }
       const land = target ? scrollAnchor(target) : null;
