@@ -11,6 +11,8 @@ on:
     paths:
       - README.md
       - index.html
+      - selfcheck.html
+      - sitemap.xml
       - og.png
       - ads/**
       - book/**
@@ -21,6 +23,8 @@ on:
     paths:
       - README.md
       - index.html
+      - selfcheck.html
+      - sitemap.xml
       - og.png
       - ads/**
       - book/**

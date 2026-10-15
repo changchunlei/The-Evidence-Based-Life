@@ -285,6 +285,23 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
 .status .bar i{display:block;height:100%;width:0;border-radius:2px;background:var(--brand-1);transition:width .18s ease-out}
 .status button{margin-top:14px;border:1px solid var(--divider);background:var(--bg-soft);color:var(--t1);border-radius:6px;padding:6px 16px;font:inherit;cursor:pointer}
 .status button:hover{border-color:var(--brand-1);color:var(--brand-1)}
+.hero-callout{display:flex;align-items:center;gap:18px;background:linear-gradient(135deg,var(--brand-soft),rgba(16,185,129,.07));border:1px solid var(--brand-3);border-radius:12px;padding:16px 20px;margin:20px 0 16px;position:relative;box-shadow:var(--shadow)}
+.hero-callout:hover{border-color:var(--brand-1)}
+.hc-badge{position:absolute;top:-10px;left:16px;background:var(--brand-1);color:#fff;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:1px 8px;border-radius:10px}
+html.dark .hc-badge{background:var(--brand-1);color:#1b1b1f}
+.hc-body{flex:1;min-width:0}
+.hc-title{font-size:15.5px;font-weight:700;color:var(--t1);line-height:1.4;margin-bottom:3px}
+.hc-desc{font-size:13.5px;color:var(--t2);line-height:1.55}
+.hc-action{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:var(--brand-1);color:#fff!important;font-size:13px;font-weight:600;border-radius:8px;white-space:nowrap;text-decoration:none!important;transition:transform .2s,opacity .2s;flex:none}
+html.dark .hc-action{color:#1b1b1f!important}
+.hc-action:hover{opacity:.92;transform:translateX(2px)}
+@media (max-width:640px){
+  .hero-callout{flex-direction:column;align-items:stretch;gap:12px;padding:18px 16px 14px}
+  .hc-action{justify-content:center}
+}
+.downloads-links{display:flex;flex-direction:column;gap:5px;padding-top:4px}
+.dl-link{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--t2);padding:3px 0;transition:color .2s}
+.dl-link:hover{color:var(--brand-1);text-decoration:none}
 .foot{margin-top:64px;padding-top:24px;border-top:1px solid var(--divider);color:var(--t3);font-size:13px;line-height:1.7}
 
 @media (max-width:960px){
@@ -416,6 +433,14 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
     <p>Rules within each chapter are ranked from highest to lowest ROI.</p>
     <p>Loaded from 34 chapter files under <a href="book/">book/</a>.</p>
   </div>
+  <div class="group">
+    <div class="gt">Offline & E-Books</div>
+    <div class="downloads-links">
+      <a class="dl-link" href="https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.epub" title="Download EPUB for Apple Books, Kindle, Kobo">📱 Download EPUB</a>
+      <a class="dl-link" href="https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.pdf" title="Download printable PDF edition">📄 Download PDF</a>
+      <a class="dl-link" href="https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html" title="Download single-file offline HTML web app">💾 Single-File HTML</a>
+    </div>
+  </div>
   <div class="group ad">
     <div class="gt">Support the Project</div>
     <a href="https://buymeacoffee.com/Parveen0029" target="_blank" rel="noopener"><img src="ads/bmc-side.png" alt="Buy Me a Coffee - Support the Project" width="624" height="312" loading="lazy"></a>
@@ -430,6 +455,14 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
       <p>Every rule answers two fundamental questions: What does it cost, and what does it return?</p>
       <p>Beneficiaries are tiered by return likelihood: 1. You directly; 2. Spouse and direct family; 3. Friends and colleagues; 4. Strangers (where liability and risk must be weighed alongside aid).</p>
       <p>You don't need to do everything: this is a prioritized catalog, not an exhaustive checklist. Select one or two rules that matter to your situation. Dotted cross-references can be clicked to preview the referenced rule immediately.</p>
+      <div class="hero-callout">
+        <div class="hc-badge">Interactive Tool</div>
+        <div class="hc-body">
+          <div class="hc-title">Take the 2-Minute Life Health & Risk Audit</div>
+          <div class="hc-desc">Benchmark your baseline against 42 verified longevity, emergency, and financial safeguards — and export your personalized high-ROI action checklist.</div>
+        </div>
+        <a class="hc-action" href="selfcheck.html">Start Audit <span>→</span></a>
+      </div>
       <div class="stat" aria-live="polite">Showing <b id="cnt">–</b> of <span id="tot">–</span> rules</div>
       <div class="doc-links">Supplementary Essays: <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/should-you-stop-for-strangers-in-an-emergency.md">Should You Stop for Strangers?</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/home-emergency-kit-checklist.md">Home Emergency Kit</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/is-marriage-financially-worth-it.md">Is Marriage Worth It?</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/platform-compliance-and-licensing.md">Platform Compliance & Licensing</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/docs/circadian-rhythms-and-night-shifts.md">Circadian Rhythms & Night Shifts</a> · <a href="https://github.com/parveen0029/The-Evidence-Based-Life/tree/main/docs/verification-records">Verification Audit Records</a></div>
       <div class="doc-links">AI Assistant: <a href="https://github.com/parveen0029/The-Evidence-Based-Life/blob/main/skills/life-decision-guide/README.md">Install the Life Decision Guide Skill for Claude Code or Codex</a></div>
