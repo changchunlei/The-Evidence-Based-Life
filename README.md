@@ -1,28 +1,31 @@
 <div align="center">
 
-<a href="https://parveen0029.github.io/The-Evidence-Based-Life/">
+<a href="https://changchunlei.github.io/The-Evidence-Based-Life/">
   <img src="og.png" alt="The Evidence-Based Life" width="100%" style="max-width: 820px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);">
 </a>
 
 # The Evidence-Based Life
 
-**Stop guessing with your life. 765 recommendations for health, money, legal boundaries, and emergency survival.**
+**Stop guessing with your life. 765 recommendations for health, money, legal boundaries, and emergency survival — localised for Australian readers.**
 
 *Every rule specifies the exact costs incurred (money, time, willpower), the measured return on investment, and primary citations from peer-reviewed clinical trials and statutory law. Zero folk wisdom. Zero marketing hype.*
 
-[![Stars](https://img.shields.io/github/stars/parveen0029/The-Evidence-Based-Life?style=flat-square&logo=github&label=Stars&color=eac54f)](https://github.com/parveen0029/The-Evidence-Based-Life/stargazers)
-[![Online Reader](https://img.shields.io/badge/Online%20Reader-Open%20Web%20App-3451b2?style=flat-square)](https://parveen0029.github.io/The-Evidence-Based-Life/)
+> [!NOTE]
+> 🇦🇺 **Australian edition.** Laws, services, programs, prices and hotlines in this edition reflect Australian federal and state systems (Medicare, Fair Work, Services Australia, the Australian Consumer Law, and state tenancy/succession regimes). International clinical evidence retains its original populations; foreign-law material is retained only as explicitly labelled context. **In an emergency call 000; Lifeline (13 11 14) provides 24-hour crisis support.**
+
+[![Stars](https://img.shields.io/github/stars/changchunlei/The-Evidence-Based-Life?style=flat-square&logo=github&label=Stars&color=eac54f)](https://github.com/changchunlei/The-Evidence-Based-Life/stargazers)
+[![Online Reader](https://img.shields.io/badge/Online%20Reader-Open%20Web%20App-3451b2?style=flat-square)](https://changchunlei.github.io/The-Evidence-Based-Life/)
 [![Rules](https://img.shields.io/badge/Rules-765-18794e?style=flat-square)](#chapters)
-[![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20495%20%C2%B7%20B%20211%20%C2%B7%20C%2059-915930?style=flat-square)](#evidence-grading)
-[![Primary Sources](https://img.shields.io/badge/Primary%20Sources-2142%20Sources-565a5f?style=flat-square)](docs/verification-records/)
+[![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20492%20%C2%B7%20B%20212%20%C2%B7%20C%2060-915930?style=flat-square)](#evidence-grading)
+[![Primary Sources](https://img.shields.io/badge/Primary%20Sources-2132%20Sources-565a5f?style=flat-square)](docs/verification-records/)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-565a5f?style=flat-square)](#license)
 
 <p align="center">
-  <a href="https://parveen0029.github.io/The-Evidence-Based-Life/"><b>🚀 Interactive Web App</b></a> &nbsp;•&nbsp;
-  <a href="https://parveen0029.github.io/The-Evidence-Based-Life/selfcheck.html"><b>📝 2-Min Self-Audit</b></a> &nbsp;•&nbsp;
-  <a href="https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.pdf"><b>📥 Download PDF</b></a> &nbsp;•&nbsp;
-  <a href="https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.epub"><b>📱 EPUB</b></a> &nbsp;•&nbsp;
-  <a href="https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html"><b>💾 Single-File HTML (Offline)</b></a> &nbsp;•&nbsp;
+  <a href="https://changchunlei.github.io/The-Evidence-Based-Life/"><b>🚀 Interactive Web App</b></a> &nbsp;•&nbsp;
+  <a href="https://changchunlei.github.io/The-Evidence-Based-Life/selfcheck.html"><b>📝 2-Min Self-Audit</b></a> &nbsp;•&nbsp;
+  <a href="https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.pdf"><b>📥 Download PDF</b></a> &nbsp;•&nbsp;
+  <a href="https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.epub"><b>📱 EPUB</b></a> &nbsp;•&nbsp;
+  <a href="https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html"><b>💾 Single-File HTML (Offline)</b></a> &nbsp;•&nbsp;
   <a href="skills/life-decision-guide/README.md"><b>🤖 AI Decision Skill</b></a>
 </p>
 
@@ -41,10 +44,10 @@ Most popular advice is either outdated folk belief or commercial advertising. He
 - 🛁 **Hot baths & saunas after drinking can be fatal**: Alcohol dilates peripheral vessels; pairing it with hot water causes acute blood pressure drops and fainting. This is the #1 domestic cause of adult bathtub drowning deaths. ([Ch 22, Rule 11](book/22-science-backed-relaxation.md#11-do-not-use-hot-springs-saunas-or-hot-baths-after-drinking-alcohol))
 - 🧂 **A $1 kitchen swap for 12% lower mortality**: Switching normal table salt to a potassium-enriched blend reduced stroke by 14% and all-cause death by 12% in a randomized trial of 20,995 people—for pennies a month with zero extra effort. ([Ch 02, Rule 9](book/02-preventing-chronic-decline.md#9-switch-household-salt-to-low-sodium-potassium-rich-salt))
 - 👶 **Baby walkers delay independent walking**: Wheeled infant walkers prevent crucial balance reflexes, cause over 230,000 emergency hospital visits, and have been banned by law in Canada since 2004. ([Ch 20, Rule 15](book/20-newborn-survival-guide.md#15-do-not-buy-wheeled-infant-walkers-replace-them-with-stationary-activity-centers-without-wheels-or-playpens))
-- 💼 **Unsigned job contract? Demand double wages**: If an employer delays signing your written labor contract past 30 days of starting work, statutory law entitles you to claim double monthly wages for up to 11 months. ([Ch 19, Rule 20](book/19-workplace-rights-and-injuries.md#20-if-an-employer-fails-to-execute-a-written-employment-contract-after-one-month-demand-double-wages-starting-from-the-second-month-capped-at-11-months-after-one-year-an-open-ended-contract-is-legally-established))
-- 🏥 **Hospital bill audits save thousands**: Requesting daily itemized inpatient bill statements before discharge and auditing billing codes routinely uncovers billing errors and cuts self-pay expenses by 20% to 50%. ([Ch 24, Rule 15](book/24-navigating-healthcare.md#15-audit-inpatient-itemized-billing-statements-line-by-line-verify-uninsured-self-pay-items-before-consenting-file-pricing-complaints-with-hospital-dispute-desks-and-report-unresolved-fraud-to-healthcare-security-authorities))
+- 💼 **Casuals are owed a 25% loading on top of the base rate**: Casual employees must be paid at least 25% above the permanent base rate on every payslip; underpayments can be recovered in full by the Fair Work Ombudsman — at no cost to you. ([Ch 19, Rule 20](book/19-workplace-rights-and-injuries.md#20-casuals-must-receive-their-25-casual-loading-on-top-of-the-base-rate--check-every-payslip-the-fair-work-ombudsman-can-recover-underpayments))
+- 🏥 **Itemised bills and gap estimates save thousands**: Asking for gap estimates before procedures and auditing hospital and specialist accounts line by line routinely uncovers billing errors and duplicate charges worth hundreds to thousands of dollars. ([Ch 24, Rule 15](book/24-navigating-healthcare.md#15-audit-hospital-and-specialist-accounts-line-by-line-and-ask-for-gap-estimates-and-itemised-bills-before-procedures))
 - 💊 **The supplement illusion**: Multivitamins and regular fish oil capsules produce 0% reduction in all-cause mortality or heart disease in massive meta-analyses, while antioxidant overdoses (beta-carotene, vitamin E) slightly increase mortality. ([Ch 06, Rules 1–4](book/06-the-anti-checklist.md))
-- 💳 **Lending your bank card is a felony**: Even if you make zero profit, letting an acquaintance use your bank card or transfer funds through your account constitutes criminal aiding of telecom fraud, carrying up to 3 years imprisonment. ([Ch 09, Rule 5](book/09-everyday-legal-traps.md#5-part-time-jobs-that-ask-you-to-use-your-own-card-to-receive-payments-withdraw-cash-or-transfer-money--no-matter-how-much-extra-pay-they-offer-avoid-them))
+- 💳 **Lending your bank account can be a crime**: Even with zero profit for you, letting others receive or move money through your account can amount to dealing with criminal proceeds — with serious criminal liability. ([Ch 09, Rule 5](book/09-everyday-legal-traps.md#5-part-time-jobs-that-ask-you-to-use-your-own-card-to-receive-payments-withdraw-cash-or-transfer-money--no-matter-how-much-extra-pay-they-offer-avoid-them))
 
 ---
 
@@ -55,8 +58,8 @@ Jump straight to the rules you need right now:
 | Scenario | What You Will Learn | Recommended Chapters |
 | :--- | :--- | :--- |
 | **🚨 Emergency & Life-Threatening Situations** | Immediate first-minute response for cardiac arrest (CPR/AED), stroke, choking, severe bleeding, burns, poisoning, and home emergency supply checklists. | [Ch 13: Handling Emergencies](book/13-handling-emergencies.md)<br>[Ch 01: Avoiding Premature Death](book/01-avoiding-premature-death.md)<br>[Home Kit Checklist](docs/home-emergency-kit-checklist.md) |
-| **💼 Job, Wages & Workplace Rights** | Statutory severance formulas, unpaid wage recovery, probationary protections, overtime pay calculations, non-compete compensation, and job injury certification. | [Ch 19: Workplace Rights](book/19-workplace-rights-and-injuries.md)<br>[Ch 07: Surviving Broke](book/07-surviving-broke.md) |
-| **🏠 Renting, Landlords & Housing** | Getting full security deposits back, illegal eviction defenses (water/power shutoffs), lease transfers when a landlord sells, and mortgage contract traps. | [Ch 15: Renting and Buying a Home](book/15-renting-and-buying-a-home.md) |
+| **💼 Job, Wages & Workplace Rights** | NES entitlements, award penalty rates, Fair Work recovery of unpaid wages, redundancy and notice scales, and workers' compensation claims. | [Ch 19: Workplace Rights](book/19-workplace-rights-and-injuries.md)<br>[Ch 07: Surviving Broke](book/07-surviving-broke.md) |
+| **🏠 Renting, Landlords & Housing** | Getting your full bond back, illegal eviction defenses (lockouts and utility shutoffs), lease continuity when the property sells, and mortgage contract traps. | [Ch 15: Renting and Buying a Home](book/15-renting-and-buying-a-home.md) |
 | **💊 Medications, Doctors & Healthcare** | Safe cold and fever drugs, pediatric contraindications, dangerous drug combos, hospital triage navigation, and auditing inpatient medical bills. | [Ch 34: Safe Home Medication](book/34-safe-home-medication.md)<br>[Ch 24: Navigating Healthcare](book/24-navigating-healthcare.md)<br>[Ch 16: Chronic Illness](book/16-managing-chronic-illness.md) |
 | **⚖️ Law, Scams & Digital Boundaries** | Handling traffic collisions, deepfake audio/video scams, bank card fraud, developer scraping legal boundaries, and responses to false accusations. | [Ch 08: Staying Out of Trouble](book/08-staying-out-of-trouble.md)<br>[Ch 09: Everyday Legal Traps](book/09-everyday-legal-traps.md)<br>[Ch 11: Developer Legal Limits](book/11-legal-boundaries-for-developers.md) |
 | **👶 Family, Parenting & Aging Parents** | First 90-day infant safety (SIDS prevention), true time/money cost of raising kids, school-age health, and adult guardianship & asset protection for aging parents. | [Ch 20: Newborn Survival](book/20-newborn-survival-guide.md)<br>[Ch 18: Raising Kids](book/18-the-true-cost-of-raising-kids.md)<br>[Ch 17: Aging Parents](book/17-caring-for-aging-parents.md) |
@@ -69,9 +72,9 @@ Jump straight to the rules you need right now:
 
 - **You don't need to do everything**: This is a ranked catalog of high-ROI options, not an onerous task list. Adopting even one or two rules provides immediate, compounding benefits; leave the rest and return when circumstances warrant. It is completely natural that implementing these rules is harder than reading them—the author has not mastered most of them either.
 - **Start with Maximum ROI**: If you want the biggest payoff with minimal effort, prioritize the **ROI: Very High** rules. These require virtually $0, negligible time, and zero willpower while protecting life or money.
-- **Search & Filter Online**: Open the [Interactive Web Reader](https://parveen0029.github.io/The-Evidence-Based-Life/) to search keywords, filter by Grade A evidence, or sort rules by cost (money, time, willpower).
+- **Search & Filter Online**: Open the [Interactive Web Reader](https://changchunlei.github.io/The-Evidence-Based-Life/) to search keywords, filter by Grade A evidence, or sort rules by cost (money, time, willpower).
 - **Ask AI Directly**: Install our open-source agent skill ([skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md)) into Claude Code, Codex, or compatible LLMs. Ask real-world questions like *"Should I co-sign a loan for a friend?"* or *"What should I do if my landlord cuts my electricity?"* and receive sourced answers citing exact chapter and rule numbers.
-- **Take It Offline**: Download the [Offline Single-File HTML](https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html) for a self-contained, double-clickable offline manual that works on any laptop or phone without internet. E-reader users can grab the [EPUB](https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.epub) or [PDF](https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.pdf).
+- **Take It Offline**: Download the [Offline Single-File HTML](https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html) for a self-contained, double-clickable offline manual that works on any laptop or phone without internet. E-reader users can grab the [EPUB](https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.epub) or [PDF](https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.pdf).
 
 ### Anatomy of an Evidence-Based Rule
 
@@ -92,16 +95,16 @@ Every single rule in this repository adheres to a rigorous, verifiable template:
 
 ## 📚 Complete Chapters
 
-The manual is divided into 34 modular chapters under [`book/`](book/). You can read them directly here on GitHub or through the [Interactive Web Reader](https://parveen0029.github.io/The-Evidence-Based-Life/).
+The manual is divided into 34 modular chapters under [`book/`](book/). You can read them directly here on GitHub or through the [Interactive Web Reader](https://changchunlei.github.io/The-Evidence-Based-Life/).
 
 ### Part I: Health, Longevity & Emergencies
 
 1. [Avoiding Premature Death](book/01-avoiding-premature-death.md) — Seatbelts, helmets, carbon monoxide alarms, gas safety, edible mushroom hazards, cancer screenings, and the temporal window of suicidal ideation.
 2. [Preventing Chronic Decline](book/02-preventing-chronic-decline.md) — Evidence-based nutrition, potassium salt, exercise thresholds, sleep architecture, sedentary reduction, and smoking cessation. *(Essay: [Circadian Rhythms and Night Shifts](docs/circadian-rhythms-and-night-shifts.md))*
 3. [Handling Emergencies](book/13-handling-emergencies.md) — First 60-second protocols for cardiac arrest (CPR/AED), stroke, heart attack, heavy bleeding, choking, animal bites, and burns. *(Essays: [Home Emergency Kit](docs/home-emergency-kit-checklist.md) · [Stopping for Strangers](docs/should-you-stop-for-strangers-in-an-emergency.md))*
-4. [Managing Chronic Illness](book/16-managing-chronic-illness.md) — Long-term medication adherence, medical record archiving, cross-regional hospital evaluation, and complication screening.
+4. [Managing Chronic Illness](book/16-managing-chronic-illness.md) — Long-term medication adherence, medical record archiving, complication screening, and coordinated GP–specialist care.
 5. [Newborn Survival Guide](book/20-newborn-survival-guide.md) — SIDS prevention, safe sleep environments, mandatory immunizations, formula guidelines, and infant walker bans.
-6. [Navigating Healthcare](book/24-navigating-healthcare.md) — Emergency department triage tiers, finding verified specialists, and auditing inpatient billing statements before settlement.
+6. [Navigating Healthcare](book/24-navigating-healthcare.md) — GP-first referral pathways, bulk billing versus gap payments, itemised account audits, and access to your medical records.
 7. [Pregnancy and Childbirth](book/27-pregnancy-and-childbirth.md) — Periconceptional folate, prenatal screening schedules, gestational diabetes protocols, emergency labor signals, and epidural safety.
 8. [Appearance vs. Health](book/28-appearance-vs-health.md) — Severe caloric restriction risks, eating disorders, cosmetic clinic licensing verification, and facial filler vascular hazards.
 9. [Raising School-Age Kids](book/30-raising-school-age-kids.md) — Acute pediatric red flags, anti-bullying protocols, 2-hour daily outdoor light for myopia prevention, and adolescent depression screening.
@@ -112,11 +115,11 @@ The manual is divided into 34 modular chapters under [`book/`](book/). You can r
 
 12. [Cutting Financial Waste](book/05-cutting-financial-waste.md) — Fund expense ratios, compound consumer debt traps, auto insurance fine print, recurring subscription audits, and gemstone investment scams.
 13. [The Anti-Checklist](book/06-the-anti-checklist.md) — Things you should stop wasting money on: multivitamins, regular fish oil, collagen supplements, and unscientific checkup packages.
-14. [Surviving Broke](book/07-surviving-broke.md) — Statutory emergency assistance, low-cost community healthcare, food and shelter safety nets, wage recovery, and scam avoidance.
-15. [Starting and Running a Business](book/12-starting-and-running-a-business.md) — Capitalization pitfalls, personal loan guarantees, tax compliance, labor contracts, and legal exit strategies.
-16. [Renting and Buying a Home](book/15-renting-and-buying-a-home.md) — Security deposit return enforcement, illegal eviction defenses, broker escrow, and property title validation.
-17. [The True Cost of Raising Kids](book/18-the-true-cost-of-raising-kids.md) — Multi-year capital and time balance sheets, maternity subsidies, and statutory parental leave protections.
-18. [Handling End-of-Life Affairs](book/25-handling-end-of-life-affairs.md) — Statutory death registration, funerary service pricing regulations, estate pension settlements, and digital inheritance rights.
+14. [Surviving Broke](book/07-surviving-broke.md) — Centrelink payments and crisis support, low-cost healthcare access, food and housing safety nets, wage recovery, and scam avoidance.
+15. [Starting and Running a Business](book/12-starting-and-running-a-business.md) — Capitalization pitfalls, personal loan guarantees, tax compliance, employment obligations, and legal exit strategies.
+16. [Renting and Buying a Home](book/15-renting-and-buying-a-home.md) — Bond lodgement and refunds, illegal eviction defenses, trust-account payments and PEXA settlement, and title searches.
+17. [The True Cost of Raising Kids](book/18-the-true-cost-of-raising-kids.md) — Multi-year capital and time balance sheets, Family Tax Benefit and newborn payments, and Paid Parental Leave protections.
+18. [Handling End-of-Life Affairs](book/25-handling-end-of-life-affairs.md) — Death registration with state registries, funeral pricing, superannuation death benefits, and digital inheritance rights.
 
 ### Part III: Law, Digital Safety & Career Rights
 
@@ -124,8 +127,8 @@ The manual is divided into 34 modular chapters under [`book/`](book/). You can r
 20. [Everyday Legal Traps](book/09-everyday-legal-traps.md) — Bank card lending liability, online defamation, unauthorized recording, illegal drone flights, and criminal part-time traps.
 21. [Legal Boundaries for Developers](book/11-legal-boundaries-for-developers.md) — Web scraping legal thresholds, open-source license compliance (GPL/MIT), non-compete enforceability, and server security standards.
 22. [Digital Security and Privacy](book/14-digital-security-and-privacy.md) — Two-factor authentication, SIM card PINs, lost phone triage checklists, unauthorized card transaction chargebacks, and account recovery.
-23. [Workplace Rights and Injuries](book/19-workplace-rights-and-injuries.md) — Double wage claims for unsigned contracts, overtime calculations, statutory severance formulas, and workers' compensation certification.
-24. [Building a Compliant Platform](book/26-building-a-compliant-platform.md) — Payment processing boundaries, telecommunication permits, minor protection standards, and data security compliance. *(Essay: [Licensing Guide](docs/platform-compliance-and-licensing.md))*
+23. [Workplace Rights and Injuries](book/19-workplace-rights-and-injuries.md) — Award penalty rates, NES leave and notice scales, unfair dismissal time limits, and workers' compensation claims.
+24. [Building a Compliant Platform](book/26-building-a-compliant-platform.md) — Payment processing boundaries, privacy and data compliance, minor protection standards, and consumer law obligations. *(Essay: [Licensing Guide](docs/platform-compliance-and-licensing.md))*
 
 ### Part IV: Productivity, Mind & Life Trajectories
 
@@ -154,7 +157,7 @@ Every recommendation is classified by the rigor of its underlying source:
 | **B** | Supported by peer-reviewed literature, but based on smaller cohorts, observational associations, or lacking multi-center replication. |
 | **C** | Authoritative statutory frameworks, government agency consensus, or clinical heuristics without direct epidemiological trials. |
 
-Across all 765 rules: Grade A: 495 | Grade B: 211 | Grade C: 59, with 80 rules noted for controversy. Controversial rules transparently outline counter-arguments in their Notes field.
+Across all 765 rules: Grade A: 492 | Grade B: 212 | Grade C: 60, with 80 rules noted for controversy. Controversial rules transparently outline counter-arguments in their Notes field.
 
 ### Return-on-Investment (ROI) Prioritization
 
@@ -166,7 +169,7 @@ Evidence tells you *if* something is true; ROI tells you *whether it is worth yo
 | **Benefit Size** | High / Medium / Low | Evaluated objectively against pre-set benchmarks (e.g., mortality drop >= 20% is High; thousands saved is High; avoiding criminal liability is High). |
 | **ROI Ratio** | Very High / High / Moderate | High benefit with zero/negligible cost = **Very High**; High benefit with low cost = **High**; all others = **Moderate**. |
 
-Across all 765 rules: **Very High: 121 (16%) | High: 344 (45%) | Moderate: 300 (39%)**.
+Across all 765 rules: **Very High: 121 (16%) | High: 343 (45%) | Moderate: 301 (39%)**.
 
 ### Statistical & Legal Glossary
 
@@ -204,18 +207,18 @@ Across all 765 rules: **Very High: 121 (16%) | High: 344 (45%) | Moderate: 300 (
 | **Low-Dose Computed Tomography (LDCT)** | Chest CT screening utilizing 15–20% of conventional CT radiation to detect early pulmonary malignancies. |
 | **Fine Particulate Matter (PM2.5)** | Atmospheric airborne particles <= 2.5 micrometers in aerodynamic diameter, capable of deep pulmonary alveolar penetration. |
 | **NOVA Classification** | Dietary categorization system grouping foods by degree of industrial processing; Group 4 represents ultra-processed formulations. |
-| **Loan Prime Rate (LPR)** | Benchmark interest rate established by commercial lenders, governing consumer mortgages and legal caps on private loan interest. |
-| **Binding Final Arbitration** | A statutory labor dispute resolution mechanism where the arbitration award is final and directly enforceable, preventing employer appeals. |
+| **Loan Prime Rate (LPR)** | China's benchmark lending rate set by major commercial banks, governing consumer mortgages and legal caps on private loan interest; cited only in rules discussing Chinese lending-law context. |
+| **Binding Final Arbitration** | A labour dispute mechanism used in some jurisdictions (notably China) where the arbitration award is final and directly enforceable, preventing employer appeals. Australia instead uses the Fair Work Commission and courts. |
 | **Crude Marriage and Divorce Rates** | Annual number of registered marriages or divorces per 1,000 population. |
 | **Automated External Defibrillator (AED)** | Portable electronic device that diagnoses life-threatening cardiac arrhythmias and administers therapeutic defibrillation. |
 | **Cardiopulmonary Resuscitation (CPR)** | Emergency lifesaving procedure combining rhythmic chest compressions and ventilation to maintain cerebral perfusion during cardiac arrest. |
-| **Mandatory Product Certification (3C)** | Statutory safety certification required before specified manufactured goods can be legally sold or distributed. |
-| **Internet Content Provider (ICP) Filing** | Statutory registration required before deploying online websites or applications on domestic server infrastructure. |
-| **Multi-Level Protection Scheme (MLPS)** | Statutory cybersecurity compliance grading system classifying systems by risk tier. |
+| **Mandatory Product Certification (3C)** | China's statutory safety certification (CCC mark) required before specified manufactured goods can be legally sold there; Australian equivalents are AS/NZS standards and regulatory conformity marks. |
+| **Internet Content Provider (ICP) Filing** | China's statutory registration required before deploying websites or applications on servers in mainland China; no equivalent filing exists for hosting in Australia. |
+| **Multi-Level Protection Scheme (MLPS)** | China's statutory cybersecurity compliance grading system classifying systems by risk tier. |
 | **General Public License (GPL)** | Copyleft open-source license requiring derivative works to make source code publicly available under the same terms. |
-| **Non-Compete Agreement** | Contractual restriction barring an employee from competing against a former employer, requiring mandatory statutory monthly compensation. |
-| **Subscribed Capital** | Contractual capital committed during corporate registration, legally enforceable within statutory deadlines. |
-| **Earnest Money vs. Deposit** | Legal distinction in commercial contracts: statutory earnest money carries penalties (double refund on default), whereas informal deposits lack punitive damages. |
+| **Non-Compete Agreement** | Contractual restriction barring an employee from competing against a former employer; enforceability and any required compensation vary by jurisdiction (restrained in Australia). |
+| **Subscribed Capital** | Capital committed during corporate registration (a Chinese company-law concept), legally enforceable within statutory deadlines. |
+| **Earnest Money vs. Deposit** | In Chinese contract law, statutory earnest money carries penalties (double refund on default), whereas informal deposits lack punitive damages; Australian deposits generally follow contract and consumer-law remedies instead. |
 
 </details>
 
@@ -226,7 +229,7 @@ Across all 765 rules: **Very High: 121 (16%) | High: 344 (45%) | Moderate: 300 (
 The entire manual and interactive web app can run 100% offline with zero dependencies:
 
 ```bash
-git clone https://github.com/parveen0029/The-Evidence-Based-Life.git
+git clone https://github.com/changchunlei/The-Evidence-Based-Life.git
 cd The-Evidence-Based-Life
 python -m http.server 8000
 ```
@@ -256,7 +259,7 @@ This project is an English edition and adaptation derived from the open-source p
 
 **Enhancements in this Edition**:
 - Complete English localization and structural refinement of all 34 chapters, essays, and verification records.
-- Localization of legal boundaries, consumer protection frameworks, and statutory codes.
+- Australian localisation of all 34 chapters: laws, services, programs, prices and hotlines re-grounded in Australian federal and state systems (Medicare, PBS, Fair Work, Services Australia, the Australian Consumer Law, AFCA, state tenancy and succession law); Chinese-law material retained only as explicitly labelled international context. See the [localisation report](docs/verification-records/australian-localisation-report.md).
 - Interactive 2-minute life audit questionnaire (`selfcheck.html`) with dynamic category scoring and one-click markdown action checklist export.
 - Automated validation tooling: plain-English readability audit (`check-plain.mjs`), citation cross-referencing (`check-refs.mjs`), and metric synchronization (`sync-stats.mjs`).
 - Complete automated build toolchains for EPUB, PDF, and single-file standalone offline web applications.
@@ -266,7 +269,7 @@ This project is an English edition and adaptation derived from the open-source p
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=parveen0029/The-Evidence-Based-Life&type=Date)](https://star-history.com/#parveen0029/The-Evidence-Based-Life&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=changchunlei/The-Evidence-Based-Life&type=Date)](https://star-history.com/#changchunlei/The-Evidence-Based-Life&Date)
 
 ---
 
@@ -276,12 +279,12 @@ If this repository has helped protect your health, preserved your savings, or gi
 
 - ⭐ **Star this repository** on GitHub — it boosts discoverability for others seeking evidence over folklore.
 - 🔄 **Share it** with friends, family, or communities who value rational, empirical decisions.
-- 💡 **Contribute**: Fact-check citations, propose local legal improvements, or report issues via [GitHub Issues](https://github.com/parveen0029/The-Evidence-Based-Life/issues) and [Pull Requests](https://github.com/parveen0029/The-Evidence-Based-Life/pulls).
+- 💡 **Contribute**: Fact-check citations, propose local legal improvements, or report issues via [GitHub Issues](https://github.com/changchunlei/The-Evidence-Based-Life/issues) and [Pull Requests](https://github.com/changchunlei/The-Evidence-Based-Life/pulls).
 - ☕ **Support Maintenance**: You can support ongoing research, verification audits, and hosting via [Buy Me a Coffee](https://buymeacoffee.com/Parveen0029).
 
 <div align="center">
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Parveen0029)
-[![Star on GitHub](https://img.shields.io/badge/Star%20on%20GitHub-⭐%20Star-yellow?style=for-the-badge&logo=github)](https://github.com/parveen0029/The-Evidence-Based-Life/stargazers)
+[![Star on GitHub](https://img.shields.io/badge/Star%20on%20GitHub-⭐%20Star-yellow?style=for-the-badge&logo=github)](https://github.com/changchunlei/The-Evidence-Based-Life/stargazers)
 
 </div>

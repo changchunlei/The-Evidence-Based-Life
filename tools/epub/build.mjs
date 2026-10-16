@@ -19,7 +19,7 @@ const plain = html => html.replace(/<[^>]+>/g, '');
 // ---------- Content & File Manifest ----------
 const book = readBook();
 const { description, frontMd } = book;
-const contentsMd = book.contentsMd.replace(/^## (?:Table of Contents|\u76ee\u5f55)/i, '# Chapter Summaries');
+const contentsMd = book.contentsMd.replace(/^## (?:📚\s*Complete Chapters|Table of Contents|\u76ee\u5f55)/i, '# Chapter Summaries');
 
 // Fallback to disk if README links are not yet updated
 let bookFiles = book.bookFiles;
@@ -176,7 +176,7 @@ const opf = `<?xml version="1.0" encoding="UTF-8"?>
 <dc:identifier id="pub-id">${BOOK_ID}</dc:identifier>
 <dc:title>${TITLE}</dc:title>
 <dc:language>en</dc:language>
-<dc:creator>parveen0029</dc:creator>
+<dc:creator>changchunlei</dc:creator>
 <dc:description>${esc(description)}</dc:description>
 <dc:source>${REPO}</dc:source>
 <dc:rights>CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)</dc:rights>

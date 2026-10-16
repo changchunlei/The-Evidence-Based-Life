@@ -1,6 +1,6 @@
 ---
 name: life-decision-guide
-description: Answers practical life decisions using the evidence-based entries from "The Evidence-Based Life" (parveen0029/The-Evidence-Based-Life): whether an action is worth it, how to choose between options, immediate steps during emergencies, financial benefits, and legal boundaries. Queries relevant rules before answering, ranking them by cost (money/time/effort), expected return, and scientific evidence grade (A/B/C), citing the exact section and rule number. Trigger phrases: should I, is it worth it, how to choose, help me decide, is this legal, what should I do first, cost effectiveness, high ROI.
+description: Answers practical life decisions using the evidence-based entries from "The Evidence-Based Life" (changchunlei/The-Evidence-Based-Life): whether an action is worth it, how to choose between options, immediate steps during emergencies, financial benefits, and legal boundaries. Queries relevant rules before answering, ranking them by cost (money/time/effort), expected return, and scientific evidence grade (A/B/C), citing the exact section and rule number. Trigger phrases: should I, is it worth it, how to choose, help me decide, is this legal, what should I do first, cost effectiveness, high ROI.
 ---
 
 # Life Decisions: Query Empirical Evidence Before Answering
@@ -17,7 +17,7 @@ The book categorizes expected returns into four distinct currencies: **Life Expe
 
 ## Step 0: Immediate Crisis Triage
 
-- **Active Medical Emergencies** (unconscious, apneic, massive hemorrhage, structural fire, drowning, electrocution, acute poisoning, stroke or heart attack symptoms): Immediately state emergency dispatch numbers (120/911/119) and the physical first-response action from Section 13. Do not discuss ROI or cost tags.
+- **Active Medical Emergencies** (unconscious, apneic, massive hemorrhage, structural fire, drowning, electrocution, acute poisoning, stroke or heart attack symptoms): Immediately state the local emergency dispatch number (000 in Australia; 911 in North America) and the physical first-response action from Section 13. Do not discuss ROI or cost tags.
 - **Suicidal Ideation or Despair**: Immediately provide the national crisis helpline **12356** (or local emergency crisis lifeline), then reference the evidence-backed harm-reduction protocols in Sections 1 and 29. Do not attempt unsolicited moralizing or evaluate personal motives.
 - **Active Legal Proceedings** (police summons, administrative detention, criminal indictment, civil lawsuits): Point directly to Section 8, and explicitly remind the user that this guide provides general legal information, not formal representation—they must consult a licensed attorney immediately.
 - For all other standard inquiries, proceed through the following steps.
@@ -29,11 +29,11 @@ The book categorizes expected returns into four distinct currencies: **Life Expe
 - **Local Repository**: If the current or parent directory contains `README.md` and `book/01-avoiding-premature-death.md`, operate in local mode and read files directly.
 - **Remote Fetch**: If not present locally, fetch a lightweight shallow clone:
   ```bash
-  git clone --depth 1 https://github.com/parveen0029/The-Evidence-Based-Life.git "${TMPDIR:-/tmp}/tebl"
+  git clone --depth 1 https://github.com/changchunlei/The-Evidence-Based-Life.git "${TMPDIR:-/tmp}/tebl"
   ```
   If git is unavailable, fetch specific chapters directly via curl:
   ```bash
-  curl -fsSL --compressed "https://raw.githubusercontent.com/parveen0029/The-Evidence-Based-Life/main/book/02-preventing-chronic-decline.md"
+  curl -fsSL --compressed "https://raw.githubusercontent.com/changchunlei/The-Evidence-Based-Life/main/book/02-preventing-chronic-decline.md"
   ```
   If network retrieval fails, inform the user honestly that source texts cannot be accessed rather than reciting unverified recollections.
 

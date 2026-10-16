@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://parveen0029.github.io/The-Evidence-Based-Life/sitemap.xml
+Sitemap: https://changchunlei.github.io/The-Evidence-Based-Life/sitemap.xml

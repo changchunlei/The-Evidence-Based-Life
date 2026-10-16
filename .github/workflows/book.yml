@@ -1,7 +1,7 @@
 # Automatically regenerates three formats upon any book updates, published to the permanent release "epub-latest":
-#   EPUB:          https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.epub
-#   PDF:           https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.pdf
-#   Offline HTML:  https://github.com/parveen0029/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html
+#   EPUB:          https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.epub
+#   PDF:           https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.pdf
+#   Offline HTML:  https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html
 # Pull requests build and validate only without publishing; build artifacts are preserved in GitHub Actions.
 name: E-Books
 

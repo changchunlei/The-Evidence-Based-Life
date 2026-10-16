@@ -4,3 +4,22 @@ node_modules/
 dist/
 AUTONOMOUS_ROADMAP.md
 *roadmap*.md
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+
+# Python tooling
+__pycache__/
+*.pyc
+.venv/
+
+# Environment / secrets
+.env
+.env.*

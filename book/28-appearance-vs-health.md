@@ -64,7 +64,7 @@ We make no judgment about anyone’s personal choice regarding how they want to 
 ### 6. If you need weight-loss medication, get a prescription from a doctor — don’t buy it from online shops that ship it without one.
 <!-- Cost Tag: Money=Low Time=Med Willpower=No Benefit=Med Metric=Mortality -->
 
-- Cost: A single doctor’s visit plus a round trip to the clinic. This costs just a few dozen yuan and takes half a day.
+- Cost: A single doctor’s visit plus a round trip to the clinic. This costs just A$5–15 and takes half a day.
 
 - In plain terms: By regulation, prescription drugs must be sold only with a valid prescription, and pharmacies must keep that prescription on file for at least five years. Online sellers of prescription drugs must also have a genuine prescription and verify the buyer’s identity. So when you see an online shop that doesn’t require a consultation or a prescription and ships the product right away, there are only two possibilities: either the product isn’t actually the drug it claims to be, or the shop is breaking the law. In either case, no one can be held responsible for dosage or contraindications if something goes wrong. Those few dozen yuan you spend on a doctor’s visit buys you exactly this protection.
 
@@ -92,7 +92,7 @@ We make no judgment about anyone’s personal choice regarding how they want to 
 ### 8. If the feeling of “being unattractive” has reached the point where you constantly check your reflection and obsess over changes, get a body image assessment before considering surgery.
 <!-- Cost Tag: Money=Low Time=Med Willpower=Some Benefit=Med Metric=Mortality -->
 
-- Cost: A single visit to a psychiatrist or clinical psychologist costs only a few dozen yuan. The real challenge is making that appointment before scheduling any surgery.
+- Cost: A single visit to a psychiatrist or clinical psychologist costs only A$5–15. The real challenge is making that appointment before scheduling any surgery.
 
 - In plain terms: When we combine data from 33 studies, we find that 15.04% of people seeking cosmetic surgery meet the criteria for body dysmorphic disorder — a condition where a flaw barely noticeable to others becomes a major source of distress. Among dermatology patients seeking cosmetic treatments, the rate is 12.65%. In both groups, over 70% are women. Surgery can alter facial features, but it cannot break the cycle of constant self‑scrutiny and dissatisfaction; this often leads to repeated operations. Spending a modest amount on an initial evaluation can help determine whether you fall into this category, guiding your decision about surgery.
 

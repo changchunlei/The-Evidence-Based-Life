@@ -15,7 +15,7 @@ When running Claude Code inside this repository, no installation is necessary—
 To use this skill globally across any directory on your system, copy it to your personal skills directory:
 
 ```bash
-mkdir -p ~/.claude/skills/life-decision-guide && curl -fsSL -o ~/.claude/skills/life-decision-guide/SKILL.md "https://raw.githubusercontent.com/parveen0029/The-Evidence-Based-Life/main/skills/life-decision-guide/SKILL.md"
+mkdir -p ~/.claude/skills/life-decision-guide && curl -fsSL -o ~/.claude/skills/life-decision-guide/SKILL.md "https://raw.githubusercontent.com/changchunlei/The-Evidence-Based-Life/main/skills/life-decision-guide/SKILL.md"
 ```
 
 After installation, asking questions like *"Is a two-hour daily commute worth it?"* or *"A friend asked me to co-sign a loan, should I sign?"* will trigger this skill automatically. You can also invoke it explicitly: *"Answer using life-decision-guide."*
@@ -29,7 +29,7 @@ When running Codex inside this repository, no installation is necessary—`AGENT
 To make it available globally across all directories, place it in Codex's custom prompts directory and invoke it using `/life-decision-guide`:
 
 ```bash
-mkdir -p ~/.codex/prompts && curl -fsSL -o ~/.codex/prompts/life-decision-guide.md "https://raw.githubusercontent.com/parveen0029/The-Evidence-Based-Life/main/skills/life-decision-guide/SKILL.md"
+mkdir -p ~/.codex/prompts && curl -fsSL -o ~/.codex/prompts/life-decision-guide.md "https://raw.githubusercontent.com/changchunlei/The-Evidence-Based-Life/main/skills/life-decision-guide/SKILL.md"
 ```
 
 To have it trigger automatically for life-decision questions in all sessions without typing slash commands, append this line to `~/.codex/AGENTS.md`:
@@ -45,7 +45,7 @@ When answering practical life decision questions (whether to do something, is it
 If the repository exists locally, the skill reads directly from the local `book/` directory. If not present, it fetches a lightweight copy:
 
 ```bash
-git clone --depth 1 https://github.com/parveen0029/The-Evidence-Based-Life.git "${TMPDIR:-/tmp}/tebl"
+git clone --depth 1 https://github.com/changchunlei/The-Evidence-Based-Life.git "${TMPDIR:-/tmp}/tebl"
 ```
 
 The entire book is approximately 1.3 MB; a shallow clone takes only a few seconds. If network access is unavailable, the assistant states that it cannot retrieve the source text rather than improvising from memory.

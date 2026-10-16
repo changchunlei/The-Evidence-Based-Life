@@ -1,7 +1,7 @@
 {
   "name": "The Evidence-Based Life",
   "short_name": "Evidence Life",
-  "description": "Scientific Life Manual: 34 chapters, 765 rules with costs, benefits, and peer-reviewed sources.",
+  "description": "Scientific Life Manual (Australian edition): 34 chapters, 765 rules with costs, benefits, and peer-reviewed sources.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

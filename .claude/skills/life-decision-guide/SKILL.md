@@ -8,5 +8,5 @@ The authoritative rules live in `skills/life-decision-guide/SKILL.md` at the rep
 **First read `skills/life-decision-guide/SKILL.md` (relative to the repository root), then follow its instructions exactly.** If that local file cannot be read, fetch it directly:
 
 ```bash
-curl -fsSL --compressed "https://raw.githubusercontent.com/parveen0029/The-Evidence-Based-Life/main/skills/life-decision-guide/SKILL.md"
+curl -fsSL --compressed "https://raw.githubusercontent.com/changchunlei/The-Evidence-Based-Life/main/skills/life-decision-guide/SKILL.md"
 ```
