@@ -6,19 +6,20 @@
 
 # The Evidence-Based Life
 
-**Stop guessing with your life. 765 recommendations for health, money, legal boundaries, and emergency survival — localised for Australian readers.**
+**Stop guessing with your life. 765 recommendations for health, money, legal boundaries, and emergency survival — being localised for Australian readers.**
 
 *Every rule specifies the exact costs incurred (money, time, willpower), the measured return on investment, and primary citations from peer-reviewed clinical trials and statutory law. Zero folk wisdom. Zero marketing hype.*
 
 > [!NOTE]
-> 🇦🇺 **Australian edition.** Laws, services, programs, prices and hotlines in this edition reflect Australian federal and state systems (Medicare, Fair Work, Services Australia, the Australian Consumer Law, and state tenancy/succession regimes). International clinical evidence retains its original populations; foreign-law material is retained only as explicitly labelled context. **In an emergency call 000; Lifeline (13 11 14) provides 24-hour crisis support.**
+> 🇦🇺 **Australian edition — localisation in progress.** Emergency numbers and crisis hotlines have been checked across all 34 chapters, and Chapter 1 has been fully localised. Many rules in other chapters still describe the Chinese laws, institutions, and amounts of the original edition. Check the [localisation report](docs/verification-records/australian-localisation-report.md) for coverage, and confirm legal and benefit rules with the relevant Australian agency before acting on them. International clinical evidence keeps its original study populations. **In an emergency call 000; Lifeline (13 11 14) provides 24-hour crisis support.**
 
-[![Stars](https://img.shields.io/github/stars/changchunlei/The-Evidence-Based-Life?style=flat-square&logo=github&label=Stars&color=eac54f)](https://github.com/changchunlei/The-Evidence-Based-Life/stargazers)
+[![Stars](https://img.shields.io/github/stars/changchunlei/The-Evidence-Based-Life?style=flat-square&logo=github&label=Stars&color=eac54f)](https://github.com/changchunlei/The-Evidence-Based-Life)
+[![E-Books Build](https://img.shields.io/github/actions/workflow/status/changchunlei/The-Evidence-Based-Life/book.yml?branch=main&style=flat-square&label=E-Books%20Build)](https://github.com/changchunlei/The-Evidence-Based-Life/actions/workflows/book.yml)
 [![Online Reader](https://img.shields.io/badge/Online%20Reader-Open%20Web%20App-3451b2?style=flat-square)](https://changchunlei.github.io/The-Evidence-Based-Life/)
-[![Rules](https://img.shields.io/badge/Rules-765-18794e?style=flat-square)](#chapters)
-[![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20492%20%C2%B7%20B%20212%20%C2%B7%20C%2060-915930?style=flat-square)](#evidence-grading)
+[![Rules](https://img.shields.io/badge/Rules-765-18794e?style=flat-square)](#-complete-chapters)
+[![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20492%20%C2%B7%20B%20212%20%C2%B7%20C%2060-915930?style=flat-square)](#evidence-grading-standard)
 [![Primary Sources](https://img.shields.io/badge/Primary%20Sources-2132%20Sources-565a5f?style=flat-square)](docs/verification-records/)
-[![License](https://img.shields.io/badge/License-CC%20BY%204.0-565a5f?style=flat-square)](#license)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-565a5f?style=flat-square)](#-license--attribution)
 
 <p align="center">
   <a href="https://changchunlei.github.io/The-Evidence-Based-Life/"><b>🚀 Interactive Web App</b></a> &nbsp;•&nbsp;
@@ -38,15 +39,15 @@
 
 ## ⚡ Did You Know? (Empirical Facts Backed by Science)
 
-Most popular advice is either outdated folk belief or commercial advertising. Here are a few counter-intuitive realities verified across clinical cohorts and statutory law:
+Most popular advice is either outdated folk belief or commercial advertising. Here are a few counter-intuitive realities verified across clinical trials and official records:
 
-- 🚗 **Cold meds impair driving worse than alcohol**: Taking common OTC allergy or cold medicine containing diphenhydramine degrades steering control and brake response time more severely than driving legally drunk at 0.10% blood alcohol. ([Ch 34, Rule 12](book/34-safe-home-medication.md#12-do-not-drive-work-at-heights-or-operate-machinery-while-taking-cold-or-allergy-medications-containing-chlorpheniramine-or-diphenhydramine))
-- 🛁 **Hot baths & saunas after drinking can be fatal**: Alcohol dilates peripheral vessels; pairing it with hot water causes acute blood pressure drops and fainting. This is the #1 domestic cause of adult bathtub drowning deaths. ([Ch 22, Rule 11](book/22-science-backed-relaxation.md#11-do-not-use-hot-springs-saunas-or-hot-baths-after-drinking-alcohol))
-- 🧂 **A $1 kitchen swap for 12% lower mortality**: Switching normal table salt to a potassium-enriched blend reduced stroke by 14% and all-cause death by 12% in a randomized trial of 20,995 people—for pennies a month with zero extra effort. ([Ch 02, Rule 9](book/02-preventing-chronic-decline.md#9-switch-household-salt-to-low-sodium-potassium-rich-salt))
-- 👶 **Baby walkers delay independent walking**: Wheeled infant walkers prevent crucial balance reflexes, cause over 230,000 emergency hospital visits, and have been banned by law in Canada since 2004. ([Ch 20, Rule 15](book/20-newborn-survival-guide.md#15-do-not-buy-wheeled-infant-walkers-replace-them-with-stationary-activity-centers-without-wheels-or-playpens))
-- 💼 **Casuals are owed a 25% loading on top of the base rate**: Casual employees must be paid at least 25% above the permanent base rate on every payslip; underpayments can be recovered in full by the Fair Work Ombudsman — at no cost to you. ([Ch 19, Rule 20](book/19-workplace-rights-and-injuries.md#20-casuals-must-receive-their-25-casual-loading-on-top-of-the-base-rate--check-every-payslip-the-fair-work-ombudsman-can-recover-underpayments))
-- 🏥 **Itemised bills and gap estimates save thousands**: Asking for gap estimates before procedures and auditing hospital and specialist accounts line by line routinely uncovers billing errors and duplicate charges worth hundreds to thousands of dollars. ([Ch 24, Rule 15](book/24-navigating-healthcare.md#15-audit-hospital-and-specialist-accounts-line-by-line-and-ask-for-gap-estimates-and-itemised-bills-before-procedures))
-- 💊 **The supplement illusion**: Multivitamins and regular fish oil capsules produce 0% reduction in all-cause mortality or heart disease in massive meta-analyses, while antioxidant overdoses (beta-carotene, vitamin E) slightly increase mortality. ([Ch 06, Rules 1–4](book/06-the-anti-checklist.md))
+- 🚗 **A sedating cold medicine impaired driving more than alcohol**: In a driving-simulator trial, drivers given diphenhydramine (a sedating antihistamine found in some allergy and cold medicines) had worse vehicle control than drivers at 0.10% blood alcohol. Their own sense of drowsiness did not predict how badly they drove. ([Ch 34, Rule 12](book/34-safe-home-medication.md#12-do-not-drive-work-at-heights-or-operate-machinery-while-taking-cold-or-allergy-medications-containing-chlorpheniramine-or-diphenhydramine))
+- 🛁 **Hot baths & saunas after drinking can be fatal**: About half of all sauna-related deaths in Finland involved alcohol, and in a Tokyo forensic series intoxication was the most common trigger of bathtub drowning. Never let a drunk companion bathe or use a sauna alone. ([Ch 22, Rule 11](book/22-science-backed-relaxation.md#11-do-not-use-hot-springs-saunas-or-hot-baths-after-drinking-alcohol))
+- 🧂 **A cheap salt swap cut deaths by 12%**: In a randomized trial of 20,995 stroke survivors and adults over 60 with high blood pressure, switching to potassium-enriched salt lowered stroke by 14% and death by 12% over about five years — for a dollar or two more per bag. ([Ch 02, Rule 9](book/02-preventing-chronic-decline.md#9-switch-household-salt-to-lowsodium-potassiumrich-salt))
+- 👶 **Baby walkers do not teach walking**: Wheeled infant walkers were linked to an estimated 230,000 US emergency department visits from 1990 to 2014, mostly head and neck injuries from falling down stairs. Walker users also learned to walk about 3 weeks later on average. Canada has banned their sale since 2004. ([Ch 20, Rule 15](book/20-newborn-survival-guide.md#15-do-not-buy-wheeled-infant-walkers-replace-them-with-stationary-activity-centers-without-wheels-or-playpens))
+- 🏦 **After a scam, call your bank before anything else**: The short period right after a transfer is the only window in which your bank can flag the receiving account and attempt a recall. Once the money is spread across accounts, it is almost never recovered. Report to ReportCyber and Scamwatch (1300 795 995) afterwards. ([Ch 08, Rule 2](book/08-staying-out-of-trouble.md#2-if-you-realize-youve-been-scammed-call-your-bank-right-away-to-request-a-stoppayment--dont-try-to-investigate-on-your-own-first))
+- 💬 **Asking about suicide does not plant the idea**: In a randomized trial of 2,342 high-school students, being asked directly about suicidal thoughts caused no rise in distress or suicidal thinking. Students who were already depressed reported less distress. ([Ch 01, Rule 43](book/01-avoiding-premature-death.md#43-ask-someone-who-seems-emotionally-distressed-directly-have-you-had-thoughts-of-suicideasking-will-not-plant-the-idea-or-increase-suicidal-risk))
+- 💊 **The supplement illusion**: In large randomized trials, multivitamins and regular fish oil capsules did not reduce heart disease or all-cause mortality. A Cochrane review of 78 trials found that antioxidant supplements (beta-carotene, vitamin E) slightly raised mortality in the higher-quality trials. ([Ch 06, Rules 1–4](book/06-the-anti-checklist.md))
 - 💳 **Lending your bank account can be a crime**: Even with zero profit for you, letting others receive or move money through your account can amount to dealing with criminal proceeds — with serious criminal liability. ([Ch 09, Rule 5](book/09-everyday-legal-traps.md#5-part-time-jobs-that-ask-you-to-use-your-own-card-to-receive-payments-withdraw-cash-or-transfer-money--no-matter-how-much-extra-pay-they-offer-avoid-them))
 
 ---
@@ -58,13 +59,13 @@ Jump straight to the rules you need right now:
 | Scenario | What You Will Learn | Recommended Chapters |
 | :--- | :--- | :--- |
 | **🚨 Emergency & Life-Threatening Situations** | Immediate first-minute response for cardiac arrest (CPR/AED), stroke, choking, severe bleeding, burns, poisoning, and home emergency supply checklists. | [Ch 13: Handling Emergencies](book/13-handling-emergencies.md)<br>[Ch 01: Avoiding Premature Death](book/01-avoiding-premature-death.md)<br>[Home Kit Checklist](docs/home-emergency-kit-checklist.md) |
-| **💼 Job, Wages & Workplace Rights** | NES entitlements, award penalty rates, Fair Work recovery of unpaid wages, redundancy and notice scales, and workers' compensation claims. | [Ch 19: Workplace Rights](book/19-workplace-rights-and-injuries.md)<br>[Ch 07: Surviving Broke](book/07-surviving-broke.md) |
-| **🏠 Renting, Landlords & Housing** | Getting your full bond back, illegal eviction defenses (lockouts and utility shutoffs), lease continuity when the property sells, and mortgage contract traps. | [Ch 15: Renting and Buying a Home](book/15-renting-and-buying-a-home.md) |
-| **💊 Medications, Doctors & Healthcare** | Safe cold and fever drugs, pediatric contraindications, dangerous drug combos, hospital triage navigation, and auditing inpatient medical bills. | [Ch 34: Safe Home Medication](book/34-safe-home-medication.md)<br>[Ch 24: Navigating Healthcare](book/24-navigating-healthcare.md)<br>[Ch 16: Chronic Illness](book/16-managing-chronic-illness.md) |
+| **💼 Job, Wages & Workplace Rights** | Overtime pay rates, paid annual leave, severance and notice pay, why not to sign a "voluntary resignation", work-injury claims, and reporting unpaid wages to the Fair Work Ombudsman. Many Chapter 19 rules still describe Chinese labour law. | [Ch 19: Workplace Rights](book/19-workplace-rights-and-injuries.md)<br>[Ch 07: Surviving Broke](book/07-surviving-broke.md) |
+| **🏠 Renting, Landlords & Housing** | Getting your deposit back, illegal eviction defenses (lockouts and utility shutoffs), lease continuity when the property sells, and title and mortgage checks before buying. | [Ch 15: Renting and Buying a Home](book/15-renting-and-buying-a-home.md) |
+| **💊 Medications, Doctors & Healthcare** | Safe cold and fever drugs, pediatric contraindications, dangerous drug combos, emergency treatment before payment, and auditing inpatient medical bills. | [Ch 34: Safe Home Medication](book/34-safe-home-medication.md)<br>[Ch 24: Navigating Healthcare](book/24-navigating-healthcare.md)<br>[Ch 16: Chronic Illness](book/16-managing-chronic-illness.md) |
 | **⚖️ Law, Scams & Digital Boundaries** | Handling traffic collisions, deepfake audio/video scams, bank card fraud, developer scraping legal boundaries, and responses to false accusations. | [Ch 08: Staying Out of Trouble](book/08-staying-out-of-trouble.md)<br>[Ch 09: Everyday Legal Traps](book/09-everyday-legal-traps.md)<br>[Ch 11: Developer Legal Limits](book/11-legal-boundaries-for-developers.md) |
-| **👶 Family, Parenting & Aging Parents** | First 90-day infant safety (SIDS prevention), true time/money cost of raising kids, school-age health, and adult guardianship & asset protection for aging parents. | [Ch 20: Newborn Survival](book/20-newborn-survival-guide.md)<br>[Ch 18: Raising Kids](book/18-the-true-cost-of-raising-kids.md)<br>[Ch 17: Aging Parents](book/17-caring-for-aging-parents.md) |
+| **👶 Family, Parenting & Aging Parents** | Infant safe sleep (SIDS prevention) and newborn fever red flags, the true time/money cost of raising kids, school-age health, and adult guardianship & asset protection for aging parents. | [Ch 20: Newborn Survival](book/20-newborn-survival-guide.md)<br>[Ch 18: Raising Kids](book/18-the-true-cost-of-raising-kids.md)<br>[Ch 30: School-Age Kids](book/30-raising-school-age-kids.md)<br>[Ch 17: Aging Parents](book/17-caring-for-aging-parents.md) |
 | **💰 Personal Finance & Scam Prevention** | High-fee fund traps, compound debt escape, insurance selection, lottery math, and escaping financial desperation during unemployment. | [Ch 05: Cutting Financial Waste](book/05-cutting-financial-waste.md)<br>[Ch 06: The Anti-Checklist](book/06-the-anti-checklist.md)<br>[Ch 07: Surviving Broke](book/07-surviving-broke.md) |
-| **🧠 Productivity, Energy & Habits** | Decision fatigue, circadian rhythm repair, deep procrastination protocols, evidence-based learning strategies, and cutting zero-ROI time wasters. | [Ch 03: Protecting Mental Energy](book/03-protecting-your-mental-energy.md)<br>[Ch 04: Stopping Time Wasters](book/04-stopping-time-wasters.md)<br>[Ch 23: High-Leverage Skills](book/23-high-leverage-skills-to-learn.md) |
+| **🧠 Productivity, Energy & Habits** | Interruption and task-switching costs, circadian rhythm repair, deep procrastination protocols, evidence-based learning strategies, and cutting zero-ROI time wasters. | [Ch 03: Protecting Mental Energy](book/03-protecting-your-mental-energy.md)<br>[Ch 04: Stopping Time Wasters](book/04-stopping-time-wasters.md)<br>[Ch 23: High-Leverage Skills](book/23-high-leverage-skills-to-learn.md) |
 
 ---
 
@@ -73,75 +74,75 @@ Jump straight to the rules you need right now:
 - **You don't need to do everything**: This is a ranked catalog of high-ROI options, not an onerous task list. Adopting even one or two rules provides immediate, compounding benefits; leave the rest and return when circumstances warrant. It is completely natural that implementing these rules is harder than reading them—the author has not mastered most of them either.
 - **Start with Maximum ROI**: If you want the biggest payoff with minimal effort, prioritize the **ROI: Very High** rules. These require virtually $0, negligible time, and zero willpower while protecting life or money.
 - **Search & Filter Online**: Open the [Interactive Web Reader](https://changchunlei.github.io/The-Evidence-Based-Life/) to search keywords, filter by Grade A evidence, or sort rules by cost (money, time, willpower).
-- **Ask AI Directly**: Install our open-source agent skill ([skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md)) into Claude Code, Codex, or compatible LLMs. Ask real-world questions like *"Should I co-sign a loan for a friend?"* or *"What should I do if my landlord cuts my electricity?"* and receive sourced answers citing exact chapter and rule numbers.
+- **Ask AI Directly**: Install our open-source agent skill ([skills/life-decision-guide](skills/life-decision-guide/README.md)) into Claude Code, Codex, or compatible LLMs. Ask real-world questions like *"Should I co-sign a loan for a friend?"* or *"What should I do if my landlord cuts my electricity?"* and receive sourced answers citing exact chapter and rule numbers.
 - **Take It Offline**: Download the [Offline Single-File HTML](https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html) for a self-contained, double-clickable offline manual that works on any laptop or phone without internet. E-reader users can grab the [EPUB](https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.epub) or [PDF](https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.pdf).
 
 ### Anatomy of an Evidence-Based Rule
 
-Every single rule in this repository adheres to a rigorous, verifiable template:
+Every rule follows the same verifiable template. This example is Chapter 2, Rule 9, shortened where marked with "…":
 
 ```markdown
 ### 9. Switch household salt to low‑sodium (potassium‑rich) salt
-<!-- Cost Tag: Money=Low Time=Low Willpower=No Benefit=High Metric=Mortality -->
-- Cost: Slightly more expensive than regular salt. Bought during normal grocery shopping; no extra daily time needed. No noticeable taste difference.
-- In plain terms: In a 20,000-person study, swapping regular salt for potassium-enriched salt cut stroke risk by 14% and death by 12% over 5 years. Because people were randomly assigned to groups, this evidence is much stronger than ordinary survey data.
-- Benefit: In a cluster-randomized trial of 20,995 high-risk individuals followed for 4.74 years, the salt substitute group had a 12% lower risk of death from any cause (RR 0.88), a 14% lower stroke risk (RR 0.86), and a 13% lower risk of major cardiovascular events (RR 0.87).
+<!-- Cost Tag: Money=Low Time=Low Willpower=No Benefit=Med Metric=Mortality -->
+- Cost: One bag costs a dollar or two more than regular salt. It’s easy to switch when you shop, adding virtually no extra time. The taste stays almost the same.
+- In plain terms: For people who have had a stroke or are over 60 with hypertension, switching to low‑sodium salt can lower their chance of dying within five years by about 12% and the risk of another stroke by roughly 14%.
+- Benefit: A randomized trial conducted in rural China enrolled 20,995 participants — all stroke survivors or adults aged 60+ with hypertension — and followed them for 4.74 years. Those using low‑sodium salt had a 12% lower risk of death (RR 0.88), a 14% lower risk of stroke (RR 0.86), and a 13% lower risk of major cardiovascular events (RR 0.87) compared with the regular‑salt group. …
 - Evidence grade: A
-- Sources: Neal B et al. (2021). Effect of Salt Substitution on Cardiovascular Events and Death. N Engl J Monte. https://doi.org/10.1056/NEJMoa2105675
-- Notes: Individuals with severe chronic kidney disease or taking potassium-sparing medications should consult their physician first due to hyperkalemia risks.
+- Sources: Neal B et al. (2021). Effect of Salt Substitution on Cardiovascular Events and Death. NEJM. <https://doi.org/10.1056/NEJMoa2105675>; …
+- Notes: This finding is somewhat controversial. …
 ```
 
 ---
 
 ## 📚 Complete Chapters
 
-The manual is divided into 34 modular chapters under [`book/`](book/). You can read them directly here on GitHub or through the [Interactive Web Reader](https://changchunlei.github.io/The-Evidence-Based-Life/).
+The manual is divided into 34 modular chapters under [`book/`](book/), grouped below by theme and labelled with their chapter numbers. You can read them directly here on GitHub or through the [Interactive Web Reader](https://changchunlei.github.io/The-Evidence-Based-Life/). Chapters marked *localisation pending* still describe Chinese law in most rules.
 
 ### Part I: Health, Longevity & Emergencies
 
-1. [Avoiding Premature Death](book/01-avoiding-premature-death.md) — Seatbelts, helmets, carbon monoxide alarms, gas safety, edible mushroom hazards, cancer screenings, and the temporal window of suicidal ideation.
-2. [Preventing Chronic Decline](book/02-preventing-chronic-decline.md) — Evidence-based nutrition, potassium salt, exercise thresholds, sleep architecture, sedentary reduction, and smoking cessation. *(Essay: [Circadian Rhythms and Night Shifts](docs/circadian-rhythms-and-night-shifts.md))*
-3. [Handling Emergencies](book/13-handling-emergencies.md) — First 60-second protocols for cardiac arrest (CPR/AED), stroke, heart attack, heavy bleeding, choking, animal bites, and burns. *(Essays: [Home Emergency Kit](docs/home-emergency-kit-checklist.md) · [Stopping for Strangers](docs/should-you-stop-for-strangers-in-an-emergency.md))*
-4. [Managing Chronic Illness](book/16-managing-chronic-illness.md) — Long-term medication adherence, medical record archiving, complication screening, and coordinated GP–specialist care.
-5. [Newborn Survival Guide](book/20-newborn-survival-guide.md) — SIDS prevention, safe sleep environments, mandatory immunizations, formula guidelines, and infant walker bans.
-6. [Navigating Healthcare](book/24-navigating-healthcare.md) — GP-first referral pathways, bulk billing versus gap payments, itemised account audits, and access to your medical records.
-7. [Pregnancy and Childbirth](book/27-pregnancy-and-childbirth.md) — Periconceptional folate, prenatal screening schedules, gestational diabetes protocols, emergency labor signals, and epidural safety.
-8. [Appearance vs. Health](book/28-appearance-vs-health.md) — Severe caloric restriction risks, eating disorders, cosmetic clinic licensing verification, and facial filler vascular hazards.
-9. [Raising School-Age Kids](book/30-raising-school-age-kids.md) — Acute pediatric red flags, anti-bullying protocols, 2-hour daily outdoor light for myopia prevention, and adolescent depression screening.
-10. [Navigating Life with Disability](book/33-navigating-life-with-disability.md) — Autonomic dysreflexia emergencies, pressure-relief seating, statutory employment quotas, and accessible transit rights.
-11. [Safe Home Medication](book/34-safe-home-medication.md) — Preventing acetaminophen liver toxicity, pediatric cold medicine bans, NSAID ulcer risks, and antibiotic stewardship.
+- **1.** [Avoiding Premature Death](book/01-avoiding-premature-death.md) — Seatbelts, helmets, carbon monoxide alarms, gas safety, edible mushroom hazards, cancer screenings, and the temporal window of suicidal ideation.
+- **2.** [Preventing Chronic Decline](book/02-preventing-chronic-decline.md) — Evidence-based nutrition, potassium salt, exercise thresholds, sleep duration and naps, sedentary reduction, and smoking cessation. *(Essay: [Circadian Rhythms and Night Shifts](docs/circadian-rhythms-and-night-shifts.md))*
+- **13.** [Handling Emergencies](book/13-handling-emergencies.md) — First 60-second protocols for cardiac arrest (CPR/AED), stroke, heart attack, heavy bleeding, choking, animal bites, and burns. *(Essays: [Home Emergency Kit](docs/home-emergency-kit-checklist.md) · [Stopping for Strangers](docs/should-you-stop-for-strangers-in-an-emergency.md))*
+- **16.** [Managing Chronic Illness](book/16-managing-chronic-illness.md) — Long-term medication adherence, keeping one record of measurements, complication screening (eyes, feet, kidneys), and 12-week community-clinic prescriptions.
+- **20.** [Newborn Survival Guide](book/20-newborn-survival-guide.md) — SIDS prevention, safe sleep environments, free national-schedule vaccines, formula guidelines, and why to avoid wheeled infant walkers.
+- **24.** [Navigating Healthcare](book/24-navigating-healthcare.md) — Primary-clinic-first referrals, reimbursement differences by hospital level, emergency care before payment, itemised inpatient bill checks, and copies of your medical records. *(Localisation pending.)*
+- **27.** [Pregnancy and Childbirth](book/27-pregnancy-and-childbirth.md) — Periconceptional folate, prenatal screening schedules, gestational diabetes protocols, emergency labor signals, and epidural safety.
+- **28.** [Appearance vs. Health](book/28-appearance-vs-health.md) — Severe caloric restriction risks, eating disorders, cosmetic clinic licensing verification, and facial filler vascular hazards.
+- **30.** [Raising School-Age Kids](book/30-raising-school-age-kids.md) — Acute pediatric red flags, anti-bullying protocols, 2-hour daily outdoor light for myopia prevention, and adolescent depression screening.
+- **33.** [Navigating Life with Disability](book/33-navigating-life-with-disability.md) — Autonomic dysreflexia emergencies, pressure-relief seating, statutory employment quotas, and accessible transit rights.
+- **34.** [Safe Home Medication](book/34-safe-home-medication.md) — Preventing acetaminophen liver toxicity, pediatric cold medicine bans, NSAID ulcer risks, and antibiotic stewardship.
 
 ### Part II: Money, Housing & Survival
 
-12. [Cutting Financial Waste](book/05-cutting-financial-waste.md) — Fund expense ratios, compound consumer debt traps, auto insurance fine print, recurring subscription audits, and gemstone investment scams.
-13. [The Anti-Checklist](book/06-the-anti-checklist.md) — Things you should stop wasting money on: multivitamins, regular fish oil, collagen supplements, and unscientific checkup packages.
-14. [Surviving Broke](book/07-surviving-broke.md) — Centrelink payments and crisis support, low-cost healthcare access, food and housing safety nets, wage recovery, and scam avoidance.
-15. [Starting and Running a Business](book/12-starting-and-running-a-business.md) — Capitalization pitfalls, personal loan guarantees, tax compliance, employment obligations, and legal exit strategies.
-16. [Renting and Buying a Home](book/15-renting-and-buying-a-home.md) — Bond lodgement and refunds, illegal eviction defenses, trust-account payments and PEXA settlement, and title searches.
-17. [The True Cost of Raising Kids](book/18-the-true-cost-of-raising-kids.md) — Multi-year capital and time balance sheets, Family Tax Benefit and newborn payments, and Paid Parental Leave protections.
-18. [Handling End-of-Life Affairs](book/25-handling-end-of-life-affairs.md) — Death registration with state registries, funeral pricing, superannuation death benefits, and digital inheritance rights.
+- **5.** [Cutting Financial Waste](book/05-cutting-financial-waste.md) — Fund expense ratios, compound consumer debt traps, auto insurance fine print, recurring subscription audits, and gemstone investment scams.
+- **6.** [The Anti-Checklist](book/06-the-anti-checklist.md) — Things you should stop wasting money on: multivitamins, regular fish oil, glucosamine, detox products, and generic checkup packages.
+- **7.** [Surviving Broke](book/07-surviving-broke.md) — JobSeeker claims, emergency hardship relief and crisis shelters, low-cost healthcare access, public rental housing, reporting underpaid wages to the Fair Work Ombudsman, and job-scam avoidance. *(Localisation pending.)*
+- **12.** [Starting and Running a Business](book/12-starting-and-running-a-business.md) — Capitalization pitfalls, personal loan guarantees, tax compliance, employment obligations, and legal exit strategies.
+- **15.** [Renting and Buying a Home](book/15-renting-and-buying-a-home.md) — Deposit terms and refunds, illegal eviction defenses, lease continuity after a sale, title and mortgage checks before buying, and trust-account deposits for off-the-plan purchases. *(Localisation pending.)*
+- **18.** [The True Cost of Raising Kids](book/18-the-true-cost-of-raising-kids.md) — Multi-year capital and time balance sheets, Family Tax Benefit and newborn payments, and maternity leave and pregnancy job protections (still described under Chinese law).
+- **25.** [Handling End-of-Life Affairs](book/25-handling-end-of-life-affairs.md) — Death certificates and registration, autopsy deadlines in disputed deaths, regulated funeral pricing, claiming provident fund and pension balances, and heirs' limited liability for debts. *(Localisation pending.)*
 
 ### Part III: Law, Digital Safety & Career Rights
 
-19. [Staying Out of Trouble](book/08-staying-out-of-trouble.md) — Traffic collision protocols, emergency bank card freeze lines, deepfake extortion evasion, and responses to false accusations.
-20. [Everyday Legal Traps](book/09-everyday-legal-traps.md) — Bank card lending liability, online defamation, unauthorized recording, illegal drone flights, and criminal part-time traps.
-21. [Legal Boundaries for Developers](book/11-legal-boundaries-for-developers.md) — Web scraping legal thresholds, open-source license compliance (GPL/MIT), non-compete enforceability, and server security standards.
-22. [Digital Security and Privacy](book/14-digital-security-and-privacy.md) — Two-factor authentication, SIM card PINs, lost phone triage checklists, unauthorized card transaction chargebacks, and account recovery.
-23. [Workplace Rights and Injuries](book/19-workplace-rights-and-injuries.md) — Award penalty rates, NES leave and notice scales, unfair dismissal time limits, and workers' compensation claims.
-24. [Building a Compliant Platform](book/26-building-a-compliant-platform.md) — Payment processing boundaries, privacy and data compliance, minor protection standards, and consumer law obligations. *(Essay: [Licensing Guide](docs/platform-compliance-and-licensing.md))*
+- **8.** [Staying Out of Trouble](book/08-staying-out-of-trouble.md) — Traffic collision protocols, emergency bank card freeze lines, deepfake video and voice impersonation checks, and responses to false accusations.
+- **9.** [Everyday Legal Traps](book/09-everyday-legal-traps.md) — Bank card lending liability, online rumors and insults to heroes and martyrs, secret filming, illegal drone flights, and criminal part-time traps.
+- **11.** [Legal Boundaries for Developers](book/11-legal-boundaries-for-developers.md) — Web scraping legal thresholds, GPL open-source license compliance, non-compete compensation rules, and ICP filing and log-retention requirements.
+- **14.** [Digital Security and Privacy](book/14-digital-security-and-privacy.md) — Two-factor authentication, SIM card PINs, lost phone triage checklists, bank liability for unauthorized card transactions, and unlinking accounts before changing phone numbers.
+- **19.** [Workplace Rights and Injuries](book/19-workplace-rights-and-injuries.md) — Overtime pay rates, paid annual leave, probation limits, severance and notice pay, work-injury certification and death benefits, and workplace bullying. *(Localisation pending.)*
+- **26.** [Building a Compliant Platform](book/26-building-a-compliant-platform.md) — Payment processing boundaries, privacy and data compliance, minor protection standards, and consumer law obligations. *(Essay: [Licensing Guide](docs/platform-compliance-and-licensing.md))*
 
 ### Part IV: Productivity, Mind & Life Trajectories
 
-25. [Protecting Your Mental Energy](book/03-protecting-your-mental-energy.md) — Context switching penalties, decision fatigue reduction, boundary setting, and handling bureaucratic friction.
-26. [Stopping Time Wasters](book/04-stopping-time-wasters.md) — Sunk cost fallacies, clinical procrastination interventions, meeting reduction, and commute optimization.
-27. [The Economics of Dating and Marriage](book/10-the-economics-of-dating-and-marriage.md) — Partner selection frameworks, pre-marital health checks, joint debt liability, and divorce exit costs. *(Essay: [Is Marriage Worth It?](docs/is-marriage-financially-worth-it.md))*
-28. [Caring for Aging Parents](book/17-caring-for-aging-parents.md) — Adult legal guardianship, estate planning, preventing retirement fraud schemes, and bedridden pressure ulcer prevention.
-29. [International Travel Safety](book/21-international-travel-safety.md) — Travel advisory tiers, consular assistance limits, overseas medical insurance, and emergency passport replacement.
-30. [Science-Backed Relaxation](book/22-science-backed-relaxation.md) — Autonomic down-regulation protocols (physiological sighs, sleep recovery, nature exposure) and venue safety egress.
-31. [High-Leverage Skills to Learn](book/23-high-leverage-skills-to-learn.md) — Credential verification, automation-resilient skills, and cognitive learning techniques (retrieval spacing, interleaving).
-32. [Recovering from Major Life Blows](book/29-recovering-from-major-life-blows.md) — Acute bereavement cardiac risk windows, sudden job loss triage, trauma psychological care, and crisis helplines.
-33. [Life Paths After Eighteen](book/31-life-paths-after-eighteen.md) — Statutory adult pathways: vocational credentials, military enlistment, public service, remote cross-border freelancing, and gig protections.
-34. [Studying Abroad Pragmatically](book/32-studying-abroad-pragmatically.md) — Academic accreditation checks, visa maintenance, lawful work-hour ceilings, and degree equivalence verification.
+- **3.** [Protecting Your Mental Energy](book/03-protecting-your-mental-energy.md) — Context switching penalties, fixed sleep and wake times, boundary setting, and handling bureaucratic friction.
+- **4.** [Stopping Time Wasters](book/04-stopping-time-wasters.md) — Sunk cost fallacies, self-help procrastination programs, meeting reduction, and commute optimization.
+- **10.** [The Economics of Dating and Marriage](book/10-the-economics-of-dating-and-marriage.md) — Partner selection frameworks, pre-marital health checks, joint debt liability, and divorce exit costs. *(Essay: [Is Marriage Worth It?](docs/is-marriage-financially-worth-it.md))*
+- **17.** [Caring for Aging Parents](book/17-caring-for-aging-parents.md) — Adult legal guardianship, estate planning, preventing retirement fraud schemes, and bedridden pressure ulcer prevention.
+- **21.** [International Travel Safety](book/21-international-travel-safety.md) — Travel advisory tiers, consular assistance limits, overseas medical insurance, and emergency passport replacement.
+- **22.** [Science-Backed Relaxation](book/22-science-backed-relaxation.md) — Autonomic down-regulation protocols (cyclic sighing, exercise for low mood, mindfulness, green space) and venue safety egress.
+- **23.** [High-Leverage Skills to Learn](book/23-high-leverage-skills-to-learn.md) — Credential verification, automation-resilient skills, and cognitive learning techniques (retrieval spacing, interleaving).
+- **29.** [Recovering from Major Life Blows](book/29-recovering-from-major-life-blows.md) — Acute bereavement cardiac risk windows, sudden job loss triage, trauma psychological care, and crisis helplines.
+- **31.** [Life Paths After Eighteen](book/31-life-paths-after-eighteen.md) — Statutory adult pathways: military enlistment, public service and grassroots programs, self-study and adult-education degrees, remote cross-border freelancing, and gig injury coverage.
+- **32.** [Studying Abroad Pragmatically](book/32-studying-abroad-pragmatically.md) — Academic accreditation checks, visa maintenance, lawful work-hour ceilings, and degree equivalence verification.
 
 ---
 
@@ -226,25 +227,44 @@ Across all 765 rules: **Very High: 121 (16%) | High: 343 (45%) | Moderate: 301 (
 
 ## 💻 Running Your Own Copy
 
-The entire manual and interactive web app can run 100% offline with zero dependencies:
+The web reader is a static site with no build step. Serve the repository root with any static file server:
 
 ```bash
 git clone https://github.com/changchunlei/The-Evidence-Based-Life.git
 cd The-Evidence-Based-Life
-python -m http.server 8000
+python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000/` in your browser. The web reader is completely static: `README.md` and `book/` serve as its live database.
+Open `http://localhost:8000/` in your browser. The reader fetches `README.md` and `book/` at runtime, so opening `index.html` directly from disk will not load the rules. For a copy that works without a server, use the single-file offline HTML build below.
 
-To build the offline distribution packages locally:
+### Checks and Builds
+
+The tooling needs Node.js 22 or newer. Run all content checks before opening a pull request:
 
 ```bash
-cd tools/epub && npm ci && npm run build   # EPUB
-node tools/offline/build.mjs               # Offline single-file HTML
-node tools/pdf/build.mjs                   # PDF (requires pandoc >= 3.1 and typst >= 0.13)
+npm test            # statistics, cross-references, and plain-English checks
+npm run sync:stats  # after adding or editing rules: update counts in README, index.html, and tools/og.html
 ```
 
-Generated files are placed in `dist/`.
+To build the distribution packages locally:
+
+```bash
+(cd tools/epub && npm ci)   # one-time: installs the Markdown parser used by the EPUB build
+npm run build:epub          # EPUB
+npm run build:offline       # Single-file offline HTML
+node tools/pdf/build.mjs    # PDF (requires pandoc >= 3.1 and typst >= 0.13)
+```
+
+Generated files are placed in `dist/`, which is git-ignored.
+
+### Continuous Integration and Releases
+
+The [E-Books workflow](.github/workflows/book.yml) runs on every push to `main` and on every pull request that touches the book, essays, web reader, or tooling. It runs four jobs:
+
+- **Cross-Reference Verification**, **Plain-English Clarity Check**, and **Statistics Consistency Check** run the same scripts as `npm test`. The statistics job also verifies `updates.json` against the git history.
+- **Build E-Book Artifacts** builds the EPUB, offline HTML, and PDF, validates the EPUB with epubcheck, and uploads all three as workflow artifacts.
+
+On `main`, the build job also publishes the three files to the rolling [`epub-latest` release](https://github.com/changchunlei/The-Evidence-Based-Life/releases/tag/epub-latest), which serves the download links at the top of this page. GitHub Pages serves the web reader straight from the root of `main`; the empty `.nojekyll` file turns off Jekyll processing.
 
 ---
 
@@ -255,15 +275,17 @@ Generated files are placed in `dist/`.
 
 ### Attribution & Adaptation Notice
 
-This project is an English edition and adaptation derived from the open-source project [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) created by [eternity4719](https://github.com/eternity4719), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+This repository is the Australian edition of *The Evidence-Based Life*. It is a fork of [parveen0029/The-Evidence-Based-Life](https://github.com/parveen0029/The-Evidence-Based-Life), the English edition by [Praveen Bishnoi](https://github.com/parveen0029). That edition is in turn adapted from the open-source project [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) created by [eternity4719](https://github.com/eternity4719). Both upstream projects are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-**Enhancements in this Edition**:
-- Complete English localization and structural refinement of all 34 chapters, essays, and verification records.
-- Australian localisation of all 34 chapters: laws, services, programs, prices and hotlines re-grounded in Australian federal and state systems (Medicare, PBS, Fair Work, Services Australia, the Australian Consumer Law, AFCA, state tenancy and succession law); Chinese-law material retained only as explicitly labelled international context. See the [localisation report](docs/verification-records/australian-localisation-report.md).
+**English edition (upstream)**:
+- Complete English translation and structural refinement of all 34 chapters, essays, and verification records.
 - Interactive 2-minute life audit questionnaire (`selfcheck.html`) with dynamic category scoring and one-click markdown action checklist export.
 - Automated validation tooling: plain-English readability audit (`check-plain.mjs`), citation cross-referencing (`check-refs.mjs`), and metric synchronization (`sync-stats.mjs`).
 - Complete automated build toolchains for EPUB, PDF, and single-file standalone offline web applications.
 - Web application with instant permalink copy, high-contrast dark/light theme, and client-side modal essay reader.
+
+**Australian edition (this repository)**:
+- Localisation in progress. Emergency numbers and crisis hotlines have been swept across all 34 chapters, and Chapter 1 has been fully re-grounded in Australian systems. Other chapters still carry Chinese statutes, institutions, and amounts. The [localisation report](docs/verification-records/australian-localisation-report.md) records what has been changed and what remains.
 
 ---
 
@@ -279,12 +301,10 @@ If this repository has helped protect your health, preserved your savings, or gi
 
 - ⭐ **Star this repository** on GitHub — it boosts discoverability for others seeking evidence over folklore.
 - 🔄 **Share it** with friends, family, or communities who value rational, empirical decisions.
-- 💡 **Contribute**: Fact-check citations, propose local legal improvements, or report issues via [GitHub Issues](https://github.com/changchunlei/The-Evidence-Based-Life/issues) and [Pull Requests](https://github.com/changchunlei/The-Evidence-Based-Life/pulls).
-- ☕ **Support Maintenance**: You can support ongoing research, verification audits, and hosting via [Buy Me a Coffee](https://buymeacoffee.com/Parveen0029).
+- 💡 **Contribute**: Fact-check citations, propose local legal improvements, or report issues via [GitHub Issues](https://github.com/changchunlei/The-Evidence-Based-Life/issues) and [Pull Requests](https://github.com/changchunlei/The-Evidence-Based-Life/pulls). See [CONTRIBUTING.md](CONTRIBUTING.md) for the rule format and checks.
 
 <div align="center">
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Parveen0029)
-[![Star on GitHub](https://img.shields.io/badge/Star%20on%20GitHub-⭐%20Star-yellow?style=for-the-badge&logo=github)](https://github.com/changchunlei/The-Evidence-Based-Life/stargazers)
+[![Star on GitHub](https://img.shields.io/badge/Star%20on%20GitHub-⭐%20Star-yellow?style=for-the-badge&logo=github)](https://github.com/changchunlei/The-Evidence-Based-Life)
 
 </div>

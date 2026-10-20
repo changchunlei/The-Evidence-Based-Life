@@ -18,7 +18,7 @@ The book categorizes expected returns into four distinct currencies: **Life Expe
 ## Step 0: Immediate Crisis Triage
 
 - **Active Medical Emergencies** (unconscious, apneic, massive hemorrhage, structural fire, drowning, electrocution, acute poisoning, stroke or heart attack symptoms): Immediately state the local emergency dispatch number (000 in Australia; 911 in North America) and the physical first-response action from Section 13. Do not discuss ROI or cost tags.
-- **Suicidal Ideation or Despair**: Immediately provide the national crisis helpline **12356** (or local emergency crisis lifeline), then reference the evidence-backed harm-reduction protocols in Sections 1 and 29. Do not attempt unsolicited moralizing or evaluate personal motives.
+- **Suicidal Ideation or Despair**: Immediately provide **Lifeline 13 11 14** (24-hour crisis support in Australia; give the local crisis line elsewhere, and 000 if life is in immediate danger), then reference the evidence-backed harm-reduction protocols in Sections 1 and 29. Do not attempt unsolicited moralizing or evaluate personal motives.
 - **Active Legal Proceedings** (police summons, administrative detention, criminal indictment, civil lawsuits): Point directly to Section 8, and explicitly remind the user that this guide provides general legal information, not formal representation—they must consult a licensed attorney immediately.
 - For all other standard inquiries, proceed through the following steps.
 
@@ -41,7 +41,7 @@ The book categorizes expected returns into four distinct currencies: **Life Expe
 
 ## Step 2: Locating the Section
 
-Select 1 to 3 relevant chapters by reading the table of contents in `README.md` ("What This Book Answers"), which maps every life problem to its corresponding chapter file in `book/`.
+Select 1 to 3 relevant chapters from `README.md`: the "Quick Lookup by Real-Life Situation" table maps common situations to chapters, and the "Complete Chapters" list links every chapter file in `book/` with a one-line summary.
 
 - Chapter files reside in `book/`, named `NN-kebab-case-title.md`.
 - Deep-dive essays reside in `docs/`:
@@ -68,7 +68,7 @@ sed -n '/^### 16\. /,/^### 17\. /p' book/08-staying-out-of-trouble.md  # Extract
 An entry follows this structure:
 
 ```markdown
-### 5. Replacing regular table salt with low-sodium salt (potassium-enriched salt)
+### 9. Switch household salt to low‑sodium (potassium‑rich) salt
 <!-- Cost Tag: Money=Low Time=Low Willpower=No Benefit=Med Metric=Mortality -->
 - Cost: Costs a few dollars more per bag.
 - In plain terms: Lowers the probability of death by roughly 12%...
@@ -90,11 +90,11 @@ Rank retrieved entries using the book's codified algorithm, not subjective intui
    ```bash
    grep -n 'COST_W = \|e\.ratio = ' index.html
    ```
-   Total Cost Score = Money weight + Time weight + Willpower weight. Combine the Cost Score with the Benefit magnitude to assign the tier: **Very High / High / Standard**.
+   Total Cost Score = Money weight + Time weight + Willpower weight. Combine the Cost Score with the Benefit magnitude to assign the tier: **Very High / High / Moderate**.
 2. If `index.html` is inaccessible, do not fabricate a tier—display the Benefit magnitude and the three individual Cost tags directly for the user to evaluate.
 3. Order entries first by **ROI Tier**, then by **Evidence Grade (A > B > C)**, then by direct relevance to the user's situation.
 4. **Never rank across different currencies.** Evaluate money-saving rules and life-extending rules separately.
-5. "Standard" ROI does not mean an action is unworthy; it simply means the cost-to-benefit ratio requires careful personal budgeting. ROI tiering represents an editorial synthesis (Level C consensus), distinct from empirical study evidence grades.
+5. "Moderate" ROI does not mean an action is unworthy; it simply means the cost-to-benefit ratio requires careful personal budgeting. ROI tiering represents an editorial synthesis (Level C consensus), distinct from empirical study evidence grades.
 
 ---
 

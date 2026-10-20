@@ -13,7 +13,7 @@
 
 ## Pre-Submission Checklist
 
-- [ ] All rules adhere to the format outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
+- [ ] All rules adhere to the format outlined in [CONTRIBUTING.md](https://github.com/changchunlei/The-Evidence-Based-Life/blob/main/CONTRIBUTING.md).
 - [ ] Every rule specifies a valid Cost Tag (`Money=`, `Time=`, `Willpower=`, `Benefit=`, `Metric=`).
 - [ ] An Evidence Grade (`A`, `B`, or `C`) is assigned with a valid primary source citation (DOI, PubMed, or official statute).
 - [ ] The "In plain terms" summary avoids dense jargon and communicates the practical takeaway clearly.

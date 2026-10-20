@@ -55,7 +55,7 @@ The entire book is approximately 1.3 MB; a shallow clone takes only a few second
 ## Maintenance Guidelines
 
 `SKILL.md` intentionally does not hard-code section lists or numeric weights that could drift as the book evolves:
-- For the full section directory, it inspects the table in `README.md`.
+- For the full chapter directory, it reads the "Quick Lookup" table and "Complete Chapters" list in `README.md`.
 - For ROI tiering weights, it parses the `COST_W` and `e.ratio` definitions in `index.html`.
 
 Consequently, adding or removing chapters or adjusting tier weights does not require modifying this skill directory.

@@ -2,8 +2,8 @@
 // Can be opened directly in any web browser without needing a web server or internet connection.
 // Usage: node tools/offline/build.mjs [output-path]   Default: dist/The-Evidence-Based-Life.html
 // Inlines the corpus into window.__CORPUS__, allowing the web app to initialize without network requests;
-// converts relative repository links to online URLs, and embeds sidebar images as data URIs.
-import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
+// and converts relative repository links to online URLs.
+import { writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { ROOT, REPO, SITE, read, gitCommit, buildStamp } from '../lib/book.mjs';
 
@@ -54,13 +54,6 @@ html = html
   .replaceAll('href="README.md"', `href="${REPO}/blob/main/README.md"`)
   .replaceAll('href="book/"', `href="${REPO}/tree/main/book"`)
   .replaceAll('<a class="title" href="./"', `<a class="title" href="${SITE}"`);
-
-// Embed sidebar graphics as Base64 data URIs so images render without broken paths
-for (const [img, mime] of [['ads/bmc-side.png', 'image/png'], ['ads/bmc-qr.png', 'image/png']]) {
-  must(`src="${img}"`, `image ${img}`);
-  const data = readFileSync(resolve(ROOT, img)).toString('base64');
-  html = html.replace(`src="${img}"`, `src="data:${mime};base64,${data}"`);
-}
 
 // Add build metadata note in footer
 const foot = '<div class="foot">';

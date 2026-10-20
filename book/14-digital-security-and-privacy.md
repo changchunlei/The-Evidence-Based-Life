@@ -2,8 +2,6 @@
 
 # 14. Digital Security and Privacy
 
-Backlink: [← Return to main index](../../README.md)
-
 Protecting your money and personal data is essential. If someone gains access to your accounts, they can steal funds right away. They may also use your account to scam people on your contact list. In short, your identity becomes vulnerable too.
 ### 1. Enable two-factor authentication on email, payment, and social accounts; prioritize phone pop-ups over SMS codes
 <!-- Cost Tag: Money=0 Time=Low Willpower=No Benefit=High Metric=Money -->

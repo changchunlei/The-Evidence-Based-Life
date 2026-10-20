@@ -157,19 +157,6 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .doc-links{margin-top:8px;font-size:13.5px;color:var(--t3)}
 .doc-links a{margin-right:4px}
 .hint{font-size:12px;color:var(--t3);line-height:1.6;margin-top:16px}
-.ad{margin-top:26px}
-.ad img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--divider)}
-.tip-open{margin-top:10px;padding:0;border:0;background:none;font:inherit;font-size:12px;color:var(--t3);cursor:pointer}
-.tip-open:hover{color:var(--brand-1)}
-#tip-mask{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:24px}
-#tip-mask[hidden]{display:none}
-#tip-box{background:var(--bg);border:1px solid var(--divider);border-radius:12px;box-shadow:var(--shadow);width:min(360px,100%);padding:16px;text-align:center}
-#tip-box img{display:block;width:100%;height:auto;border-radius:8px}
-#tip-box p{margin:12px 0 8px;font-size:13px;line-height:1.6;color:var(--t2)}
-.tip-link{display:inline-flex;align-items:center;justify-content:center;gap:6px;width:100%;margin:6px 0 12px;padding:9px 16px;background:#ffdd00;color:#000;font-weight:700;font-size:13.5px;border-radius:8px;text-decoration:none;transition:background .2s}
-.tip-link:hover{background:#ffea44;color:#000}
-#tip-box button{border:1px solid var(--divider);background:var(--bg-soft);color:var(--t2);border-radius:6px;padding:3px 14px;font-size:13px;cursor:pointer;font-family:inherit}
-#tip-box button:hover{color:var(--t1);background:var(--bg-mute)}
 .hint p{margin:4px 0}
 .backdrop{display:none}
 
@@ -406,7 +393,7 @@ html.dark .hc-action{color:#1b1b1f!important}
 @media print{
   @page{margin:15mm;size:auto}
   body{background:#fff!important;color:#111!important;font-size:11pt;line-height:1.5}
-  .nav,.sidebar,.backdrop,.hero-callout,.scenarios-wrap,#pop,.tip-mask,#tip-open,#stats-mask,#stats-open,#stats-open-side,.anchor,.btn-save,.btn-share,#toast,.doc-links,#dm-mask,.foot,#empty,#status,.icon-btn{display:none!important}
+  .nav,.sidebar,.backdrop,.hero-callout,.scenarios-wrap,#pop,#stats-mask,#stats-open,#stats-open-side,.anchor,.btn-save,.btn-share,#toast,.doc-links,#dm-mask,.foot,#empty,#status,.icon-btn{display:none!important}
   .content{padding:0!important;margin:0!important;max-width:100%!important;width:100%!important}
   .doc-head{margin-bottom:20pt;border-bottom:2pt solid #222;padding-bottom:10pt}
   .doc-head h1{font-size:18pt;color:#000}
@@ -566,11 +553,6 @@ html.dark .hc-action{color:#1b1b1f!important}
       <a class="dl-link" href="https://github.com/changchunlei/The-Evidence-Based-Life/releases/download/epub-latest/The-Evidence-Based-Life.html" title="Download single-file offline HTML web app">💾 Single-File HTML</a>
     </div>
   </div>
-  <div class="group ad">
-    <div class="gt">Support the Project</div>
-    <a href="https://buymeacoffee.com/Parveen0029" target="_blank" rel="noopener"><img src="ads/bmc-side.png" alt="Buy Me a Coffee - Support the Project" width="624" height="312" loading="lazy"></a>
-    <button type="button" class="tip-open" id="tip-open">Show Support QR Code</button>
-  </div>
 </aside>
 
 <main class="content">
@@ -624,15 +606,6 @@ html.dark .hc-action{color:#1b1b1f!important}
   <div id="doc-modal" role="dialog" aria-modal="true" aria-labelledby="dm-t">
     <div class="dm-h"><b id="dm-t"></b><a id="dm-gh" target="_blank" rel="noopener">Open on GitHub</a><button type="button" id="dm-x" aria-label="Close">✕</button></div>
     <div class="dm-b"><nav class="dm-toc" id="dm-toc"></nav><div class="dm-doc" id="dm-doc"></div></div>
-  </div>
-</div>
-
-<div id="tip-mask" hidden>
-  <div id="tip-box" role="dialog" aria-modal="true" aria-label="Support the Project">
-    <img src="ads/bmc-qr.png" alt="Buy Me a Coffee QR Code" width="1000" height="1000" loading="lazy">
-    <p>Scan using your phone camera or QR reader to support independent research and maintenance on Buy Me a Coffee.</p>
-    <a href="https://buymeacoffee.com/Parveen0029" target="_blank" rel="noopener" class="tip-link">☕ Open buymeacoffee.com/Parveen0029</a>
-    <div><button type="button" id="tip-x">Close</button></div>
   </div>
 </div>
 
@@ -1754,22 +1727,6 @@ document.addEventListener('click', ev => {
 document.getElementById('dm-x').addEventListener('click', dmClose);
 DM.mask.addEventListener('click', ev => { if (ev.target === DM.mask) dmClose(); });
 document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !DM.mask.hidden){ ev.stopPropagation(); dmClose(); } }, true);
-
-/* ---------- Tip Modal ---------- */
-const TIP = document.getElementById('tip-mask');
-function tipClose(){
-  if (TIP.hidden) return;
-  TIP.hidden = true;
-  document.getElementById('tip-open').focus();
-}
-document.getElementById('tip-open').addEventListener('click', () => {
-  TIP.hidden = false;
-  document.getElementById('tip-x').focus();
-  if (window.gtag) gtag('event', 'tip_open');
-});
-document.getElementById('tip-x').addEventListener('click', tipClose);
-TIP.addEventListener('click', ev => { if (ev.target === TIP) tipClose(); });
-document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hidden){ ev.stopPropagation(); tipClose(); } }, true);
 
 /* ---------- Compendium Insights & Stats Modal ---------- */
 const STATS = {

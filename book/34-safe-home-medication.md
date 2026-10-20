@@ -2,8 +2,6 @@
 
 # 34. Safe Home Medication
 
-[← Back to main index](../../README.md)
-
 # 34. Avoid serious harm from over-the-counter medicines at home
 
 Fever reducers, painkillers, cold remedies, stomach meds, and anti-diarrheal drugs — many of these can be bought without a prescription at any pharmacy. Just because they’re available without a doctor’s order doesn’t mean they can be taken carelessly. This section won’t list which medicine fits each condition; instead, it highlights a few simple actions that can prevent serious consequences.

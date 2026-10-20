@@ -62,6 +62,10 @@ The text is licensed under Creative Commons Attribution 4.0 International (CC BY
 // ---------- Markdown → XHTML ----------
 let current = null;
 let headingSeq = 0;
+// Source Markdown links use GitHub heading slugs (#9-switch-household-salt…); headings here get short ids (h42),
+// so record slug → id per page and resolve fragments once every page has been rendered.
+const FRAG = '@@frag:';
+const ghSlug = text => text.trim().toLowerCase().replace(/[^\p{L}\p{M}\p{N}\p{Pc}\- ]/gu, '').replace(/ /g, '-');
 const marked = new Marked({ gfm: true });
 marked.use({
   tokenizer: {
@@ -76,7 +80,17 @@ marked.use({
       const html = this.parser.parseInline(tokens);
       const id = `h${++headingSeq}`;
       current.headings.push({ id, depth, text: plain(html) });
+      const base = ghSlug(plain(html).replace(/&(?:[a-z]+|#\d+);/g, ''));
+      const n = current.slugCount.get(base) ?? 0;
+      current.slugCount.set(base, n + 1);
+      current.slugs.set(n ? `${base}-${n}` : base, id);
       return `<h${depth} id="${id}">${html}</h${depth}>\n`;
+    },
+    // EPUB 3 XHTML rejects the legacy align attribute that marked emits for aligned table columns.
+    tablecell({ tokens, header, align }) {
+      const tag = header ? 'th' : 'td';
+      const style = align ? ` style="text-align:${align}"` : '';
+      return `<${tag}${style}>${this.parser.parseInline(tokens)}</${tag}>\n`;
     },
     link({ href, title, tokens }) {
       const text = this.parser.parseInline(tokens);
@@ -89,11 +103,12 @@ marked.use({
 });
 
 function rewriteHref(href) {
-  if (/^(https?:|mailto:|#)/.test(href)) return href;
+  if (/^(https?:|mailto:)/.test(href)) return href;
+  if (href.startsWith('#')) return `${FRAG}${href.slice(1)}`;
   const [pathPart, hash] = href.split('#');
   const target = posix.normalize(posix.join(posix.dirname(current.src), pathPart));
   const page = pageByPath.get(target);
-  if (page) return hash ? `${page}#${hash}` : page;
+  if (page) return hash ? `${page}#${FRAG}${hash}` : page;
   const kind = target.endsWith('/') ? 'tree' : 'blob';
   return `${REPO}/${kind}/main/${target}`;
 }
@@ -122,10 +137,24 @@ ${body}</body>
 for (const p of pages) {
   current = p;
   p.headings = [];
+  p.slugs = new Map();
+  p.slugCount = new Map();
   const body = toXhtml(marked.parse(p.md));
   p.title ??= p.headings[0]?.text ?? p.file;
   p.xhtml = wrap(p.title, `<section epub:type="chapter">\n${body}</section>\n`);
 }
+
+const pageByFile = new Map(pages.map(p => [p.file, p]));
+const unresolved = [];
+for (const p of pages) {
+  p.xhtml = p.xhtml.replace(/href="([^"#]*?)#?@@frag:([^"]*)"/g, (_, file, frag) => {
+    const id = pageByFile.get(file || p.file)?.slugs.get(decodeURIComponent(frag));
+    if (id) return `href="${file}#${id}"`;
+    unresolved.push(`${p.src} → ${file || p.file}#${frag}`);
+    return `href="${file || p.file}"`;
+  });
+}
+if (unresolved.length) console.warn(`Warning: ${unresolved.length} link fragment(s) matched no heading and now point to the page top:\n  ${unresolved.join('\n  ')}`);
 
 // ---------- Navigation ----------
 const navItems = pages.map(p => {
