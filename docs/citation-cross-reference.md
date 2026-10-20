@@ -7,7 +7,7 @@ This cross-reference index maps each internal citation to its exact target rule 
 By tracking these mappings in version control, git diff immediately catches displaced references
 whenever rule insertions or deletions alter underlying rule indices.
 
-Total Citations: 652 references across chapters and supplementary essays.
+Total Citations: 650 references across chapters and supplementary essays.
 
 ## 01-avoiding-premature-death
 
@@ -466,8 +466,6 @@ Total Citations: 652 references across chapters and supplementary essays.
 | Rule 12 | Section 14, Rule 11 | Audit SIM cards and bank cards registered under your national identity once a year, and cancel unauthorized cards immediately | ...w many platforms are tied to your old number (see... |
 | Rule 12 | Section 14, Rule 6 | Periodically check the devices logged into your account and any authorized apps, then remove the ones you no longer use | ...Managing unauthorized device logins is covered in... |
 | Rule 12 | Section 14, Rule 8 | You have the right to view, copy, correct, and delete your personal information; if refused, you can sue. | ...ming factory resets prior to sale is addressed in... |
-| Rule 13 | Section 14, Rule 10 | Do not entrust proprietary code, API keys, or confidential data to unverified "AI relay proxy stations," especially when allowing AI agents to execute local commands autonomously | ...ious code risks of AI relay proxy stations are in... |
-| Rule 13 | Section 11, Rule 19 | Do not set up "AI relay proxy stations" to resell overseas large language model API access at discounted rates: operators have been criminally detained | ...risks of running an AI relay proxy station are in... |
 
 ## 15-renting-and-buying-a-home
 
