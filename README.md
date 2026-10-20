@@ -6,7 +6,7 @@
 
 # The Evidence-Based Life
 
-**Stop guessing with your life. 765 recommendations for health, money, legal boundaries, and emergency survival — being localised for Australian readers.**
+**Stop guessing with your life. 766 recommendations for health, money, legal boundaries, and emergency survival — being localised for Australian readers.**
 
 *Every rule specifies the exact costs incurred (money, time, willpower), the measured return on investment, and primary citations from peer-reviewed clinical trials and statutory law. Zero folk wisdom. Zero marketing hype.*
 
@@ -16,9 +16,9 @@
 [![Stars](https://img.shields.io/github/stars/changchunlei/The-Evidence-Based-Life?style=flat-square&logo=github&label=Stars&color=eac54f)](https://github.com/changchunlei/The-Evidence-Based-Life)
 [![E-Books Build](https://img.shields.io/github/actions/workflow/status/changchunlei/The-Evidence-Based-Life/book.yml?branch=main&style=flat-square&label=E-Books%20Build)](https://github.com/changchunlei/The-Evidence-Based-Life/actions/workflows/book.yml)
 [![Online Reader](https://img.shields.io/badge/Online%20Reader-Open%20Web%20App-3451b2?style=flat-square)](https://changchunlei.github.io/The-Evidence-Based-Life/)
-[![Rules](https://img.shields.io/badge/Rules-765-18794e?style=flat-square)](#-complete-chapters)
-[![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20492%20%C2%B7%20B%20212%20%C2%B7%20C%2060-915930?style=flat-square)](#evidence-grading-standard)
-[![Primary Sources](https://img.shields.io/badge/Primary%20Sources-2132%20Sources-565a5f?style=flat-square)](docs/verification-records/)
+[![Rules](https://img.shields.io/badge/Rules-766-18794e?style=flat-square)](#-complete-chapters)
+[![Evidence Grade](https://img.shields.io/badge/Evidence%20Grade-A%20492%20%C2%B7%20B%20213%20%C2%B7%20C%2060-915930?style=flat-square)](#evidence-grading-standard)
+[![Primary Sources](https://img.shields.io/badge/Primary%20Sources-2138%20Sources-565a5f?style=flat-square)](docs/verification-records/)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-565a5f?style=flat-square)](#-license--attribution)
 
 <p align="center">
@@ -127,7 +127,7 @@ The manual is divided into 34 modular chapters under [`book/`](book/), grouped b
 - **8.** [Staying Out of Trouble](book/08-staying-out-of-trouble.md) — Traffic collision protocols, emergency bank card freeze lines, deepfake video and voice impersonation checks, and responses to false accusations.
 - **9.** [Everyday Legal Traps](book/09-everyday-legal-traps.md) — Bank card lending liability, online rumors and insults to heroes and martyrs, secret filming, illegal drone flights, and criminal part-time traps.
 - **11.** [Legal Boundaries for Developers](book/11-legal-boundaries-for-developers.md) — Web scraping legal thresholds, GPL open-source license compliance, non-compete compensation rules, and ICP filing and log-retention requirements.
-- **14.** [Digital Security and Privacy](book/14-digital-security-and-privacy.md) — Two-factor authentication, SIM card PINs, lost phone triage checklists, bank liability for unauthorized card transactions, and unlinking accounts before changing phone numbers.
+- **14.** [Digital Security and Privacy](book/14-digital-security-and-privacy.md) — Two-factor authentication, SIM card PINs, lost phone triage checklists, bank liability for unauthorized card transactions, unlinking accounts before changing phone numbers, and buying AI services only through official channels.
 - **19.** [Workplace Rights and Injuries](book/19-workplace-rights-and-injuries.md) — Overtime pay rates, paid annual leave, probation limits, severance and notice pay, work-injury certification and death benefits, and workplace bullying. *(Localisation pending.)*
 - **26.** [Building a Compliant Platform](book/26-building-a-compliant-platform.md) — Payment processing boundaries, privacy and data compliance, minor protection standards, and consumer law obligations. *(Essay: [Licensing Guide](docs/platform-compliance-and-licensing.md))*
 
@@ -158,7 +158,7 @@ Every recommendation is classified by the rigor of its underlying source:
 | **B** | Supported by peer-reviewed literature, but based on smaller cohorts, observational associations, or lacking multi-center replication. |
 | **C** | Authoritative statutory frameworks, government agency consensus, or clinical heuristics without direct epidemiological trials. |
 
-Across all 765 rules: Grade A: 492 | Grade B: 212 | Grade C: 60, with 80 rules noted for controversy. Controversial rules transparently outline counter-arguments in their Notes field.
+Across all 766 rules: Grade A: 492 | Grade B: 213 | Grade C: 60, with 80 rules noted for controversy. Controversial rules transparently outline counter-arguments in their Notes field.
 
 ### Return-on-Investment (ROI) Prioritization
 
@@ -170,7 +170,7 @@ Evidence tells you *if* something is true; ROI tells you *whether it is worth yo
 | **Benefit Size** | High / Medium / Low | Evaluated objectively against pre-set benchmarks (e.g., mortality drop >= 20% is High; thousands saved is High; avoiding criminal liability is High). |
 | **ROI Ratio** | Very High / High / Moderate | High benefit with zero/negligible cost = **Very High**; High benefit with low cost = **High**; all others = **Moderate**. |
 
-Across all 765 rules: **Very High: 121 (16%) | High: 343 (45%) | Moderate: 301 (39%)**.
+Across all 766 rules: **Very High: 121 (16%) | High: 343 (45%) | Moderate: 302 (39%)**.
 
 ### Statistical & Legal Glossary
 

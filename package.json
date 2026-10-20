@@ -1,7 +1,7 @@
 {
   "name": "the-evidence-based-life",
   "version": "1.0.0",
-  "description": "An evidence-based life manual ranked by return-on-investment (ROI) across 765 peer-reviewed rules, localised for Australian readers.",
+  "description": "An evidence-based life manual ranked by return-on-investment (ROI) across 766 evidence-graded rules, localised for Australian readers.",
   "type": "module",
   "scripts": {
     "test": "node tools/sync-stats.mjs --check && node tools/check-refs.mjs --check && node tools/check-plain.mjs",
